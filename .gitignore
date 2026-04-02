@@ -1,0 +1,5 @@
+/arb_logger/target/
+state.json
+report.md
+*.log
+.claude/
