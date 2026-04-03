@@ -1,10 +1,8 @@
 use crate::types::{ExecutionOverhead, MarketExecutability, OpportunityWindow, RoundTrip, TradeRecord};
 use chrono::Utc;
 
-/// Minimum net edge per share to consider a trade worth logging.
-const MIN_NEV_PER_SHARE: f64 = 0.03;
-
-/// Compute P&L metrics for a round trip and produce a TradeRecord if profitable enough.
+/// Compute P&L metrics for a round trip and produce a TradeRecord.
+/// Logs ALL profitable round trips (any positive NEV), not just those above a threshold.
 pub fn compute_pnl(
     round_trip: &RoundTrip,
     ticker: &str,
@@ -23,7 +21,7 @@ pub fn compute_pnl(
     }
 
     let nev_per_share = net_profit / round_trip.shares_filled;
-    if nev_per_share <= MIN_NEV_PER_SHARE {
+    if nev_per_share <= 0.0 {
         return None;
     }
 

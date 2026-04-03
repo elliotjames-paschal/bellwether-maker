@@ -57,14 +57,15 @@ pub async fn run_audit(markets: &[MatchedMarket], fees: &FeeRates) {
             let kalshi_ticker = market.kalshi_ticker.clone();
             let pm_token = market.polymarket_token.clone();
             async move {
+                let pm_token_str = pm_token.as_deref().unwrap_or("");
                 let (k_result, pm_result) = tokio::join!(
                     fetch_kalshi_book(&client, kalshi_ticker.as_deref().unwrap_or("")),
-                    fetch_polymarket_book(&client, pm_token.as_deref().unwrap_or("")),
+                    fetch_polymarket_book(&client, pm_token_str),
                 );
 
                 match (k_result, pm_result) {
                     (Ok(k_book), Ok(pm_book)) => {
-                        compute_audit_metrics(&ticker, &k_book, &pm_book, &fees)
+                        compute_audit_metrics(&ticker, pm_token_str, &k_book, &pm_book, &fees)
                     }
                     (Err(e), _) => AuditResult {
                         ticker,
@@ -97,7 +98,7 @@ pub async fn run_audit(markets: &[MatchedMarket], fees: &FeeRates) {
     print_audit_table(&results);
 }
 
-async fn fetch_kalshi_book(client: &Client, ticker: &str) -> Result<PlatformBook, String> {
+pub(crate) async fn fetch_kalshi_book(client: &Client, ticker: &str) -> Result<PlatformBook, String> {
     let url = format!("{}/markets/{}/orderbook", KALSHI_BASE, ticker);
     let resp: Value = client
         .get(&url)
@@ -156,7 +157,7 @@ async fn fetch_kalshi_book(client: &Client, ticker: &str) -> Result<PlatformBook
     Ok(book)
 }
 
-async fn fetch_polymarket_book(client: &Client, token_id: &str) -> Result<PlatformBook, String> {
+pub(crate) async fn fetch_polymarket_book(client: &Client, token_id: &str) -> Result<PlatformBook, String> {
     let url = format!("{}/book?token_id={}", POLYMARKET_CLOB, token_id);
     let resp: Value = client
         .get(&url)
@@ -206,6 +207,7 @@ async fn fetch_polymarket_book(client: &Client, token_id: &str) -> Result<Platfo
 
 fn compute_audit_metrics(
     ticker: &str,
+    pm_token: &str,
     k_book: &PlatformBook,
     pm_book: &PlatformBook,
     fees: &FeeRates,
@@ -242,7 +244,7 @@ fn compute_audit_metrics(
     }
 
     // Run full round-trip simulation
-    match orderbook::simulate_round_trip_btree(k_book, pm_book, fees) {
+    match orderbook::simulate_round_trip_btree(k_book, pm_book, fees.kalshi_fee, fees.pm_rate(pm_token)) {
         Some((rt, detail)) => {
             let depth = rt.total_entry_cost;
             let nev = detail.nev_per_share;

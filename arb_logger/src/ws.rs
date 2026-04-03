@@ -5,17 +5,23 @@ use crate::types::{
     AppState, ExecutionOverhead, FeeRates, MarketMapping, OpportunityWindow, PlatformBook,
     SharedBookState,
 };
+use base64::Engine;
 use chrono::{Local, Utc};
 use futures_util::{SinkExt, StreamExt};
 use ordered_float::OrderedFloat;
+use rsa::pss::SigningKey;
+use rsa::signature::{RandomizedSigner, SignatureEncoding};
+use rsa::RsaPrivateKey;
 use serde_json::Value;
+use sha2::Sha256;
 use std::sync::Arc;
 use tokio::sync::{Mutex, RwLock};
 use tokio::time::{sleep, Duration, Instant};
-use tokio_tungstenite::{connect_async, tungstenite::Message};
+use tokio_tungstenite::connect_async;
+use tokio_tungstenite::tungstenite::client::IntoClientRequest;
+use tokio_tungstenite::tungstenite::Message;
 
-const KALSHI_WS_URL: &str = "wss://api.elections.kalshi.com/trade-api/v2/ws";
-const KALSHI_LOGIN_URL: &str = "https://api.elections.kalshi.com/trade-api/v2/login";
+const KALSHI_WS_URL: &str = "wss://api.elections.kalshi.com/trade-api/ws/v2";
 const POLYMARKET_WS_URL: &str = "wss://ws-subscriptions-clob.polymarket.com/ws/market";
 
 const STALE_BOOK_SECS: u64 = 60;
@@ -48,8 +54,8 @@ pub async fn kalshi_ws_task(
     app_state: Arc<Mutex<AppState>>,
     fees: FeeRates,
     overhead: ExecutionOverhead,
-    kalshi_email: String,
-    kalshi_password: String,
+    api_key: String,
+    private_key: RsaPrivateKey,
 ) {
     let kalshi_tickers: Vec<String> = mappings.iter().map(|m| m.kalshi_ticker.clone()).collect();
     let mut backoff_secs = 1u64;
@@ -66,8 +72,8 @@ pub async fn kalshi_ws_task(
             &app_state,
             &fees,
             &overhead,
-            &kalshi_email,
-            &kalshi_password,
+            &api_key,
+            &private_key,
         )
         .await
         {
@@ -103,33 +109,37 @@ async fn run_kalshi_session(
     app_state: &Arc<Mutex<AppState>>,
     fees: &FeeRates,
     overhead: &ExecutionOverhead,
-    email: &str,
-    password: &str,
+    api_key: &str,
+    private_key: &RsaPrivateKey,
 ) -> Result<(), String> {
-    // Authenticate via REST to get JWT
-    let client = reqwest::Client::new();
-    let login_body = serde_json::json!({
-        "email": email,
-        "password": password,
-    });
-    let login_resp: Value = client
-        .post(KALSHI_LOGIN_URL)
-        .json(&login_body)
-        .send()
-        .await
-        .map_err(|e| format!("Kalshi login request failed: {}", e))?
-        .json()
-        .await
-        .map_err(|e| format!("Kalshi login parse failed: {}", e))?;
+    // Build RSA-signed auth headers for WS handshake
+    let timestamp_ms = std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .unwrap()
+        .as_millis()
+        .to_string();
+    let sign_message = format!("{}GET/trade-api/ws/v2", timestamp_ms);
+    let signing_key = SigningKey::<Sha256>::new(private_key.clone());
+    let mut rng = rsa::rand_core::OsRng;
+    let signature = signing_key.sign_with_rng(&mut rng, sign_message.as_bytes());
+    let sig_b64 = base64::engine::general_purpose::STANDARD.encode(signature.to_bytes());
 
-    let token = login_resp["token"]
-        .as_str()
-        .ok_or_else(|| "Kalshi login: missing token".to_string())?;
-
-    // Connect WebSocket with auth header
+    // Build WS request with auth headers
     let connect_start = std::time::Instant::now();
-    let url = format!("{}?token={}", KALSHI_WS_URL, token);
-    let (ws_stream, _) = connect_async(&url)
+    let mut request = KALSHI_WS_URL
+        .into_client_request()
+        .map_err(|e| format!("WS request build failed: {}", e))?;
+    request
+        .headers_mut()
+        .insert("KALSHI-ACCESS-KEY", api_key.parse().unwrap());
+    request
+        .headers_mut()
+        .insert("KALSHI-ACCESS-SIGNATURE", sig_b64.parse().unwrap());
+    request
+        .headers_mut()
+        .insert("KALSHI-ACCESS-TIMESTAMP", timestamp_ms.parse().unwrap());
+
+    let (ws_stream, _) = connect_async(request)
         .await
         .map_err(|e| format!("Kalshi WS connect failed: {}", e))?;
     let connect_ms = connect_start.elapsed().as_millis();
@@ -155,6 +165,8 @@ async fn run_kalshi_session(
         .await
         .map_err(|e| format!("Kalshi subscribe failed: {}", e))?;
 
+    let mut conn_seq: Option<u64> = None;
+
     while let Some(msg_result) = read.next().await {
         let msg = msg_result.map_err(|e| format!("Kalshi WS read error: {}", e))?;
 
@@ -176,6 +188,22 @@ async fn run_kalshi_session(
         let msg_type = json["type"].as_str().unwrap_or("");
         let receive_ts_ms = Utc::now().timestamp_millis();
 
+        // Connection-level sequence tracking (seq is global, not per-market)
+        if let Some(new_seq) = json["seq"].as_u64() {
+            if let Some(prev) = conn_seq {
+                if new_seq != prev + 1 {
+                    eprintln!(
+                        "[{}] WARN  SYSTEM kalshi_seq_gap expected={} got={}",
+                        log_time(),
+                        prev + 1,
+                        new_seq,
+                    );
+                    return Err("Sequence gap detected, reconnecting".to_string());
+                }
+            }
+            conn_seq = Some(new_seq);
+        }
+
         match msg_type {
             "orderbook_snapshot" => {
                 handle_kalshi_snapshot(&json["msg"], state).await;
@@ -187,20 +215,29 @@ async fn run_kalshi_session(
                 }
             }
             "orderbook_delta" => {
-                let seq = json["seq"].as_u64();
-                // Extract exchange timestamp for latency measurement
-                let exchange_ts =
-                    json["ts"].as_i64().or_else(|| json["msg"]["ts"].as_i64());
-                let needs_reconnect =
-                    handle_kalshi_delta(&json["msg"], seq, exchange_ts, receive_ts_ms, state).await;
-                if needs_reconnect {
-                    return Err("Sequence gap detected, reconnecting".to_string());
-                }
+                // Extract exchange timestamp (RFC3339 string) for latency measurement
+                let exchange_ts = json["msg"]["ts"]
+                    .as_str()
+                    .and_then(|s| chrono::DateTime::parse_from_rfc3339(s).ok())
+                    .map(|dt| dt.timestamp_millis());
+                handle_kalshi_delta(&json["msg"], exchange_ts, receive_ts_ms, state).await;
                 if let Some(ticker) = json["msg"]["market_ticker"].as_str() {
                     run_scorer_for_kalshi_ticker(
                         ticker, mappings, state, opportunity_log, app_state, fees, overhead,
                     )
                     .await;
+                }
+            }
+            "error" => {
+                let code = json["msg"]["code"].as_i64().unwrap_or(-1);
+                let err_msg = json["msg"]["msg"].as_str().unwrap_or("unknown");
+                eprintln!(
+                    "[{}] WARN  SYSTEM kalshi_ws_error code={} msg={}",
+                    log_time(), code, err_msg,
+                );
+                // Auth error — force reconnect
+                if code == 9 {
+                    return Err(format!("Kalshi auth error: {}", err_msg));
                 }
             }
             _ => {}
@@ -267,37 +304,20 @@ async fn handle_kalshi_snapshot(msg: &Value, state: &Arc<RwLock<SharedBookState>
     s.kalshi.insert(ticker, book);
 }
 
-/// Apply a Kalshi delta. Returns true if a reconnect is needed (sequence gap).
+/// Apply a Kalshi delta to the book.
 async fn handle_kalshi_delta(
     msg: &Value,
-    seq: Option<u64>,
     exchange_ts_ms: Option<i64>,
     receive_ts_ms: i64,
     state: &Arc<RwLock<SharedBookState>>,
-) -> bool {
+) {
     let ticker = match msg["market_ticker"].as_str() {
         Some(t) => t.to_string(),
-        None => return false,
+        None => return,
     };
 
     let mut s = state.write().await;
     let book = s.kalshi.entry(ticker).or_insert_with(PlatformBook::new);
-
-    // Sequence gap detection
-    if let Some(new_seq) = seq {
-        if let Some(prev_seq) = book.seq {
-            if new_seq != prev_seq + 1 {
-                eprintln!(
-                    "[{}] WARN  SYSTEM kalshi_seq_gap expected={} got={}",
-                    log_time(),
-                    prev_seq + 1,
-                    new_seq,
-                );
-                return true; // need reconnect
-            }
-        }
-        book.seq = Some(new_seq);
-    }
 
     let price_str = msg["price_dollars"].as_str().unwrap_or("0");
     let price: f64 = price_str.parse().unwrap_or(0.0);
@@ -338,8 +358,6 @@ async fn handle_kalshi_delta(
         let latency = receive_ts_ms - exch_ts;
         book.record_latency(latency);
     }
-
-    false
 }
 
 async fn run_scorer_for_kalshi_ticker(
@@ -458,68 +476,92 @@ async fn run_polymarket_session(
         .await
         .map_err(|e| format!("Polymarket subscribe failed: {}", e))?;
 
-    while let Some(msg_result) = read.next().await {
-        let msg = msg_result.map_err(|e| format!("Polymarket WS read error: {}", e))?;
+    let mut ping_interval = tokio::time::interval(Duration::from_secs(10));
 
-        match msg {
-            Message::Ping(data) => {
-                let _ = write.send(Message::Pong(data)).await;
-                continue;
-            }
-            Message::Close(_) => return Ok(()),
-            Message::Text(text) => {
-                let json: Value = match serde_json::from_str(&text) {
-                    Ok(v) => v,
-                    Err(_) => continue,
-                };
-
-                let event_type = json["event_type"].as_str().unwrap_or("");
-                let receive_ts_ms = Utc::now().timestamp_millis();
-
-                match event_type {
-                    "book" => {
-                        let asset_id = json["asset_id"].as_str().unwrap_or("").to_string();
-                        handle_polymarket_book(&json, &asset_id, state).await;
-                        run_scorer_for_pm_token(
-                            &asset_id, mappings, state, opportunity_log, app_state, fees, overhead,
-                        )
-                        .await;
-                    }
-                    "price_change" => {
-                        let asset_id = json["asset_id"].as_str().unwrap_or("").to_string();
-                        // Extract exchange timestamp for latency measurement
-                        let exchange_ts = json["timestamp"]
-                            .as_i64()
-                            .or_else(|| {
-                                json["timestamp"]
-                                    .as_str()
-                                    .and_then(|s| s.parse::<i64>().ok())
-                            })
-                            .map(|ts| {
-                                // Auto-detect seconds vs milliseconds
-                                if ts < 10_000_000_000 {
-                                    ts * 1000
-                                } else {
-                                    ts
-                                }
-                            });
-                        handle_polymarket_price_change(
-                            &json, &asset_id, exchange_ts, receive_ts_ms, state,
-                        )
-                        .await;
-                        run_scorer_for_pm_token(
-                            &asset_id, mappings, state, opportunity_log, app_state, fees, overhead,
-                        )
-                        .await;
-                    }
-                    _ => {}
+    loop {
+        tokio::select! {
+            _ = ping_interval.tick() => {
+                if write.send(Message::Text("PING".to_string())).await.is_err() {
+                    return Err("Polymarket PING send failed".to_string());
                 }
             }
-            _ => continue,
+            msg_result = read.next() => {
+                let msg = match msg_result {
+                    Some(Ok(m)) => m,
+                    Some(Err(e)) => return Err(format!("Polymarket WS read error: {}", e)),
+                    None => return Ok(()),
+                };
+
+                match msg {
+                    Message::Ping(data) => {
+                        let _ = write.send(Message::Pong(data)).await;
+                        continue;
+                    }
+                    Message::Close(_) => return Ok(()),
+                    Message::Text(text) => {
+                        // Ignore PONG responses to our PINGs
+                        if text == "PONG" || text == "pong" {
+                            continue;
+                        }
+
+                        let json: Value = match serde_json::from_str(&text) {
+                            Ok(v) => v,
+                            Err(_) => continue,
+                        };
+
+                        let event_type = json["event_type"].as_str().unwrap_or("");
+                        let receive_ts_ms = Utc::now().timestamp_millis();
+
+                        match event_type {
+                            "book" => {
+                                let asset_id = json["asset_id"].as_str().unwrap_or("").to_string();
+                                handle_polymarket_book(&json, &asset_id, state).await;
+                                run_scorer_for_pm_token(
+                                    &asset_id, mappings, state, opportunity_log, app_state, fees, overhead,
+                                )
+                                .await;
+                            }
+                            "price_change" => {
+                                // Extract exchange timestamp for latency measurement
+                                let exchange_ts = json["timestamp"]
+                                    .as_str()
+                                    .and_then(|s| s.parse::<i64>().ok())
+                                    .map(|ts| {
+                                        if ts < 10_000_000_000 { ts * 1000 } else { ts }
+                                    });
+
+                                // price_changes contains per-asset changes; group by asset_id
+                                if let Some(changes) = json["price_changes"].as_array() {
+                                    let mut scored_assets: Vec<String> = Vec::new();
+                                    for change in changes {
+                                        let asset_id = change["asset_id"].as_str().unwrap_or("").to_string();
+                                        if asset_id.is_empty() {
+                                            continue;
+                                        }
+                                        handle_polymarket_price_change_single(
+                                            change, &asset_id, exchange_ts, receive_ts_ms, state,
+                                        )
+                                        .await;
+                                        if !scored_assets.contains(&asset_id) {
+                                            scored_assets.push(asset_id);
+                                        }
+                                    }
+                                    for asset_id in &scored_assets {
+                                        run_scorer_for_pm_token(
+                                            asset_id, mappings, state, opportunity_log, app_state, fees, overhead,
+                                        )
+                                        .await;
+                                    }
+                                }
+                            }
+                            _ => {}
+                        }
+                    }
+                    _ => continue,
+                }
+            }
         }
     }
-
-    Ok(())
 }
 
 async fn handle_polymarket_book(
@@ -567,17 +609,24 @@ async fn handle_polymarket_book(
     s.polymarket.insert(asset_id.to_string(), book);
 }
 
-async fn handle_polymarket_price_change(
-    json: &Value,
+async fn handle_polymarket_price_change_single(
+    change: &Value,
     asset_id: &str,
     exchange_ts_ms: Option<i64>,
     receive_ts_ms: i64,
     state: &Arc<RwLock<SharedBookState>>,
 ) {
-    let changes = match json["changes"].as_array() {
-        Some(c) => c,
-        None => return,
-    };
+    let price = change["price"]
+        .as_str()
+        .and_then(|s| s.parse::<f64>().ok())
+        .unwrap_or(0.0);
+    let size = change["size"]
+        .as_str()
+        .and_then(|s| s.parse::<f64>().ok())
+        .unwrap_or(0.0);
+    let side = change["side"].as_str().unwrap_or("");
+
+    let key = OrderedFloat(price);
 
     let mut s = state.write().await;
     let book = s
@@ -585,41 +634,26 @@ async fn handle_polymarket_price_change(
         .entry(asset_id.to_string())
         .or_insert_with(PlatformBook::new);
 
-    for change in changes {
-        let price = change["price"]
-            .as_str()
-            .and_then(|s| s.parse::<f64>().ok())
-            .unwrap_or(0.0);
-        let size = change["size"]
-            .as_str()
-            .and_then(|s| s.parse::<f64>().ok())
-            .unwrap_or(0.0);
-        let side = change["side"].as_str().unwrap_or("");
-
-        let key = OrderedFloat(price);
-
-        match side {
-            "BUY" => {
-                if size <= 0.0 {
-                    book.bids.remove(&key);
-                } else {
-                    book.bids.insert(key, size);
-                }
+    match side {
+        "BUY" => {
+            if size <= 0.0 {
+                book.bids.remove(&key);
+            } else {
+                book.bids.insert(key, size);
             }
-            "SELL" => {
-                if size <= 0.0 {
-                    book.asks.remove(&key);
-                } else {
-                    book.asks.insert(key, size);
-                }
-            }
-            _ => {}
         }
+        "SELL" => {
+            if size <= 0.0 {
+                book.asks.remove(&key);
+            } else {
+                book.asks.insert(key, size);
+            }
+        }
+        _ => {}
     }
 
     book.last_updated = Instant::now();
 
-    // Record message latency from exchange timestamp
     if let Some(exch_ts) = exchange_ts_ms {
         let latency = receive_ts_ms - exch_ts;
         book.record_latency(latency);
@@ -677,16 +711,12 @@ async fn on_book_update(
         None => return,
     };
 
-    // Check for stale books (silent — check_stale_books handles warnings)
-    let now = Instant::now();
-    if now.duration_since(kalshi_book.last_updated).as_secs() > STALE_BOOK_SECS {
-        return;
-    }
-    if now.duration_since(poly_book.last_updated).as_secs() > STALE_BOOK_SECS {
-        return;
-    }
-
-    let result = orderbook::simulate_round_trip_btree(kalshi_book, poly_book, fees);
+    let result = orderbook::simulate_round_trip_btree(
+        kalshi_book,
+        poly_book,
+        fees.kalshi_fee,
+        fees.pm_rate(pm_token),
+    );
     let avg_msg_latency = kalshi_book.avg_message_latency_ms.unwrap_or(0.0);
     drop(books); // release read lock before acquiring mutexes
 
@@ -710,16 +740,26 @@ async fn on_book_update(
                 // Update existing window
                 let window = &mut log[idx];
                 window.update_count += 1;
+                window.current_nev = nev;
+                window.current_spread = spread;
+                window.current_depth = detail.cost_to_profitably_standardize;
+                window.current_direction = detail.direction.clone();
                 if nev > window.peak_nev {
                     window.peak_nev = nev;
                     window.best_round_trip = Some(rt);
-                }
-                if spread > window.peak_spread {
-                    window.peak_spread = spread;
-                }
-                if let Some(ref mut rd) = window.round_trip {
-                    rd.residual_spread_after_trade = detail.residual_spread_after_trade;
-                    rd.fully_standardized = detail.fully_standardized;
+                    // Update full detail at peak too
+                    window.round_trip = Some(detail);
+                } else {
+                    if spread > window.peak_spread {
+                        window.peak_spread = spread;
+                    }
+                    // Still update standardization costs on every tick
+                    if let Some(ref mut rd) = window.round_trip {
+                        rd.cost_to_fully_standardize = detail.cost_to_fully_standardize;
+                        rd.cost_to_profitably_standardize = detail.cost_to_profitably_standardize;
+                        rd.residual_spread_after_trade = detail.residual_spread_after_trade;
+                        rd.fully_standardized = detail.fully_standardized;
+                    }
                 }
             } else {
                 // Open new window
@@ -738,6 +778,10 @@ async fn on_book_update(
                     duration_ms: None,
                     peak_nev: nev,
                     peak_spread: spread,
+                    current_nev: nev,
+                    current_spread: spread,
+                    current_depth: detail.cost_to_profitably_standardize,
+                    current_direction: detail.direction.clone(),
                     update_count: 1,
                     best_round_trip: Some(rt),
                     round_trip: Some(detail),
@@ -753,7 +797,7 @@ async fn on_book_update(
                 let duration = log[idx].duration_ms.unwrap_or(0);
                 let peak_nev = log[idx].peak_nev;
                 let ticker = log[idx].ticker.clone();
-                let best_rt = log[idx].best_round_trip.take();
+                let best_rt = log[idx].best_round_trip.clone();
                 let fully_std = log[idx]
                     .round_trip
                     .as_ref()

@@ -6,98 +6,103 @@ const KALSHI_BASE: &str = "https://api.elections.kalshi.com/trade-api/v2";
 const POLYMARKET_CLOB: &str = "https://clob.polymarket.com";
 const POLYMARKET_GAMMA: &str = "https://gamma-api.polymarket.com";
 
-/// Curated list of 13 markets selected for paper trading.
-/// Selected based on: spread >= 3¢, cost_to_move_5c $200-$5000, reportability=fragile.
-pub fn get_tracked_markets() -> Vec<MatchedMarket> {
-    vec![
-        MatchedMarket {
-            ticker: "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUL2026".into(),
-            kalshi_ticker: Some("KXFEDDECISION-26JUL-C25".into()),
-            polymarket_token: Some("107111506004559425167535337910569809007100298896139468418632748246491535011700".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_OH_15-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-OH15-26-R".into()),
-            polymarket_token: Some("97813253986291805301845546476916155582068629376011287079676633578166768758974".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-PELTOLA-WIN-SENATE_AK-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXAKSENATE-26NOV03-MPEL".into()),
-            polymarket_token: Some("72139607190315861034411702195742538105117960260100800877125381826122747504258".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-TN07-26-R".into()),
-            polymarket_token: Some("108435435156169780511802105123559082298215299373504251103377970956623189780379".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-GA07-26-R".into()),
-            polymarket_token: Some("40175477873205534291803272100440407729292650174524862584432986239438169710120".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-GOV_ME-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("GOVPARTYME-26-R".into()),
-            polymarket_token: Some("77900872247159891045693614974240851672235710405168744753050508553885061962390".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-GOV_GA-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("GOVPARTYGA-26-R".into()),
-            polymarket_token: Some("17555504943162344098534978138053308162738914357892515623100381936995379845407".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_SC07-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-SC07-26-R".into()),
-            polymarket_token: Some("96580445079668683787368085070582364594702719841272426188104847420199646364705".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-TX36-26-R".into()),
-            polymarket_token: Some("28447198635554099262973905217726367470243680945205937032068258346722106906223".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_FL02-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-FL02-26-R".into()),
-            polymarket_token: Some("54702326895469204251772029072335229338384845206963136614108005629884908128243".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_FL21-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-FL21-26-R".into()),
-            polymarket_token: Some("7460473200203500049888783719604614089184190030851720364867764732498211690017".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-DEM-WIN-HOUSE_GA-02-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-GA02-26-D".into()),
-            polymarket_token: Some("19606361507228583496697532968311671202824580545845457919639287792278838929378".into()),
-        },
-        MatchedMarket {
-            ticker: "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026".into(),
-            kalshi_ticker: Some("KXHOUSERACE-GA12-26-R".into()),
-            polymarket_token: Some("101804221129923221311468014764974740374334424163195744719593146528253694482543".into()),
-        },
-    ]
+const BELLWETHER_MARKETS_URL: &str = "https://bellwethermetrics.com/data/active_markets.json";
+const MIN_SPREAD: f64 = 0.02;
+const MAX_SPREAD: f64 = 0.25;
+
+/// Markets manually flagged as mismatched (question mismatch between platforms).
+const EXCLUDED_TICKERS: &[&str] = &[
+    "BWR-BOC-HIKE-OVERNIGHT_RATE-SPECIFIC_MEETING-25BPS-APR2026",
+    "BWR-ARMENIA_ALLIANCE-WIN-PARLIAMENT_AM-CERTIFIED-ANY-2026",
+    "BWR-KATAEB-WIN-PARLIAMENT_LB-CERTIFIED-ANY-2026",
+    "BWR-BOC-CUT-OVERNIGHT_RATE-SPECIFIC_MEETING-25BPS-APR2026",
+    "BWR-PARK-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026",
+    "BWR-GOP-WIN-HOUSE_OK_05-CERTIFIED-ANY-2026",
+];
+
+/// Fetch all matched markets from Bellwether, filtered to 2%-25% cross-platform spread.
+pub async fn get_tracked_markets(client: &Client) -> Result<Vec<MatchedMarket>, String> {
+    let resp: Value = client
+        .get(BELLWETHER_MARKETS_URL)
+        .send()
+        .await
+        .map_err(|e| format!("Bellwether fetch failed: {}", e))?
+        .json()
+        .await
+        .map_err(|e| format!("Bellwether parse failed: {}", e))?;
+
+    let markets = resp["markets"]
+        .as_array()
+        .ok_or_else(|| "Bellwether response missing 'markets' array".to_string())?;
+
+    let mut result = Vec::new();
+    for m in markets {
+        if !m["has_both"].as_bool().unwrap_or(false) {
+            continue;
+        }
+        let k_ticker = match m["k_ticker"].as_str() {
+            Some(s) if !s.is_empty() => s,
+            _ => continue,
+        };
+        let pm_token = match m["pm_token_id"].as_str() {
+            Some(s) if !s.is_empty() => s,
+            _ => continue,
+        };
+        let ticker = m["ticker"].as_str().unwrap_or("");
+        if EXCLUDED_TICKERS.contains(&ticker) {
+            continue;
+        }
+        let spread = m["spread"].as_f64().unwrap_or(0.0).abs();
+        if spread >= MIN_SPREAD && spread <= MAX_SPREAD {
+            result.push(MatchedMarket {
+                ticker: m["ticker"].as_str().unwrap_or("").to_string(),
+                kalshi_ticker: Some(k_ticker.to_string()),
+                polymarket_token: Some(pm_token.to_string()),
+            });
+        }
+    }
+
+    Ok(result)
 }
 
 
-/// Fetch Polymarket fee rate.
-pub async fn fetch_polymarket_fee_rate(client: &Client) -> Result<f64, String> {
-    let url = format!("{}/fee-rate", POLYMARKET_CLOB);
-    let resp: Value = client
-        .get(&url)
-        .send()
-        .await
-        .map_err(|e| format!("fetch_polymarket_fee_rate request failed: {}", e))?
-        .json()
-        .await
-        .map_err(|e| format!("fetch_polymarket_fee_rate parse failed: {}", e))?;
+/// Fetch Polymarket fee rates for all tokens concurrently.
+/// Returns a map of token_id → base_fee_rate (e.g. 0.04 for 4% politics markets).
+pub async fn fetch_polymarket_fee_rates(
+    client: &Client,
+    token_ids: &[String],
+) -> std::collections::HashMap<String, f64> {
+    use futures_util::future::join_all;
 
-    let fee = resp["taker_base_fee"]
-        .as_str()
-        .and_then(|s| s.parse::<f64>().ok())
-        .or_else(|| resp["taker_base_fee"].as_f64())
-        .unwrap_or(0.0);
+    let futs: Vec<_> = token_ids
+        .iter()
+        .map(|token| {
+            let client = client.clone();
+            let token = token.clone();
+            async move {
+                let url = format!("{}/fee-rate?token_id={}", POLYMARKET_CLOB, token);
+                let rate = match client.get(&url).send().await {
+                    Ok(resp) => match resp.json::<Value>().await {
+                        Ok(json) => json["base_fee"]
+                            .as_f64()
+                            .or_else(|| {
+                                json["base_fee"]
+                                    .as_str()
+                                    .and_then(|s| s.parse::<f64>().ok())
+                            })
+                            .unwrap_or(0.0),
+                        Err(_) => 0.0,
+                    },
+                    Err(_) => 0.0,
+                };
+                (token, rate)
+            }
+        })
+        .collect();
 
-    Ok(fee)
+    let results: std::collections::HashMap<String, f64> =
+        join_all(futs).await.into_iter().collect();
+    results
 }
 
 /// Fetch resolution dates from both native APIs concurrently.

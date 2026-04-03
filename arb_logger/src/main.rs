@@ -4,7 +4,10 @@
 
 mod api;
 mod audit;
+mod execute;
+mod kalshi_rest;
 mod orderbook;
+mod polymarket_auth;
 mod report;
 mod scorer;
 mod state;
@@ -13,6 +16,7 @@ mod ws;
 
 use chrono::Local;
 use reqwest::Client;
+use rsa::pkcs1::DecodeRsaPrivateKey;
 use std::sync::Arc;
 use tokio::sync::{Mutex, RwLock};
 use tokio::time::{sleep, Duration, Instant};
@@ -31,28 +35,40 @@ async fn main() {
 }
 
 async fn run() -> Result<(), String> {
-    let audit_mode = std::env::args().any(|a| a == "--audit");
+    let args: Vec<String> = std::env::args().collect();
+    let audit_mode = args.iter().any(|a| a == "--audit");
+
+    // --execute TICKER [--dry-run]
+    let execute_ticker = args.iter().position(|a| a == "--execute").and_then(|i| args.get(i + 1).cloned());
+    let dry_run = args.iter().any(|a| a == "--dry-run");
+
+    if let Some(ticker) = execute_ticker {
+        return execute::run_execute(&ticker, dry_run).await;
+    }
 
     if audit_mode {
         let client = Client::new();
-        let markets = api::get_tracked_markets();
+        let markets = api::get_tracked_markets(&client).await?;
         eprintln!(
             "[{}] INFO  AUDIT fetching books for {} markets...",
             log_time(),
             markets.len(),
         );
-        let polymarket_fee = api::fetch_polymarket_fee_rate(&client)
-            .await
-            .unwrap_or(0.0);
+        let pm_tokens: Vec<String> = markets
+            .iter()
+            .filter_map(|m| m.polymarket_token.clone())
+            .collect();
+        let pm_fee_rates = api::fetch_polymarket_fee_rates(&client, &pm_tokens).await;
+        let non_zero = pm_fee_rates.values().filter(|&&r| r > 0.0).count();
         let fees = types::FeeRates {
             kalshi_fee: 0.0,
-            polymarket_fee,
+            polymarket_fee_rates: pm_fee_rates,
         };
         eprintln!(
-            "[{}] INFO  AUDIT fees kalshi={:.1}% polymarket={:.1}%",
+            "[{}] INFO  AUDIT fees kalshi=0.0% pm_tokens={} non_zero_fee={}",
             log_time(),
-            fees.kalshi_fee * 100.0,
-            fees.polymarket_fee * 100.0,
+            fees.polymarket_fee_rates.len(),
+            non_zero,
         );
         audit::run_audit(&markets, &fees).await;
         return Ok(());
@@ -62,7 +78,7 @@ async fn run() -> Result<(), String> {
     let start_time = Instant::now();
 
     // 1. Load persisted state
-    let app_state = state::load_state();
+    let mut app_state = state::load_state();
     eprintln!(
         "[{}] INFO  SYSTEM state_loaded trades={} executability_entries={}",
         log_time(),
@@ -70,10 +86,10 @@ async fn run() -> Result<(), String> {
         app_state.executability.len(),
     );
 
-    // 2. Load curated market list (hardcoded — no network fetch needed)
-    let matched_markets = api::get_tracked_markets();
+    // 2. Fetch matched markets from Bellwether (2%-25% spread filter)
+    let matched_markets = api::get_tracked_markets(&client).await?;
     eprintln!(
-        "[{}] INFO  SYSTEM markets_loaded count={} source=hardcoded",
+        "[{}] INFO  SYSTEM markets_loaded count={} source=bellwether",
         log_time(),
         matched_markets.len(),
     );
@@ -87,8 +103,40 @@ async fn run() -> Result<(), String> {
         return Ok(());
     }
 
-    // 3. Build mappings and fetch resolution dates
+    // 3. Build mappings and load resolution dates from pre-fetched file
     let mut mappings: Vec<MarketMapping> = Vec::new();
+
+    // Load resolution dates from resolution_dates.json (pre-fetched outside pipeline)
+    let res_dates: std::collections::HashMap<String, String> =
+        match std::fs::read_to_string("resolution_dates.json") {
+            Ok(contents) => serde_json::from_str(&contents).unwrap_or_default(),
+            Err(_) => {
+                eprintln!(
+                    "[{}] WARN  SYSTEM resolution_dates.json not found, resolution dates will be empty",
+                    log_time(),
+                );
+                std::collections::HashMap::new()
+            }
+        };
+    eprintln!(
+        "[{}] INFO  SYSTEM resolution_dates_loaded count={}",
+        log_time(),
+        res_dates.len(),
+    );
+
+    // Populate market state from file
+    for market in &matched_markets {
+        if !app_state.markets.contains_key(&market.ticker) {
+            let res_date = res_dates.get(&market.ticker).cloned();
+            app_state.markets.insert(
+                market.ticker.clone(),
+                MarketState {
+                    resolution_date: res_date,
+                },
+            );
+        }
+    }
+
     let app_state = Arc::new(Mutex::new(app_state));
 
     for market in &matched_markets {
@@ -100,27 +148,6 @@ async fn run() -> Result<(), String> {
             Some(t) => t.clone(),
             None => continue,
         };
-
-        // Cache resolution date if not already cached
-        {
-            let mut app = app_state.lock().await;
-            if !app.markets.contains_key(&market.ticker) {
-                let res_date = api::fetch_resolution_date(
-                    &client,
-                    Some(&kalshi_ticker),
-                    Some(&polymarket_token),
-                )
-                .await
-                .unwrap_or(None);
-
-                app.markets.insert(
-                    market.ticker.clone(),
-                    MarketState {
-                        resolution_date: res_date,
-                    },
-                );
-            }
-        }
 
         mappings.push(MarketMapping {
             bwr_ticker: market.ticker.clone(),
@@ -154,19 +181,19 @@ async fn run() -> Result<(), String> {
         );
     }
 
-    // 4. Fetch fee rates
-    let polymarket_fee = api::fetch_polymarket_fee_rate(&client)
-        .await
-        .unwrap_or(0.0);
+    // 4. Fetch per-token Polymarket fee rates
+    let pm_tokens: Vec<String> = mappings.iter().map(|m| m.polymarket_token.clone()).collect();
+    let pm_fee_rates = api::fetch_polymarket_fee_rates(&client, &pm_tokens).await;
+    let non_zero_count = pm_fee_rates.values().filter(|&&r| r > 0.0).count();
     let fees = FeeRates {
         kalshi_fee: 0.0, // 0% as of 2026
-        polymarket_fee,
+        polymarket_fee_rates: pm_fee_rates,
     };
     eprintln!(
-        "[{}] INFO  SYSTEM fees kalshi={:.1}% polymarket={:.1}%",
+        "[{}] INFO  SYSTEM fees kalshi=0.0% polymarket_tokens={} non_zero_fee={}",
         log_time(),
-        fees.kalshi_fee * 100.0,
-        fees.polymarket_fee * 100.0,
+        fees.polymarket_fee_rates.len(),
+        non_zero_count,
     );
 
     // 5. Measure execution overhead
@@ -197,9 +224,9 @@ async fn run() -> Result<(), String> {
     let shared_state = Arc::new(RwLock::new(SharedBookState::new()));
     let opportunity_log: Arc<Mutex<Vec<OpportunityWindow>>> = Arc::new(Mutex::new(Vec::new()));
 
-    // 7. Read Kalshi credentials from environment
-    let kalshi_email = std::env::var("KALSHI_EMAIL").unwrap_or_default();
-    let kalshi_password = std::env::var("KALSHI_PASSWORD").unwrap_or_default();
+    // 7. Read Kalshi API key credentials from environment
+    let kalshi_api_key = std::env::var("KALSHI_API_KEY").unwrap_or_default();
+    let kalshi_key_path = std::env::var("KALSHI_PRIVATE_KEY_PATH").unwrap_or_default();
 
     // 8. Spawn WebSocket tasks
     let kalshi_state = shared_state.clone();
@@ -209,15 +236,42 @@ async fn run() -> Result<(), String> {
     let kalshi_mappings = mappings.clone();
     let kalshi_overhead = overhead.clone();
     let kalshi_handle = tokio::spawn(async move {
-        if kalshi_email.is_empty() || kalshi_password.is_empty() {
+        if kalshi_api_key.is_empty() || kalshi_key_path.is_empty() {
             eprintln!(
-                "[{}] WARN  SYSTEM kalshi_ws_skipped reason=no_credentials",
+                "[{}] WARN  SYSTEM kalshi_ws_skipped reason=no_credentials (set KALSHI_API_KEY and KALSHI_PRIVATE_KEY_PATH)",
                 Local::now().format("%H:%M:%S"),
             );
             loop {
                 sleep(Duration::from_secs(3600)).await;
             }
         }
+        let pem = match std::fs::read_to_string(&kalshi_key_path) {
+            Ok(s) => s,
+            Err(e) => {
+                eprintln!(
+                    "[{}] WARN  SYSTEM kalshi_ws_skipped reason=cannot_read_key path={} error={}",
+                    Local::now().format("%H:%M:%S"),
+                    kalshi_key_path,
+                    e,
+                );
+                loop {
+                    sleep(Duration::from_secs(3600)).await;
+                }
+            }
+        };
+        let private_key = match rsa::RsaPrivateKey::from_pkcs1_pem(&pem) {
+            Ok(k) => k,
+            Err(e) => {
+                eprintln!(
+                    "[{}] WARN  SYSTEM kalshi_ws_skipped reason=invalid_key error={}",
+                    Local::now().format("%H:%M:%S"),
+                    e,
+                );
+                loop {
+                    sleep(Duration::from_secs(3600)).await;
+                }
+            }
+        };
         ws::kalshi_ws_task(
             kalshi_mappings,
             kalshi_state,
@@ -225,8 +279,8 @@ async fn run() -> Result<(), String> {
             kalshi_app,
             kalshi_fees,
             kalshi_overhead,
-            kalshi_email,
-            kalshi_password,
+            kalshi_api_key,
+            private_key,
         )
         .await;
     });

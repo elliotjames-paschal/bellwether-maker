@@ -150,6 +150,10 @@ pub struct OpportunityWindow {
     pub duration_ms: Option<u64>,
     pub peak_nev: f64,
     pub peak_spread: f64,
+    pub current_nev: f64,
+    pub current_spread: f64,
+    pub current_depth: f64,
+    pub current_direction: String,
     pub update_count: u32,
     pub best_round_trip: Option<RoundTrip>,
     pub round_trip: Option<RoundTripDetail>,
@@ -219,11 +223,34 @@ pub struct MarketState {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct ExecutionRecord {
+    pub ticker: String,
+    pub executed_at: String,
+    pub direction: String,
+    pub shares: f64,
+    pub entry_platform: String,
+    pub entry_side: String,
+    pub entry_limit_price: f64,
+    pub entry_status: String,
+    pub entry_response: String,
+    pub exit_platform: String,
+    pub exit_side: String,
+    pub exit_limit_price: f64,
+    pub exit_status: String,
+    pub exit_response: String,
+    pub total_capital: f64,
+    pub expected_profit: f64,
+    pub expected_nev: f64,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct AppState {
     pub markets: HashMap<String, MarketState>,
     pub trades: Vec<TradeRecord>,
     #[serde(default)]
     pub executability: Vec<MarketExecutability>,
+    #[serde(default)]
+    pub executions: Vec<ExecutionRecord>,
 }
 
 impl Default for AppState {
@@ -232,6 +259,7 @@ impl Default for AppState {
             markets: HashMap::new(),
             trades: Vec::new(),
             executability: Vec::new(),
+            executions: Vec::new(),
         }
     }
 }
@@ -246,14 +274,23 @@ pub struct MatchedMarket {
 #[derive(Debug, Clone)]
 pub struct FeeRates {
     pub kalshi_fee: f64,
-    pub polymarket_fee: f64,
+    /// Polymarket base fee rate per token (key = token_id, value = base rate e.g. 0.04).
+    /// Actual fee per share = base_rate * price * (1 - price).
+    pub polymarket_fee_rates: std::collections::HashMap<String, f64>,
+}
+
+impl FeeRates {
+    /// Get the Polymarket base fee rate for a given token.
+    pub fn pm_rate(&self, token_id: &str) -> f64 {
+        self.polymarket_fee_rates.get(token_id).copied().unwrap_or(0.0)
+    }
 }
 
 impl Default for FeeRates {
     fn default() -> Self {
         Self {
             kalshi_fee: 0.0,
-            polymarket_fee: 0.0,
+            polymarket_fee_rates: std::collections::HashMap::new(),
         }
     }
 }

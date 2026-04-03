@@ -1,6 +1,14 @@
 use crate::types::{ExecutionOverhead, MarketExecutability, OpportunityWindow, TradeRecord};
+use chrono::{TimeZone, Utc};
 
 const REPORT_FILE: &str = "report.md";
+
+fn format_epoch_ms(ms: u64) -> String {
+    match Utc.timestamp_millis_opt(ms as i64) {
+        chrono::LocalResult::Single(dt) => dt.format("%H:%M:%S").to_string(),
+        _ => format!("{}", ms),
+    }
+}
 
 fn format_duration_human(ms: f64) -> String {
     if ms < 1000.0 {
@@ -81,30 +89,85 @@ pub fn write_report(
         out.push('\n');
     }
 
-    // Section 2: Opportunity windows from this session
-    out.push_str("## Opportunity Windows (This Session)\n\n");
-    if opportunities.is_empty() {
-        out.push_str("_No opportunity windows detected this session._\n\n");
+    // Section 2: Live open positions sorted by current NEV
+    let mut open: Vec<&OpportunityWindow> = opportunities
+        .iter()
+        .filter(|w| w.closed_at_ms.is_none())
+        .collect();
+    open.sort_by(|a, b| b.current_nev.partial_cmp(&a.current_nev).unwrap_or(std::cmp::Ordering::Equal));
+
+    let quality_count = open.iter().filter(|w| w.current_nev >= 0.03 && w.current_depth >= 200.0).count();
+    let total_quality_profit: f64 = open.iter()
+        .filter(|w| w.current_nev >= 0.03 && w.current_depth >= 200.0)
+        .map(|w| w.current_spread)
+        .sum();
+    let total_quality_capital: f64 = open.iter()
+        .filter(|w| w.current_nev >= 0.03 && w.current_depth >= 200.0)
+        .map(|w| w.current_depth)
+        .sum();
+
+    out.push_str("## Live Arb Opportunities\n\n");
+    out.push_str(&format!(
+        "**{} quality arbs** (NEV >= 3¢, depth >= $200) | Profit: **${:.2}** | Capital: **${:.2}**\n\n",
+        quality_count, total_quality_profit, total_quality_capital,
+    ));
+
+    if open.is_empty() {
+        out.push_str("_No open opportunities._\n\n");
     } else {
         out.push_str(
-            "| Ticker | Duration (ms) | Peak NEV | Peak Spread | Updates | Status |\n",
+            "| Ticker | NEV | Spread | Entry Cost | Full Std Cost | Shares | Direction | Updates |\n",
         );
         out.push_str(
-            "|--------|---------------|----------|-------------|---------|--------|\n",
+            "|--------|-----|--------|-----------|---------------|--------|-----------|--------|\n",
         );
-        for w in opportunities {
-            let duration = match w.duration_ms {
-                Some(d) => d.to_string(),
-                None => "open".to_string(),
-            };
-            let status = if w.closed_at_ms.is_some() {
-                "CLOSED"
-            } else {
-                "OPEN"
+        for w in &open {
+            let (full_std, shares) = match &w.round_trip {
+                Some(rd) => (
+                    format!("${:.0}", rd.cost_to_fully_standardize),
+                    format!("{:.0}", w.best_round_trip.as_ref().map(|rt| rt.shares_filled).unwrap_or(0.0)),
+                ),
+                None => ("--".to_string(), "--".to_string()),
             };
             out.push_str(&format!(
-                "| {} | {} | ${:.4} | ${:.4} | {} | {} |\n",
-                w.ticker, duration, w.peak_nev, w.peak_spread, w.update_count, status,
+                "| {} | {:.1}\u{00a2} | ${:.2} | ${:.0} | {} | {} | {} | {} |\n",
+                w.ticker, w.current_nev * 100.0, w.current_spread, w.current_depth, full_std, shares, w.current_direction, w.update_count,
+            ));
+        }
+        out.push('\n');
+    }
+
+    // Section 2b: Closed windows — full detail
+    let mut closed: Vec<&OpportunityWindow> = opportunities
+        .iter()
+        .filter(|w| w.closed_at_ms.is_some())
+        .collect();
+    closed.sort_by(|a, b| b.peak_nev.partial_cmp(&a.peak_nev).unwrap_or(std::cmp::Ordering::Equal));
+
+    if !closed.is_empty() {
+        out.push_str(&format!("## Closed Windows ({})\n\n", closed.len()));
+        out.push_str(
+            "| Ticker | Opened (UTC) | Duration | Peak NEV | Profit | Entry Cost | Full Std | Shares | Direction |\n",
+        );
+        out.push_str(
+            "|--------|-------------|----------|----------|--------|-----------|---------|--------|----------|\n",
+        );
+        for w in &closed {
+            let duration = format_duration_human(w.duration_ms.unwrap_or(0) as f64);
+            let opened = format_epoch_ms(w.opened_at_ms);
+            let (profit, entry_cost, full_std, shares, direction) = match &w.round_trip {
+                Some(rd) => (
+                    format!("${:.2}", rd.net_profit),
+                    format!("${:.0}", rd.cost_to_profitably_standardize),
+                    format!("${:.0}", rd.cost_to_fully_standardize),
+                    format!("{:.0}", w.best_round_trip.as_ref().map(|rt| rt.shares_filled).unwrap_or(0.0)),
+                    rd.direction.clone(),
+                ),
+                None => ("--".into(), "--".into(), "--".into(), "--".into(), "--".into()),
+            };
+            out.push_str(&format!(
+                "| {} | {} | {} | {:.1}\u{00a2} | {} | {} | {} | {} | {} |\n",
+                w.ticker, opened, duration, w.peak_nev * 100.0, profit, entry_cost, full_std, shares, direction,
             ));
         }
         out.push('\n');

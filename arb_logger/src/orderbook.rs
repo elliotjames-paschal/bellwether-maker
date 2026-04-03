@@ -1,4 +1,4 @@
-use crate::types::{FeeRates, FillEvent, LegDetail, PlatformBook, RoundTrip, RoundTripDetail};
+use crate::types::{FillEvent, LegDetail, PlatformBook, RoundTrip, RoundTripDetail};
 use ordered_float::OrderedFloat;
 use std::collections::BTreeMap;
 
@@ -10,10 +10,15 @@ fn snapshot_book(book: &BTreeMap<OrderedFloat<f64>, f64>) -> Vec<(f64, f64)> {
 /// Simulate a round-trip arb trade. Returns both the simple RoundTrip (for
 /// backward compat / scorer) and the full RoundTripDetail with book snapshots,
 /// leg details, and standardization costs.
+/// Simulate a round-trip arb trade.
+/// `kalshi_fee` is the flat Kalshi taker fee (currently 0).
+/// `pm_fee` is the Polymarket base fee rate for this specific token (e.g. 0.04).
+/// Polymarket fee per share = pm_fee * price * (1 - price).
 pub fn simulate_round_trip_btree(
     kalshi_book: &PlatformBook,
     polymarket_book: &PlatformBook,
-    fees: &FeeRates,
+    kalshi_fee: f64,
+    pm_fee: f64,
 ) -> Option<(RoundTrip, RoundTripDetail)> {
     // Snapshot all four sides of the market at this instant
     let kalshi_yes_asks = snapshot_book(&kalshi_book.asks);
@@ -33,8 +38,8 @@ pub fn simulate_round_trip_btree(
     let dir_a = try_direction_btree(
         &polymarket_book.asks,
         &kalshi_book.bids,
-        fees.polymarket_fee,
-        fees.kalshi_fee,
+        pm_fee,
+        kalshi_fee,
         "polymarket",
         "kalshi",
         "YES",
@@ -45,8 +50,8 @@ pub fn simulate_round_trip_btree(
     let dir_b = try_direction_btree(
         &kalshi_book.asks,
         &polymarket_book.bids,
-        fees.kalshi_fee,
-        fees.polymarket_fee,
+        kalshi_fee,
+        pm_fee,
         "kalshi",
         "polymarket",
         "YES",
@@ -120,16 +125,8 @@ pub fn simulate_round_trip_btree(
         } else {
             &polymarket_book.bids
         },
-        if rt.entry_platform == "polymarket" {
-            fees.polymarket_fee
-        } else {
-            fees.kalshi_fee
-        },
-        if rt.exit_platform == "kalshi" {
-            fees.kalshi_fee
-        } else {
-            fees.polymarket_fee
-        },
+        if rt.entry_platform == "polymarket" { pm_fee } else { kalshi_fee },
+        if rt.exit_platform == "kalshi" { kalshi_fee } else { pm_fee },
     );
 
     let detail = RoundTripDetail {
@@ -202,8 +199,10 @@ fn try_direction_btree(
         let (ask_price, _) = ask_levels[ask_idx];
         let (bid_price, _) = bid_levels[bid_idx];
 
-        let entry_cost_per_share = ask_price * (1.0 + entry_fee);
-        let exit_proceeds_per_share = bid_price * (1.0 - exit_fee);
+        // Polymarket fee formula: fee = rate * price * (1 - price)
+        // Kalshi fee is 0, so this formula works for both (0 * anything = 0)
+        let entry_cost_per_share = ask_price + entry_fee * ask_price * (1.0 - ask_price);
+        let exit_proceeds_per_share = bid_price - exit_fee * bid_price * (1.0 - bid_price);
 
         if exit_proceeds_per_share - entry_cost_per_share <= 0.0 {
             break;
@@ -348,8 +347,10 @@ fn compute_full_standardization_cost(
             break;
         }
 
-        let ask_price = ask_levels[ask_idx].0 * (1.0 + entry_fee);
-        let bid_price = bid_levels[bid_idx].0 * (1.0 - exit_fee);
+        let raw_ask = ask_levels[ask_idx].0;
+        let raw_bid = bid_levels[bid_idx].0;
+        let ask_price = raw_ask + entry_fee * raw_ask * (1.0 - raw_ask);
+        let bid_price = raw_bid - exit_fee * raw_bid * (1.0 - raw_bid);
 
         if ask_price >= bid_price {
             break;
