@@ -863,6 +863,39 @@
       "net_profit": 0.14999999999999858,
       "nev_per_share": 0.009999999999999905,
       "ann_return": 0.0221064744715642
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T16:41:25.693056+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 116.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 15.08,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 116.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 16.240000000000002,
+      "shares_filled": 116.0,
+      "shares_exited": 116.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.160000000000002,
+      "fees": 0.0,
+      "net_profit": 1.160000000000002,
+      "nev_per_share": 0.010000000000000016,
+      "ann_return": 0.13433934486566088
     }
   ],
   "executability": [
@@ -909,6 +942,17 @@
       "executable": false,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 0.0
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 839269.0,
+      "p50_duration_ms": 839269.0,
+      "p95_duration_ms": 839269.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 30.0
     }
   ],
   "executions": [],
@@ -997,9 +1041,39 @@
         "window_age_ms": 0,
         "resolution_date": "2026-11-03T15:00:00Z",
         "days_to_resolution": 209
+      },
+      {
+        "ticker": "BWR-TRUMP-VISIT-CN-PHYSICAL_PRESENCE-ANY-2026",
+        "opened_at": "2026-04-07T16:38:35.081922+00:00",
+        "hour_utc": 16,
+        "direction": "BUY_YES_KALSHI_YES_POLYMARKET",
+        "entry_platform": "kalshi",
+        "exit_platform": "polymarket",
+        "shares": 500.0,
+        "entry_cost": 431.08,
+        "exit_proceeds": 450.5,
+        "net_profit": 19.420000000000016,
+        "nev_per_share": 0.038840000000000034,
+        "gross_spread": 19.420000000000016,
+        "kalshi_internal_spread": 0.010000000000000009,
+        "pm_internal_spread": null,
+        "kalshi_depth": 431.08,
+        "pm_depth": 450.5,
+        "window_age_ms": 0,
+        "resolution_date": "2027-01-01T15:00:00Z",
+        "days_to_resolution": 268
       }
     ],
     "reentry_stats": {
+      "BWR-TRUMP-VISIT-CN-PHYSICAL_PRESENCE-ANY-2026": {
+        "ticker": "BWR-TRUMP-VISIT-CN-PHYSICAL_PRESENCE-ANY-2026",
+        "entry_count": 1,
+        "first_entry_at": "2026-04-07T16:38:35.081922+00:00",
+        "last_entry_at": "2026-04-07T16:38:35.081922+00:00",
+        "observation_hours": 0.0,
+        "avg_profit_per_entry": 19.420000000000016,
+        "avg_capital_per_entry": 431.08
+      },
       "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026": {
         "ticker": "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026",
         "entry_count": 1,
@@ -1037,9 +1111,9 @@
         "avg_capital_per_entry": 690.0
       }
     },
-    "peak_capital": 2662.5,
-    "current_capital": 2662.5,
-    "total_arb_profit": 97.5,
+    "peak_capital": 3093.58,
+    "current_capital": 3093.58,
+    "total_arb_profit": 116.92000000000002,
     "kalshi_apy": 0.035,
     "polymarket_apy": 0.04,
     "session_started_at": "2026-04-07T16:22:32.738963+00:00"
