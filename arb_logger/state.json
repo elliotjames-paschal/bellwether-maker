@@ -7110,6 +7110,69 @@
       "net_profit": 2.729600000000005,
       "nev_per_share": 0.01409480532892701,
       "ann_return": 0.05520305700591754
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-07T23:05:21.522563+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.34,
+          "size": 423.74,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.35,
+          "size": 76.25999999999999,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.35,
+          "size": 1.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.35,
+          "size": 30.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.3420199623352166,
+      "total_entry_cost": 181.61260000000001,
+      "exit_fills": [
+        {
+          "price": 0.396,
+          "size": 423.74,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.396,
+          "size": 76.25999999999999,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.39,
+          "size": 1.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.38,
+          "size": 30.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.39508474576271185,
+      "total_exit_proceeds": 209.79,
+      "shares_filled": 531.0,
+      "shares_exited": 531.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 28.177399999999977,
+      "fees": 0.0,
+      "net_profit": 28.177399999999977,
+      "nev_per_share": 0.05306478342749525,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -7475,6 +7538,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 28.6
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "window_count": 1,
+      "avg_duration_ms": 24123643.0,
+      "p50_duration_ms": 24123643.0,
+      "p95_duration_ms": 24123643.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 38.15
     }
   ],
   "executions": [],
