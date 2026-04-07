@@ -7173,6 +7173,39 @@
       "net_profit": 28.177399999999977,
       "nev_per_share": 0.05306478342749525,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-07T23:12:06.138689+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.34,
+          "size": 10.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.34,
+      "total_entry_cost": 3.4000000000000004,
+      "exit_fills": [
+        {
+          "price": 0.35,
+          "size": 10.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.35,
+      "total_exit_proceeds": 3.5,
+      "shares_filled": 10.0,
+      "shares_exited": 10.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.09999999999999964,
+      "fees": 0.0,
+      "net_profit": 0.09999999999999964,
+      "nev_per_share": 0.009999999999999964,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -7541,14 +7574,14 @@
     },
     {
       "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
-      "window_count": 1,
-      "avg_duration_ms": 24123643.0,
-      "p50_duration_ms": 24123643.0,
-      "p95_duration_ms": 24123643.0,
+      "window_count": 2,
+      "avg_duration_ms": 12066619.0,
+      "p50_duration_ms": 12066619.0,
+      "p95_duration_ms": 22917940.599999998,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 38.15
+      "avg_message_latency_ms": 42.74
     }
   ],
   "executions": [],
