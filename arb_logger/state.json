@@ -4462,6 +4462,39 @@
       "net_profit": 0.15570000000000128,
       "nev_per_share": 0.010000000000000082,
       "ann_return": 0.018383278771090555
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-07T20:08:18.149121+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 70,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 11.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 0.99,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 11.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 1.1,
+      "shares_filled": 11.0,
+      "shares_exited": 11.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1100000000000001,
+      "fees": 0.0,
+      "net_profit": 0.1100000000000001,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.57936507936508
     }
   ],
   "executability": [
@@ -4706,6 +4739,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 46.18
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "window_count": 1,
+      "avg_duration_ms": 41.0,
+      "p50_duration_ms": 41.0,
+      "p95_duration_ms": 41.0,
+      "execution_floor_ms": 2974.0,
+      "executable": false,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 51.22
     }
   ],
   "executions": [],
