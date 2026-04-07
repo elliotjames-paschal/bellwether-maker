@@ -2920,6 +2920,270 @@
       "net_profit": 0.015780000000000016,
       "nev_per_share": 0.001000000000000001,
       "ann_return": 0.09409641660221718
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:37:23.600717+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 16.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 2.24,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 16.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 2.4,
+      "shares_filled": 16.0,
+      "shares_exited": 16.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1599999999999997,
+      "fees": 0.0,
+      "net_profit": 0.1599999999999997,
+      "nev_per_share": 0.009999999999999981,
+      "ann_return": 0.04534161490683221
+    },
+    {
+      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-07T12:37:30.827630+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 269,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.19,
+          "size": 25.54,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.19,
+      "total_entry_cost": 4.8526,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 25.54,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.20000000000000004,
+      "total_exit_proceeds": 5.1080000000000005,
+      "shares_filled": 25.54,
+      "shares_exited": 25.54,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.25540000000000074,
+      "fees": 0.0,
+      "net_profit": 0.25540000000000074,
+      "nev_per_share": 0.01000000000000003,
+      "ann_return": 0.07141459596947781
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:38:23.062597+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.2,
+          "size": 12.65,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.2,
+      "total_entry_cost": 2.5300000000000002,
+      "exit_fills": [
+        {
+          "price": 0.21,
+          "size": 12.65,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.21,
+      "total_exit_proceeds": 2.6565,
+      "shares_filled": 12.65,
+      "shares_exited": 12.65,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1264999999999996,
+      "fees": 0.0,
+      "net_profit": 0.1264999999999996,
+      "nev_per_share": 0.009999999999999969,
+      "ann_return": 0.031739130434782506
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:38:25.680290+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.2,
+          "size": 12.65,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.2,
+      "total_entry_cost": 2.5300000000000002,
+      "exit_fills": [
+        {
+          "price": 0.21,
+          "size": 12.65,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.21,
+      "total_exit_proceeds": 2.6565,
+      "shares_filled": 12.65,
+      "shares_exited": 12.65,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1264999999999996,
+      "fees": 0.0,
+      "net_profit": 0.1264999999999996,
+      "nev_per_share": 0.009999999999999969,
+      "ann_return": 0.031739130434782506
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:40:38.449652+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 7.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 6.44,
+      "exit_fills": [
+        {
+          "price": 0.93,
+          "size": 7.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.93,
+      "total_exit_proceeds": 6.510000000000001,
+      "shares_filled": 7.0,
+      "shares_exited": 7.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.07000000000000028,
+      "fees": 0.0,
+      "net_profit": 0.07000000000000028,
+      "nev_per_share": 0.01000000000000004,
+      "ann_return": 0.006899810964083203
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:41:22.147975+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 431,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09409641660221718
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:41:27.993491+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 16.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 2.24,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 16.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 2.4,
+      "shares_filled": 16.0,
+      "shares_exited": 16.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1599999999999997,
+      "fees": 0.0,
+      "net_profit": 0.1599999999999997,
+      "nev_per_share": 0.009999999999999981,
+      "ann_return": 0.04534161490683221
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T12:41:29.182687+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 2.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 0.28,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 2.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 0.3,
+      "shares_filled": 2.0,
+      "shares_exited": 2.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.019999999999999962,
+      "fees": 0.0,
+      "net_profit": 0.019999999999999962,
+      "nev_per_share": 0.009999999999999981,
+      "ann_return": 0.04534161490683221
     }
   ],
   "executability": [
@@ -3023,17 +3287,6 @@
       "avg_message_latency_ms": 6.19
     },
     {
-      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 15810.285714285714,
-      "p50_duration_ms": 15439.0,
-      "p95_duration_ms": 23094.199999999993,
-      "execution_floor_ms": 2973.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 2.761904761904762
-    },
-    {
       "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 6,
       "avg_duration_ms": 4039666.0,
@@ -3043,17 +3296,6 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 0.45652173913043476
-    },
-    {
-      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
-      "window_count": 10,
-      "avg_duration_ms": 1700026.9,
-      "p50_duration_ms": 68543.0,
-      "p95_duration_ms": 8860874.199999982,
-      "execution_floor_ms": 2973.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": -3.54
     },
     {
       "ticker": "BWR-TRUMP-VISIT-TR-PHYSICAL_PRESENCE-ANY-2026",
@@ -3078,37 +3320,59 @@
       "avg_message_latency_ms": 15.8
     },
     {
+      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
+      "window_count": 8,
+      "avg_duration_ms": 14818.875,
+      "p50_duration_ms": 15152.0,
+      "p95_duration_ms": 22588.899999999994,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 12.789473684210526
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "window_count": 12,
+      "avg_duration_ms": 1416811.3333333333,
+      "p50_duration_ms": 66386.5,
+      "p95_duration_ms": 7370059.79999999,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 42.06
+    },
+    {
       "ticker": "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 293388.3333333333,
-      "p50_duration_ms": 341913.0,
-      "p95_duration_ms": 403940.10000000003,
+      "window_count": 4,
+      "avg_duration_ms": 270949.5,
+      "p50_duration_ms": 272773.0,
+      "p95_duration_ms": 400494.14999999997,
       "execution_floor_ms": 2973.0,
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 19.75
     },
     {
-      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 80732.66666666667,
-      "p50_duration_ms": 837.0,
-      "p95_duration_ms": 217066.5,
-      "execution_floor_ms": 2973.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 19.523076923076925
-    },
-    {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 8,
-      "avg_duration_ms": 1540218.25,
-      "p50_duration_ms": 202870.0,
-      "p95_duration_ms": 5862522.8999999985,
+      "window_count": 9,
+      "avg_duration_ms": 1390671.2222222222,
+      "p50_duration_ms": 194295.0,
+      "p95_duration_ms": 5752893.6,
       "execution_floor_ms": 2973.0,
       "executable": true,
       "confidence": "LOW",
-      "avg_message_latency_ms": 37.59
+      "avg_message_latency_ms": 37.15
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "window_count": 6,
+      "avg_duration_ms": 121674.33333333333,
+      "p50_duration_ms": 120964.5,
+      "p95_duration_ms": 244097.5,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 17.314606741573034
     }
   ],
   "executions": [],
