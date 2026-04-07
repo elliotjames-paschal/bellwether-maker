@@ -336,6 +336,21 @@ async fn run() -> Result<(), String> {
                 );
             }
 
+            // Auto-push dashboard to GitHub every 5 minutes (every 10 ticks)
+            if tick % 10 == 0 && tick > 0 {
+                tokio::task::spawn_blocking(|| {
+                    let _ = std::process::Command::new("git")
+                        .args(["add", "dashboard.md", "state.json", "report.md"])
+                        .status();
+                    let _ = std::process::Command::new("git")
+                        .args(["commit", "-m", "Update dashboard"])
+                        .status();
+                    let _ = std::process::Command::new("git")
+                        .args(["push"])
+                        .status();
+                });
+            }
+
             // Heartbeat every 60s (every 2 ticks since tick interval is 30s)
             if tick % 2 == 0 {
                 let open_windows = opportunities
