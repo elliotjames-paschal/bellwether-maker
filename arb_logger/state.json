@@ -4914,6 +4914,204 @@
       "net_profit": 0.015780000000000016,
       "nev_per_share": 0.001000000000000001,
       "ann_return": 0.09431524547803628
+    },
+    {
+      "ticker": "BWR-WILSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:08:08.075720+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 574,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.31000000000000005,
+          "size": 38.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.31000000000000005,
+      "total_entry_cost": 11.780000000000001,
+      "exit_fills": [
+        {
+          "price": 0.34,
+          "size": 38.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.34,
+      "total_exit_proceeds": 12.920000000000002,
+      "shares_filled": 38.0,
+      "shares_exited": 38.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1400000000000006,
+      "fees": 0.0,
+      "net_profit": 1.1400000000000006,
+      "nev_per_share": 0.030000000000000016,
+      "ann_return": 0.06153759694278973
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:09:52.134351+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 574,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.31000000000000005,
+          "size": 8.36,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.31000000000000005,
+      "total_entry_cost": 2.5916,
+      "exit_fills": [
+        {
+          "price": 0.315,
+          "size": 8.36,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.315,
+      "total_exit_proceeds": 2.6334,
+      "shares_filled": 8.36,
+      "shares_exited": 8.36,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.04179999999999984,
+      "fees": 0.0,
+      "net_profit": 0.04179999999999984,
+      "nev_per_share": 0.004999999999999981,
+      "ann_return": 0.010256266157131577
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:09:52.234160+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 574,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.31000000000000005,
+          "size": 8.36,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.31000000000000005,
+      "total_entry_cost": 2.5916,
+      "exit_fills": [
+        {
+          "price": 0.314,
+          "size": 8.36,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.314,
+      "total_exit_proceeds": 2.62504,
+      "shares_filled": 8.36,
+      "shares_exited": 8.36,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.03343999999999969,
+      "fees": 0.0,
+      "net_profit": 0.03343999999999969,
+      "nev_per_share": 0.003999999999999964,
+      "ann_return": 0.008205012925705218
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:09:52.439719+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 574,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.31000000000000005,
+          "size": 8.36,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.31000000000000005,
+      "total_entry_cost": 2.5916,
+      "exit_fills": [
+        {
+          "price": 0.313,
+          "size": 8.36,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.313,
+      "total_exit_proceeds": 2.6166799999999997,
+      "shares_filled": 8.36,
+      "shares_exited": 8.36,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.025079999999999547,
+      "fees": 0.0,
+      "net_profit": 0.025079999999999547,
+      "nev_per_share": 0.002999999999999946,
+      "ann_return": 0.006153759694278859
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:09:52.514313+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 574,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.31000000000000005,
+          "size": 8.36,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.31000000000000005,
+      "total_entry_cost": 2.5916,
+      "exit_fills": [
+        {
+          "price": 0.312,
+          "size": 8.36,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.312,
+      "total_exit_proceeds": 2.60832,
+      "shares_filled": 8.36,
+      "shares_exited": 8.36,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.016719999999999846,
+      "fees": 0.0,
+      "net_profit": 0.016719999999999846,
+      "nev_per_share": 0.001999999999999982,
+      "ann_return": 0.004102506462852609
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:11:14.060228+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09431524547803628
     }
   ],
   "executability": [
@@ -5061,17 +5259,6 @@
       "avg_message_latency_ms": 43.55
     },
     {
-      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 3469131.1428571427,
-      "p50_duration_ms": 165.0,
-      "p95_duration_ms": 12877242.599999998,
-      "execution_floor_ms": 2973.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 53.73
-    },
-    {
       "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 764298.0,
@@ -5081,17 +5268,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 58.38
-    },
-    {
-      "ticker": "BWR-WILSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 128454.85714285714,
-      "p50_duration_ms": 15123.0,
-      "p95_duration_ms": 407939.29999999993,
-      "execution_floor_ms": 2973.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 58.72
     },
     {
       "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
@@ -5116,15 +5292,37 @@
       "avg_message_latency_ms": 57.05
     },
     {
+      "ticker": "BWR-WILSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 8,
+      "avg_duration_ms": 129061.875,
+      "p50_duration_ms": 36981.5,
+      "p95_duration_ms": 406977.85,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 57.55
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "window_count": 11,
+      "avg_duration_ms": 2207649.272727273,
+      "p50_duration_ms": 47.0,
+      "p95_duration_ms": 12118857.0,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 56.13
+    },
+    {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 32,
-      "avg_duration_ms": 550104.46875,
-      "p50_duration_ms": 180569.5,
-      "p95_duration_ms": 2289975.3499999973,
+      "window_count": 33,
+      "avg_duration_ms": 539625.2424242424,
+      "p50_duration_ms": 180613.0,
+      "p95_duration_ms": 2094760.1999999946,
       "execution_floor_ms": 2973.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 56.79
+      "avg_message_latency_ms": 56.32
     }
   ],
   "executions": [],
