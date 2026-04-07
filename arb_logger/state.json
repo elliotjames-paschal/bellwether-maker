@@ -754,6 +754,72 @@
       "net_profit": 0.08691999999999961,
       "nev_per_share": 0.003999999999999982,
       "ann_return": 0.12695652173912975
+    },
+    {
+      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-07T05:36:54.862870+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 269,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.19,
+          "size": 25.54,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.19,
+      "total_entry_cost": 4.8526,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 25.54,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.20000000000000004,
+      "total_exit_proceeds": 5.1080000000000005,
+      "shares_filled": 25.54,
+      "shares_exited": 25.54,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.25540000000000074,
+      "fees": 0.0,
+      "net_profit": 0.25540000000000074,
+      "nev_per_share": 0.01000000000000003,
+      "ann_return": 0.07141459596947781
+    },
+    {
+      "ticker": "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-07T05:39:39.333372+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.85,
+          "size": 7.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.85,
+      "total_entry_cost": 5.95,
+      "exit_fills": [
+        {
+          "price": 0.86,
+          "size": 7.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.86,
+      "total_exit_proceeds": 6.02,
+      "shares_filled": 7.0,
+      "shares_exited": 7.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.0699999999999994,
+      "fees": 0.0,
+      "net_profit": 0.0699999999999994,
+      "nev_per_share": 0.009999999999999913,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -767,6 +833,28 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": -32.77777777777778
+    },
+    {
+      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 15518.0,
+      "p50_duration_ms": 15518.0,
+      "p95_duration_ms": 15518.0,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 21.0
+    },
+    {
+      "ticker": "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 1158781.0,
+      "p50_duration_ms": 1158781.0,
+      "p95_duration_ms": 1158781.0,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 13.67
     }
   ],
   "executions": [],
