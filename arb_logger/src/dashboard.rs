@@ -2,7 +2,7 @@ use crate::simulator;
 use crate::types::SimulatorState;
 use chrono::{DateTime, Utc};
 
-const DASHBOARD_FILE: &str = "dashboard.md";
+const DASHBOARD_FILE: &str = "../dashboard.md";
 
 pub fn write_dashboard(simulator: &SimulatorState) -> Result<(), String> {
     let mut out = String::new();
