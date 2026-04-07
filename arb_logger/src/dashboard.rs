@@ -110,11 +110,11 @@ pub fn write_dashboard(simulator: &SimulatorState) -> Result<(), String> {
     // ---------------------------------------------------------------------------
     out.push_str("## Platform Yield Rates\n\n");
     out.push_str(&format!(
-        "| Platform | APY | Source |\n|----------|-----|--------|\n| Kalshi | {:.1}% | Interest on cash + positions |\n| Polymarket | {:.1}% | Position yield on eligible markets |\n\n",
+        "| Platform | APY | Applies To |\n|----------|-----|------------|\n| Kalshi | {:.1}% | All positions + cash (min $250 balance) |\n| Polymarket | {:.1}% | **13 specific aggregate markets only** (not individual races) |\n\n",
         simulator.kalshi_apy * 100.0,
         simulator.polymarket_apy * 100.0,
     ));
-    out.push_str("_Both legs of each arb earn yield independently. Entry cost earns yield on the entry platform; exit proceeds earn yield on the exit platform._\n\n");
+    out.push_str("_Our individual race arbs earn yield only on the Kalshi leg. Polymarket's 4% yield is limited to broad markets like \"Balance of Power: 2026 Midterms\" and \"Which party wins the House?\", not individual district races._\n\n");
 
     // ---------------------------------------------------------------------------
     // Per-Market Positions
@@ -287,12 +287,11 @@ pub fn write_dashboard(simulator: &SimulatorState) -> Result<(), String> {
     out.push_str("|--------|-------------|\n");
     out.push_str("| **Realized arb profit** | Sum of `net_profit` across all paper trades. Each trade's profit = `exit_proceeds - entry_cost`, computed by walking both order books and matching shares at each price level until the spread is consumed. |\n");
     out.push_str(&format!(
-        "| **Yield on positions** | For each position: `(entry_cost × entry_platform_APY + exit_proceeds × exit_platform_APY) × (days_to_resolution / 365)`. Both legs earn yield independently — Kalshi pays {:.1}% APY on all positions, Polymarket pays {:.1}% APY on eligible markets. |\n",
+        "| **Yield on positions** | For each position, only the Kalshi leg earns yield: `kalshi_leg_value × {:.1}% × (days_to_resolution / 365)`. Polymarket's 4% yield applies only to 13 specific aggregate markets, not individual race contracts. |\n",
         simulator.kalshi_apy * 100.0,
-        simulator.polymarket_apy * 100.0,
     ));
     out.push_str("| **Projected future arb** | For each market: `projected_reentries × avg_profit_per_entry`. Projected re-entries use the sqrt discount model (see below). |\n");
-    out.push_str("| **Projected future yield** | For each market: `projected_reentries × avg_capital_per_entry × avg_APY × (days_remaining / 2) / 365`. Uses half the remaining days because future positions are opened over time, not all at once. |\n");
+    out.push_str("| **Projected future yield** | For each market: `projected_reentries × avg_capital_per_entry × 0.5 × kalshi_APY × (days_remaining / 2) / 365`. Factor of 0.5 because only the Kalshi leg earns yield. Half remaining days because future positions open over time. |\n");
     out.push_str("| **Projected total return** | `realized_arb + yield_on_positions + projected_future_arb + projected_future_yield` |\n\n");
 
     out.push_str("### Capital Requirements\n\n");

@@ -1,47 +1,45 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-04-07 16:21:24 UTC_
+_Last updated: 2026-04-07 16:23:11 UTC_
 
-**Session**: 10m | **Markets with positions**: 4 | **Total paper trades**: 4
+**Session**: 0m | **Markets with positions**: 2 | **Total paper trades**: 2
 
 ## P&L Summary
 
 | Metric | Value |
 |--------|-------|
-| Realized arb profit | **$124.62** |
-| Yield on positions (to resolution) | **$155.68** |
-| **Realized + yield** | **$280.30** |
+| Realized arb profit | **$50.00** |
+| Yield on positions (to resolution) | **$27.31** |
+| **Realized + yield** | **$77.31** |
 | Projected future arb (sqrt-discounted) | $0.00 |
 | Projected future yield | $0.00 |
-| **Projected total return** | **$280.30** |
+| **Projected total return** | **$77.31** |
 
 ## Capital Requirements
 
 | Metric | Value |
 |--------|-------|
-| Current capital deployed | $3566.98 |
-| Peak capital observed | $3566.98 |
-| Projected peak capital (incl. re-entries) | **$3566.98** |
-| Projected ROI on current capital | 7.9% |
-| Projected ROI on projected peak capital | 7.9% |
+| Current capital deployed | $1312.50 |
+| Peak capital observed | $1312.50 |
+| Projected peak capital (incl. re-entries) | **$1312.50** |
+| Projected ROI on current capital | 5.9% |
+| Projected ROI on projected peak capital | 5.9% |
 
 ## Platform Yield Rates
 
-| Platform | APY | Source |
-|----------|-----|--------|
-| Kalshi | 3.5% | Interest on cash + positions |
-| Polymarket | 4.0% | Position yield on eligible markets |
+| Platform | APY | Applies To |
+|----------|-----|------------|
+| Kalshi | 3.5% | All positions + cash (min $250 balance) |
+| Polymarket | 4.0% | **13 specific aggregate markets only** (not individual races) |
 
-_Both legs of each arb earn yield independently. Entry cost earns yield on the entry platform; exit proceeds earn yield on the exit platform._
+_Our individual race arbs earn yield only on the Kalshi leg. Polymarket's 4% yield is limited to broad markets like "Balance of Power: 2026 Midterms" and "Which party wins the House?", not individual district races._
 
 ## Open Positions
 
 | Market | Entries | Capital | Arb Profit | Yield (est.) | Days Left | Direction |
 |--------|---------|---------|------------|-------------|-----------|----------|
-| HOUSE_MA09 | 1 | $690.00 | $22.50 | $30.08 | 209 | PM→K |
-| HOUSE_GA-08 | 1 | $1526.98 | $54.62 | $66.67 | 209 | PM→K |
-| HOUSE_GA-09 | 1 | $690.00 | $22.50 | $30.08 | 209 | PM→K |
-| HOUSE_TX36 | 1 | $660.00 | $25.00 | $28.84 | 209 | PM→K |
+| HOUSE_GA-12 | 1 | $645.00 | $25.00 | $28.20 | 209 | PM→K |
+| HOUSE_TN07 | 1 | $667.50 | $25.00 | $29.17 | 209 | PM→K |
 
 ## Re-entry Analysis
 
@@ -49,19 +47,15 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 
 | Market | Observed | Obs. Hours | Rate/Day | Projected | Avg Profit | Projected Profit |
 |--------|----------|------------|----------|-----------|------------|------------------|
-| HOUSE_MA09 | 1 | 0.0h | 0.0/d | 0 | $22.50 | $0.00 |
-| HOUSE_TX36 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
-| HOUSE_GA-08 | 1 | 0.0h | 0.0/d | 0 | $54.62 | $0.00 |
-| HOUSE_GA-09 | 1 | 0.0h | 0.0/d | 0 | $22.50 | $0.00 |
+| HOUSE_GA-12 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
+| HOUSE_TN07 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 
 ## Recent Paper Trades (last 20)
 
 | Time (UTC) | Market | Shares | Capital | Profit | NEV | Direction |
 |------------|--------|--------|---------|--------|-----|----------|
-| 16:14:41 | HOUSE_GA-09 | 750 | $690.00 | $22.50 | 3.0¢ | PM→K |
-| 16:14:41 | HOUSE_MA09 | 750 | $690.00 | $22.50 | 3.0¢ | PM→K |
-| 16:13:09 | HOUSE_GA-08 | 1678 | $1526.98 | $54.62 | 3.3¢ | PM→K |
-| 16:11:52 | HOUSE_TX36 | 750 | $660.00 | $25.00 | 3.3¢ | PM→K |
+| 16:23:10 | HOUSE_GA-12 | 750 | $645.00 | $25.00 | 3.3¢ | PM→K |
+| 16:22:42 | HOUSE_TN07 | 750 | $667.50 | $25.00 | 3.3¢ | PM→K |
 
 ---
 
@@ -72,9 +66,9 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 | Metric | Calculation |
 |--------|-------------|
 | **Realized arb profit** | Sum of `net_profit` across all paper trades. Each trade's profit = `exit_proceeds - entry_cost`, computed by walking both order books and matching shares at each price level until the spread is consumed. |
-| **Yield on positions** | For each position: `(entry_cost × entry_platform_APY + exit_proceeds × exit_platform_APY) × (days_to_resolution / 365)`. Both legs earn yield independently — Kalshi pays 3.5% APY on all positions, Polymarket pays 4.0% APY on eligible markets. |
+| **Yield on positions** | For each position, only the Kalshi leg earns yield: `kalshi_leg_value × 3.5% × (days_to_resolution / 365)`. Polymarket's 4% yield applies only to 13 specific aggregate markets, not individual race contracts. |
 | **Projected future arb** | For each market: `projected_reentries × avg_profit_per_entry`. Projected re-entries use the sqrt discount model (see below). |
-| **Projected future yield** | For each market: `projected_reentries × avg_capital_per_entry × avg_APY × (days_remaining / 2) / 365`. Uses half the remaining days because future positions are opened over time, not all at once. |
+| **Projected future yield** | For each market: `projected_reentries × avg_capital_per_entry × 0.5 × kalshi_APY × (days_remaining / 2) / 365`. Factor of 0.5 because only the Kalshi leg earns yield. Half remaining days because future positions open over time. |
 | **Projected total return** | `realized_arb + yield_on_positions + projected_future_arb + projected_future_yield` |
 
 ### Capital Requirements

@@ -271,30 +271,33 @@ pub fn project_total_return(simulator: &SimulatorState) -> ProjectedReturn {
     }
 
     // Yield on current positions (held to resolution)
+    // Polymarket 4% APY only applies to 13 specific aggregate markets, NOT individual races.
+    // Individual race arbs (which are all our positions) earn 0% on Polymarket.
+    // Kalshi pays 3.5% on all positions.
     let mut total_yield = 0.0;
     for pos in &simulator.positions {
         let days = pos.days_to_resolution.unwrap_or(0).max(0) as f64;
         let years = days / 365.0;
 
-        // Entry leg earns yield on the entry platform
+        // Only Kalshi legs earn yield. Polymarket individual race positions earn 0%.
         let entry_apy = if pos.entry_platform == "kalshi" {
             simulator.kalshi_apy
         } else {
-            simulator.polymarket_apy
+            0.0
         };
-        // Exit leg earns yield on the exit platform
         let exit_apy = if pos.exit_platform == "kalshi" {
             simulator.kalshi_apy
         } else {
-            simulator.polymarket_apy
+            0.0
         };
 
-        // Entry cost earns entry_apy, exit proceeds are locked earning exit_apy
         total_yield += pos.entry_cost * entry_apy * years;
         total_yield += pos.exit_proceeds * exit_apy * years;
     }
 
-    // Projected yield on future positions (rough estimate)
+    // Projected yield on future positions
+    // Only Kalshi leg earns yield, so use kalshi_apy on ~half the capital
+    // (roughly one leg is Kalshi, one is Polymarket)
     let mut projected_yield = 0.0;
     for (ticker, stats) in &simulator.reentry_stats {
         let days_left = simulator
@@ -305,11 +308,9 @@ pub fn project_total_return(simulator: &SimulatorState) -> ProjectedReturn {
 
         let days = days_left.unwrap_or(0).max(0) as f64;
         let future_entries = project_reentries(stats, days_left);
-        // Average of both platform APYs for simplicity
-        let avg_apy = (simulator.kalshi_apy + simulator.polymarket_apy) / 2.0;
-        // Each future position held for ~half the remaining time on average
+        // Only Kalshi leg earns yield — roughly half the capital per trade
         let avg_hold_years = (days / 2.0) / 365.0;
-        projected_yield += future_entries * stats.avg_capital_per_entry * avg_apy * avg_hold_years;
+        projected_yield += future_entries * stats.avg_capital_per_entry * 0.5 * simulator.kalshi_apy * avg_hold_years;
     }
 
     ProjectedReturn {
