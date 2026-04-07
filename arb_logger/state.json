@@ -820,6 +820,72 @@
       "net_profit": 0.0699999999999994,
       "nev_per_share": 0.009999999999999913,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_NM-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T05:52:29.248272+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.956,
+          "size": 29.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.956,
+      "total_entry_cost": 27.724,
+      "exit_fills": [
+        {
+          "price": 0.96,
+          "size": 29.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.96,
+      "total_exit_proceeds": 27.84,
+      "shares_filled": 29.0,
+      "shares_exited": 29.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.11599999999999966,
+      "fees": 0.0,
+      "net_profit": 0.11599999999999966,
+      "nev_per_share": 0.003999999999999988,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_NM-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T05:56:08.937021+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.955,
+          "size": 13.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.955,
+      "total_entry_cost": 12.415,
+      "exit_fills": [
+        {
+          "price": 0.96,
+          "size": 13.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9600000000000001,
+      "total_exit_proceeds": 12.48,
+      "shares_filled": 13.0,
+      "shares_exited": 13.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.06500000000000128,
+      "fees": 0.0,
+      "net_profit": 0.06500000000000128,
+      "nev_per_share": 0.005000000000000098,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -855,6 +921,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 13.67
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_NM-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 279336.0,
+      "p50_duration_ms": 279336.0,
+      "p95_duration_ms": 333525.89999999997,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 23.857142857142858
     }
   ],
   "executions": [],
