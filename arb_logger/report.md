@@ -4,11 +4,11 @@
 
 Execution floor breakdown:
   Polygon settlement:      2500ms
-  Kalshi network:          881ms
-  Polymarket network:      312ms
+  Kalshi network:          258ms
+  Polymarket network:      249ms
   Order construction:      ~0ms
   VPN overhead:            0ms
-  Total floor:             3693ms
+  Total floor:             3007ms
 
 _Note: VPN overhead is 0ms. Set VPN\_OVERHEAD\_MS env var to your measured value before interpreting executability scores._
 
