@@ -339,19 +339,28 @@ async fn run() -> Result<(), String> {
             // Auto-push dashboard to GitHub every 5 minutes (every 10 ticks)
             if tick % 10 == 0 && tick > 0 {
                 tokio::task::spawn_blocking(|| {
-                    let repo_root = std::path::Path::new("..");
-                    let _ = std::process::Command::new("git")
-                        .current_dir(repo_root)
-                        .args(["add", "dashboard.md", "arb_logger/state.json", "arb_logger/report.md"])
-                        .status();
-                    let _ = std::process::Command::new("git")
-                        .current_dir(repo_root)
-                        .args(["commit", "-m", "Update dashboard"])
-                        .status();
-                    let _ = std::process::Command::new("git")
-                        .current_dir(repo_root)
-                        .args(["push"])
-                        .status();
+                    // Use absolute path to repo root to avoid CWD issues
+                    let repo_root = match std::env::current_dir() {
+                        Ok(cwd) => cwd.parent().map(|p| p.to_path_buf()).unwrap_or(cwd),
+                        Err(_) => return,
+                    };
+                    let git = |args: &[&str]| {
+                        let output = std::process::Command::new("git")
+                            .current_dir(&repo_root)
+                            .args(args)
+                            .output();
+                        if let Ok(out) = &output {
+                            if !out.status.success() {
+                                let stderr = String::from_utf8_lossy(&out.stderr);
+                                if !stderr.is_empty() {
+                                    eprintln!("[GIT] {:?} failed: {}", args, stderr.trim());
+                                }
+                            }
+                        }
+                    };
+                    git(&["add", "dashboard.md", "arb_logger/state.json", "arb_logger/report.md"]);
+                    git(&["commit", "-m", "Update dashboard"]);
+                    git(&["push"]);
                 });
             }
 
