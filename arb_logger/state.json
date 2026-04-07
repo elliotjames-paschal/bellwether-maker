@@ -754,6 +754,39 @@
       "net_profit": 0.0699999999999994,
       "nev_per_share": 0.009999999999999913,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:59:04.395956+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09431524547803623
     }
   ],
   "executability": [
@@ -767,6 +800,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": -0.8333333333333334
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 178518.0,
+      "p50_duration_ms": 178518.0,
+      "p95_duration_ms": 178518.0,
+      "execution_floor_ms": 2880.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 5.0
     }
   ],
   "executions": [],
@@ -834,6 +878,69 @@
         "window_age_ms": 0,
         "resolution_date": "2027-11-03T15:00:00Z",
         "days_to_resolution": 574
+      },
+      {
+        "ticker": "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026",
+        "opened_at": "2026-04-07T15:55:53.379613+00:00",
+        "hour_utc": 15,
+        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
+        "entry_platform": "polymarket",
+        "exit_platform": "kalshi",
+        "shares": 750.0,
+        "entry_cost": 690.0,
+        "exit_proceeds": 712.5,
+        "net_profit": 22.5,
+        "nev_per_share": 0.03,
+        "gross_spread": 22.5,
+        "kalshi_internal_spread": 0.010000000000000009,
+        "pm_internal_spread": 0.4,
+        "kalshi_depth": 712.5,
+        "pm_depth": 690.0,
+        "window_age_ms": 0,
+        "resolution_date": "2027-11-03T15:00:00Z",
+        "days_to_resolution": 574
+      },
+      {
+        "ticker": "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026",
+        "opened_at": "2026-04-07T15:55:53.542229+00:00",
+        "hour_utc": 15,
+        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
+        "entry_platform": "polymarket",
+        "exit_platform": "kalshi",
+        "shares": 750.0,
+        "entry_cost": 690.0,
+        "exit_proceeds": 712.5,
+        "net_profit": 22.5,
+        "nev_per_share": 0.03,
+        "gross_spread": 22.5,
+        "kalshi_internal_spread": 0.010000000000000009,
+        "pm_internal_spread": 0.48000000000000004,
+        "kalshi_depth": 712.5,
+        "pm_depth": 690.0,
+        "window_age_ms": 0,
+        "resolution_date": "2027-11-03T15:00:00Z",
+        "days_to_resolution": 574
+      },
+      {
+        "ticker": "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026",
+        "opened_at": "2026-04-07T15:56:31.296050+00:00",
+        "hour_utc": 15,
+        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
+        "entry_platform": "polymarket",
+        "exit_platform": "kalshi",
+        "shares": 750.0,
+        "entry_cost": 667.5,
+        "exit_proceeds": 692.5,
+        "net_profit": 25.0,
+        "nev_per_share": 0.03333333333333333,
+        "gross_spread": 25.0,
+        "kalshi_internal_spread": 0.029999999999999916,
+        "pm_internal_spread": 0.020000000000000018,
+        "kalshi_depth": 692.5,
+        "pm_depth": 667.5,
+        "window_age_ms": 0,
+        "resolution_date": "2027-11-03T15:00:00Z",
+        "days_to_resolution": 574
       }
     ],
     "reentry_stats": {
@@ -846,6 +953,33 @@
         "avg_profit_per_entry": 14.649999999999977,
         "avg_capital_per_entry": 357.135
       },
+      "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
+        "entry_count": 1,
+        "first_entry_at": "2026-04-07T15:55:17.814243+00:00",
+        "last_entry_at": "2026-04-07T15:55:17.814243+00:00",
+        "observation_hours": 0.0,
+        "avg_profit_per_entry": 25.0,
+        "avg_capital_per_entry": 660.0
+      },
+      "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026",
+        "entry_count": 1,
+        "first_entry_at": "2026-04-07T15:55:53.379613+00:00",
+        "last_entry_at": "2026-04-07T15:55:53.379613+00:00",
+        "observation_hours": 0.0,
+        "avg_profit_per_entry": 22.5,
+        "avg_capital_per_entry": 690.0
+      },
+      "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026",
+        "entry_count": 1,
+        "first_entry_at": "2026-04-07T15:56:31.296050+00:00",
+        "last_entry_at": "2026-04-07T15:56:31.296050+00:00",
+        "observation_hours": 0.0,
+        "avg_profit_per_entry": 25.0,
+        "avg_capital_per_entry": 667.5
+      },
       "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026": {
         "ticker": "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026",
         "entry_count": 1,
@@ -855,19 +989,19 @@
         "avg_profit_per_entry": 25.0,
         "avg_capital_per_entry": 645.0
       },
-      "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026": {
-        "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
+      "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026",
         "entry_count": 1,
-        "first_entry_at": "2026-04-07T15:55:17.814243+00:00",
-        "last_entry_at": "2026-04-07T15:55:17.814243+00:00",
+        "first_entry_at": "2026-04-07T15:55:53.542229+00:00",
+        "last_entry_at": "2026-04-07T15:55:53.542229+00:00",
         "observation_hours": 0.0,
-        "avg_profit_per_entry": 25.0,
-        "avg_capital_per_entry": 660.0
+        "avg_profit_per_entry": 22.5,
+        "avg_capital_per_entry": 690.0
       }
     },
-    "peak_capital": 1662.135,
-    "current_capital": 1662.135,
-    "total_arb_profit": 64.64999999999998,
+    "peak_capital": 3709.635,
+    "current_capital": 3709.635,
+    "total_arb_profit": 134.64999999999998,
     "kalshi_apy": 0.035,
     "polymarket_apy": 0.04,
     "session_started_at": "2026-04-07T15:52:14.538643+00:00"
