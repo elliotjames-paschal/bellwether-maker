@@ -6390,6 +6390,92 @@
       "net_profit": 0.010080000000000006,
       "nev_per_share": 0.0010000000000000005,
       "ann_return": 0.09431524547803623
+    },
+    {
+      "ticker": "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T22:22:04.589225+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 521.55,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.01,
+          "size": 38.450000000000045,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.01,
+          "size": 61.549999999999955,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009160888102324832,
+      "total_entry_cost": 5.693949999999999,
+      "exit_fills": [
+        {
+          "price": 0.06,
+          "size": 521.55,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.06,
+          "size": 38.450000000000045,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.04,
+          "size": 61.549999999999955,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.05801946746038131,
+      "total_exit_proceeds": 36.062,
+      "shares_filled": 621.55,
+      "shares_exited": 621.55,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 30.368049999999997,
+      "fees": 0.0,
+      "net_profit": 30.368049999999997,
+      "nev_per_share": 0.04885857935805647,
+      "ann_return": 9.314291703302477
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T22:23:27.857900+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09431524547803628
     }
   ],
   "executability": [
@@ -6702,15 +6788,26 @@
       "avg_message_latency_ms": 25.71
     },
     {
+      "ticker": "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 21489539.0,
+      "p50_duration_ms": 21489539.0,
+      "p95_duration_ms": 21489539.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 20.67
+    },
+    {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 27,
-      "avg_duration_ms": 552850.925925926,
-      "p50_duration_ms": 180178.0,
-      "p95_duration_ms": 703149.7999999999,
+      "window_count": 28,
+      "avg_duration_ms": 543225.2857142857,
+      "p50_duration_ms": 180196.5,
+      "p95_duration_ms": 700289.5999999999,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 48.98
+      "avg_message_latency_ms": 45.77
     }
   ],
   "executions": [],
