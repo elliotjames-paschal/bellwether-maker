@@ -1137,6 +1137,148 @@
       "net_profit": 0.03647999999999918,
       "nev_per_share": 0.003999999999999911,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T08:12:55.982066+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.27,
+          "size": 5954.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.27,
+          "size": 520.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.27,
+      "total_entry_cost": 1747.9800000000002,
+      "exit_fills": [
+        {
+          "price": 0.3,
+          "size": 5954.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.28,
+          "size": 520.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.29839357429718877,
+      "total_exit_proceeds": 1931.8000000000002,
+      "shares_filled": 6474.0,
+      "shares_exited": 6474.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 183.81999999999994,
+      "fees": 0.0,
+      "net_profit": 183.81999999999994,
+      "nev_per_share": 0.028393574297188744,
+      "ann_return": 0.06675461912060478
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T08:12:56.129456+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.287,
+          "size": 30.01,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.287,
+      "total_entry_cost": 8.61287,
+      "exit_fills": [
+        {
+          "price": 0.31,
+          "size": 30.01,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.31,
+      "total_exit_proceeds": 9.3031,
+      "shares_filled": 30.01,
+      "shares_exited": 30.01,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6902300000000015,
+      "fees": 0.0,
+      "net_profit": 0.6902300000000015,
+      "nev_per_share": 0.023000000000000048,
+      "ann_return": 0.050871080139372936
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T08:12:56.210760+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.303,
+          "size": 5.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.303,
+      "total_entry_cost": 1.515,
+      "exit_fills": [
+        {
+          "price": 0.31,
+          "size": 5.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.31,
+      "total_exit_proceeds": 1.55,
+      "shares_filled": 5.0,
+      "shares_exited": 5.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.03500000000000014,
+      "fees": 0.0,
+      "net_profit": 0.03500000000000014,
+      "nev_per_share": 0.007000000000000029,
+      "ann_return": 0.01466494475534516
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T08:12:56.745215+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 575,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.298,
+          "size": 55.01,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.298,
+      "total_entry_cost": 16.392979999999998,
+      "exit_fills": [
+        {
+          "price": 0.31,
+          "size": 55.01,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.31,
+      "total_exit_proceeds": 17.0531,
+      "shares_filled": 55.01,
+      "shares_exited": 55.01,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6601200000000027,
+      "fees": 0.0,
+      "net_profit": 0.6601200000000027,
+      "nev_per_share": 0.012000000000000049,
+      "ann_return": 0.02556171578640221
     }
   ],
   "executability": [
@@ -1216,6 +1358,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": -2.2
+    },
+    {
+      "ticker": "BWR-STEYER-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "window_count": 4,
+      "avg_duration_ms": 2555785.75,
+      "p50_duration_ms": 106.0,
+      "p95_duration_ms": 8689483.799999997,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": -3.63
     }
   ],
   "executions": [],
