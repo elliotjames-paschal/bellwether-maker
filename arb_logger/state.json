@@ -5155,6 +5155,49 @@
       "net_profit": 0.4532000000000025,
       "nev_per_share": 0.025177777777777917,
       "ann_return": 0.01712652845398701
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T15:21:17.061429+00:00",
+      "resolution_date": "2027-11-03T15:00:00Z",
+      "days_left": 574,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.4,
+          "size": 41.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.44,
+          "size": 194.5,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.43303609341825905,
+      "total_entry_cost": 101.98,
+      "exit_fills": [
+        {
+          "price": 0.46,
+          "size": 41.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.46,
+          "size": 194.5,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.46,
+      "total_exit_proceeds": 108.33,
+      "shares_filled": 235.5,
+      "shares_exited": 235.5,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 6.349999999999994,
+      "fees": 0.0,
+      "net_profit": 6.349999999999994,
+      "nev_per_share": 0.026963906581740953,
+      "ann_return": 0.03959494004768301
     }
   ],
   "executability": [
@@ -5377,6 +5420,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 58.29
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 36656027.0,
+      "p50_duration_ms": 36656027.0,
+      "p95_duration_ms": 36656027.0,
+      "execution_floor_ms": 2973.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 45.71
     }
   ],
   "executions": [],
