@@ -1,8 +1,8 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-04-07 05:26:27 UTC_
+_Last updated: 2026-04-07 05:31:28 UTC_
 
-**Session**: 20m | **Markets tracked**: 3 | **Positions**: 3
+**Session**: 25m | **Markets tracked**: 3 | **Positions**: 3
 
 ## P&L Summary
 
