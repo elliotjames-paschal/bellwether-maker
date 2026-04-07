@@ -22,10 +22,15 @@ pub fn write_dashboard(simulator: &SimulatorState) -> Result<(), String> {
 
     // Session info
     let session_hours = session_duration_hours(&simulator.session_started_at);
+    let unique_tickers: std::collections::HashSet<&str> = simulator
+        .positions
+        .iter()
+        .map(|p| p.ticker.as_str())
+        .collect();
     out.push_str(&format!(
-        "**Session**: {} | **Markets tracked**: {} | **Positions**: {}\n\n",
+        "**Session**: {} | **Markets with positions**: {} | **Total paper trades**: {}\n\n",
         format_duration_hours(session_hours),
-        simulator.reentry_stats.len(),
+        unique_tickers.len(),
         simulator.positions.len(),
     ));
 
