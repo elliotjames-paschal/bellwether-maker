@@ -1,981 +1,796 @@
 {
   "markets": {
-    "BWR-DEM-WIN-GOV_NM-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NC03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NE01-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-GOV_NV-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_GA-11-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-SEN_OK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_WI08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_TX16-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-MARKERT-WIN-GOP_NOM_SEN_CO-PRIMARY-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_NC12-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_SC04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NC13-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NJ11-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-04-16T14:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-HI-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NC06-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NY_14-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_ME-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_MA-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-CONTROL-SENATE-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-02-01T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_GA-10-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_IA-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_WI04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SENATE_TX-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_LA03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-JP-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-TRUMP-MEET-LEO_XIV-IN_PERSON-ANY-2026": {
-      "resolution_date": "2027-01-01T14:59:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_GA-08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-DE-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_SC04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_PA_17-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_PA15-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_IL-06-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026": {
-      "resolution_date": "2026-06-17T17:59:00Z"
-    },
-    "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-DEM-WIN-HOUSE_PA16-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX11-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-06-12T14:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_FL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NJ11-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_ME-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_IL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-MILTON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-06-12T14:00:00Z"
-    },
-    "BWR-BOC-CUT-OVERNIGHT_RATE-SPECIFIC_MEETING-25BPS-JUN2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_NY_14-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_MD-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_IL_17-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-AMADOR-WIN-DEM_NOM_NY13-PRIMARY-ANY-2026": {
-      "resolution_date": "2027-06-23T14:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TN01-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_PA09-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_SD-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_LA05-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NE01-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_OH_15-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-SEN_NH-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_PA14-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-BEGICH-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-CN-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_KY05-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_GA-02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX01-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_HI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX35-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-SEO_YOUNG_KYO-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-06-03T14:00:00Z"
-    },
-    "BWR-PORTER-WIN-GOV_CA-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_VA05-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-PUTIN-LEAVE-PRES_RU-ANY_MEANS-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-DEM-WIN-GOV_AL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-SENATE_RI-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-SEN_OR-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_WI07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_NM-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-DEM-WIN-SEN_NE-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX34-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TN04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_CA19-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_IN01-CERTIFIED-ANY-2026": {
+    "BWR-DEM-WIN-HOUSE_AZ07-CERTIFIED-ANY-2026": {
       "resolution_date": "2026-11-03T15:00:00Z"
     },
     "BWR-GOP-WIN-HOUSE_CA35-CERTIFIED-ANY-2026": {
       "resolution_date": "2026-11-03T15:00:00Z"
     },
-    "BWR-DEM-WIN-HOUSE_MD02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_PA10-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_CA07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_CA_22-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_CA_21-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-COHEN-WIN-TN_09_DEM_PRIMARY-PRIMARY-ANY-2026": {
-      "resolution_date": "2027-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TN03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NY_13-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_CA42-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_KS01-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-FR-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-SEN_ME-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_UT03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-PQ-WIN-QUEBEC_ASSEMBLY-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_MA08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_NY-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_IL-02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NM03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-MDB-WIN-SENATE_BR-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-10-04T14:00:00Z"
-    },
-    "BWR-TRUMP-MEET-AL_SHARAA-IN_PERSON-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_NY06-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_ME-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_OH-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-GOV_OH-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-SEN_IL-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-TAYLOR-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-CHONG-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_PA_04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-SEN_MN-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_TN07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_SC05-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-SC_BROWN-WIN-GOP_NOM_SEN_NH-PRIMARY-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_MD01-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NC_11-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-CIVIL_CONTRACT-WIN-PARLIAMENT_AM-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-DEM-WIN-HOUSE_CA_41-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-ORBAN-LEAVE-PM_HU-ANY_MEANS-ANY-2026": {
-      "resolution_date": "2027-01-02T03:17:48Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_RI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_AZ07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_TX31-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-NETANYAHU-LEAVE-PM_IL-ANY_MEANS-ANY-2026": {
-      "resolution_date": "2027-01-02T03:17:48Z"
-    },
-    "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NC06-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_OH_05-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NJ12-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DIENER-WIN-SENATE_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-BOC-HIKE-OVERNIGHT_RATE-SPECIFIC_MEETING-25BPS-JUN2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_SC07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-SEN_ID-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_CA_47-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_LA04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_VT-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_KY03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_LA02-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_NC08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-PELTOLA-WIN-SENATE_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_MA07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_NV-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_FL02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_WI06-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_TX-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_MI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX06-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_CA11-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_PA09-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_NE-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_AL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_FL21-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_SC07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-HEILALA-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_WYAL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_AL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-IT-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NE03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-AZ-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_OH09-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-MURKOWSKI-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_FL21-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_SC03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_KY03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-06-12T14:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_WI07-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-SEN_MA-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-TRUMP-RUN-PRES-ANNOUNCED-ANY-2027": {
-      "resolution_date": "2028-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_MD04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-PARKER-WIN-MAYOR_DC-CERTIFIED-ANY-2026": {
-      "resolution_date": "2027-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_OH_06-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NC08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-GOV_GA-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_OH_14-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_AR04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_MN-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-MILLER-WIN-DEM_NOM_NY13-PRIMARY-ANY-2026": {
-      "resolution_date": "2027-06-23T14:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NC05-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_OH_04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_CA17-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-GOV_CO-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_FL04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-RUBIO-WIN-PRES-CERTIFIED-ANY-2028": {
-      "resolution_date": "2029-11-07T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_OH_08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_IA-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-ROGERS-WIN-SEN_MI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_SD-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_OH_03-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_OH13-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-VISIT-NY-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_PA_04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_WI02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_MS01-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NJ10-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_OK_02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_WV02-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_CT-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-GOV_FL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_NM01-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_GA-13-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_IL16-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_OH-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-TRUMP-VISIT-IN-PHYSICAL_PRESENCE-ANY-2026": {
-      "resolution_date": "2027-01-01T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_MI-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026": {
-      "resolution_date": "2027-01-01T04:59:00Z"
-    },
-    "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_CA33-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_NC04-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-GOV_NE-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-DEM-WIN-HOUSE_MA08-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-GOP-WIN-HOUSE_TX26-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-SEN_KY-CERTIFIED-ANY-2026": {
-      "resolution_date": null
-    },
-    "BWR-GOP-WIN-HOUSE_DE_AL-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026": {
-      "resolution_date": "2027-01-01T14:59:00Z"
-    },
-    "BWR-WILSON-WIN-GOV_AK-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-HOUSE_TX18-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_HI-CERTIFIED-ANY-2026": {
-      "resolution_date": "2026-11-03T15:00:00Z"
-    },
-    "BWR-DEM-WIN-GOV_OK-CERTIFIED-ANY-2026": {
+    "BWR-GOP-WIN-GOV_IL-CERTIFIED-ANY-2026": {
       "resolution_date": "2026-11-03T15:00:00Z"
     },
     "BWR-DEM-WIN-HOUSE_MD04-CERTIFIED-ANY-2026": {
       "resolution_date": "2026-11-03T15:00:00Z"
     },
-    "BWR-DEM-WIN-HOUSE_KY04-CERTIFIED-ANY-2026": {
+    "BWR-GOP-WIN-HOUSE_MD04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NC06-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-GOV_AL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NE01-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026": {
+      "resolution_date": null
+    },
+    "BWR-TRUMP-VISIT-FR-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_IL-02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_NY-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_LA02-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-SENATE_TX-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_FL04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_OH_03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_SC04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-JP-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_KY05-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_SC07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_ME-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_MA-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_GA-11-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_AL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_FL02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NC06-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_PA15-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-RUBIO-WIN-PRES-CERTIFIED-ANY-2028": {
+      "resolution_date": "2029-11-07T15:00:00Z"
+    },
+    "BWR-NETANYAHU-LEAVE-PM_IL-ANY_MEANS-ANY-2026": {
+      "resolution_date": "2027-01-02T03:17:48Z"
+    },
+    "BWR-DEM-WIN-HOUSE_TX31-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_FL21-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_SD-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_TN04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SENATE_RI-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_WV02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_SC07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-NY-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_ID-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_SC04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_CA_22-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_IL-06-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NM01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_OH-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_DE_AL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH09-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NC04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-CONTROL-SENATE-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-02-01T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TX26-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_RI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TN03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_CA19-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_MN-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH13-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-GOV_MA-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-CHONG-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-GOV_MI-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NY_13-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH_06-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_WI07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-MILTON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-06-12T14:00:00Z"
+    },
+    "BWR-TAYLOR-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_NM-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_CO-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NJ11-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_PA10-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NE01-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-GOV_MN-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_CA_41-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_SD-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026": {
+      "resolution_date": "2026-06-17T17:59:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_WI04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NC08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DIENER-WIN-SENATE_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_NY06-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH_05-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-CIVIL_CONTRACT-WIN-PARLIAMENT_AM-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_CA42-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-AZ-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_GA-08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_IL-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-AMADOR-WIN-DEM_NOM_NY13-PRIMARY-ANY-2026": {
+      "resolution_date": "2027-06-23T14:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NM03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_ME-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-BEGICH-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-SC_BROWN-WIN-GOP_NOM_SEN_NH-PRIMARY-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-MILLER-WIN-DEM_NOM_NY13-PRIMARY-ANY-2026": {
+      "resolution_date": "2027-06-23T14:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-HI-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_OH_14-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_IN01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_KS01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-PQ-WIN-QUEBEC_ASSEMBLY-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_TX06-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-DE-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_NE-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TX35-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_CA_21-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_AR04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_ME-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NY_14-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_OK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_CT-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-MURKOWSKI-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OK_02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_CA33-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NC03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_WYAL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NC_11-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-ORBAN-LEAVE-PM_HU-ANY_MEANS-ANY-2026": {
+      "resolution_date": "2027-01-02T03:17:48Z"
+    },
+    "BWR-PORTER-WIN-GOV_CA-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-06-12T14:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_MI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-CN-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NE03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_AL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_NH-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_SC03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_LA05-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_VA05-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_GA-10-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_MA08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_FL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_ME-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_WI07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-WILSON-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-RUN-PRES-ANNOUNCED-ANY-2027": {
+      "resolution_date": "2028-01-01T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_LA03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_SC05-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NJ10-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_CA07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_GA-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_CA17-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-GOV_NE-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_TN07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-PARKER-WIN-MAYOR_DC-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_IA-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-MDB-WIN-SENATE_BR-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-10-04T14:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH_15-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_CA11-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_WI06-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_MA07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NJ11-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-04-16T14:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_MD01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_OH-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_TX18-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_VT-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-VISIT-IN-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-06-12T14:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_PA_04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_PA09-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_HI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_MA08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_MD-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_KY03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TN01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_PA16-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026": {
+      "resolution_date": "2027-01-01T14:59:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TX11-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-ROGERS-WIN-SEN_MI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_PA09-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_TX-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_OH_08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-SEO_YOUNG_KYO-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2027-06-03T14:00:00Z"
+    },
+    "BWR-BOC-HIKE-OVERNIGHT_RATE-SPECIFIC_MEETING-25BPS-JUN2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_LA04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_FL21-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NJ12-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_PA_17-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_NE-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TX01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NC12-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-MEET-AL_SHARAA-IN_PERSON-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_TX16-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_MS01-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-GOV_NV-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_NV-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-PELTOLA-WIN-SENATE_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-PUTIN-LEAVE-PRES_RU-ANY_MEANS-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-GOP-WIN-SEN_OK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_GA-13-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_WI08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-TRUMP-MEET-LEO_XIV-IN_PERSON-ANY-2026": {
+      "resolution_date": "2027-01-01T14:59:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_PA_04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_OH-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026": {
       "resolution_date": "2026-11-03T15:00:00Z"
     },
     "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026": {
       "resolution_date": null
+    },
+    "BWR-DEM-WIN-SEN_IA-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NC05-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026": {
+      "resolution_date": "2027-01-01T04:59:00Z"
+    },
+    "BWR-GOP-WIN-SEN_OR-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_IL16-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-MARKERT-WIN-GOP_NOM_SEN_CO-PRIMARY-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-HOUSE_KY03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_OH_04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_NM-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-BOC-CUT-OVERNIGHT_RATE-SPECIFIC_MEETING-25BPS-JUN2026": {
+      "resolution_date": null
+    },
+    "BWR-TRUMP-VISIT-IT-PHYSICAL_PRESENCE-ANY-2026": {
+      "resolution_date": "2027-01-01T15:00:00Z"
+    },
+    "BWR-DEM-WIN-GOV_HI-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_UT03-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SEN_KY-CERTIFIED-ANY-2026": {
+      "resolution_date": null
+    },
+    "BWR-DEM-WIN-GOV_FL-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_TX34-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NC08-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_NC13-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_GA-02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_CA_47-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_KY04-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-COHEN-WIN-TN_09_DEM_PRIMARY-PRIMARY-ANY-2026": {
+      "resolution_date": "2027-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_WI02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_MD02-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_IL_17-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-GOP-WIN-HOUSE_NY_14-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-HEILALA-WIN-GOV_AK-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
+    },
+    "BWR-DEM-WIN-HOUSE_PA14-CERTIFIED-ANY-2026": {
+      "resolution_date": "2026-11-03T15:00:00Z"
     }
   },
   "trades": [
     {
-      "ticker": "BWR-GOP-WIN-HOUSE_MA08-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:13:01.801902+00:00",
+      "ticker": "BWR-GOP-WIN-GOV_AL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T16:23:22.479962+00:00",
       "resolution_date": "2026-11-03T15:00:00Z",
       "days_left": 209,
       "direction": "BUY on kalshi → SELL on polymarket",
       "entry_fills": [
         {
-          "price": 0.030000000000000027,
-          "size": 10.0,
-          "platform": "kalshi"
-        },
-        {
-          "price": 0.040000000000000036,
-          "size": 250.0,
+          "price": 0.9299999999999999,
+          "size": 340.72,
           "platform": "kalshi"
         }
       ],
-      "avg_entry_price": 0.03961538461538465,
-      "total_entry_cost": 10.30000000000001,
+      "avg_entry_price": 0.9299999999999999,
+      "total_entry_cost": 316.8696,
       "exit_fills": [
         {
-          "price": 0.05,
-          "size": 10.0,
-          "platform": "polymarket"
-        },
-        {
-          "price": 0.05,
-          "size": 250.0,
+          "price": 0.932,
+          "size": 340.72,
           "platform": "polymarket"
         }
       ],
-      "avg_exit_price": 0.05,
-      "total_exit_proceeds": 13.0,
-      "shares_filled": 260.0,
-      "shares_exited": 260.0,
+      "avg_exit_price": 0.932,
+      "total_exit_proceeds": 317.55104000000006,
+      "shares_filled": 340.72,
+      "shares_exited": 340.72,
       "exit_type": "FULL_EXIT",
-      "gross_profit": 2.6999999999999904,
+      "gross_profit": 0.681440000000066,
       "fees": 0.0,
-      "net_profit": 2.6999999999999904,
-      "nev_per_share": 0.010384615384615348,
-      "ann_return": 0.45779718493055027
+      "net_profit": 0.681440000000066,
+      "nev_per_share": 0.0020000000000001935,
+      "ann_return": 0.0037557236199005535
     },
     {
-      "ticker": "BWR-DEM-WIN-HOUSE_NC03-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:13:54.149482+00:00",
+      "ticker": "BWR-DEM-WIN-HOUSE_NC08-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T16:23:41.161880+00:00",
       "resolution_date": "2026-11-03T15:00:00Z",
       "days_left": 209,
       "direction": "BUY on kalshi → SELL on polymarket",
       "entry_fills": [
         {
-          "price": 0.10999999999999999,
+          "price": 0.07999999999999996,
           "size": 250.0,
           "platform": "kalshi"
         }
       ],
-      "avg_entry_price": 0.10999999999999999,
-      "total_entry_cost": 27.499999999999996,
+      "avg_entry_price": 0.07999999999999996,
+      "total_entry_cost": 19.99999999999999,
       "exit_fills": [
         {
-          "price": 0.11,
+          "price": 0.09,
           "size": 250.0,
           "platform": "polymarket"
         }
       ],
-      "avg_exit_price": 0.11,
-      "total_exit_proceeds": 27.5,
+      "avg_exit_price": 0.09,
+      "total_exit_proceeds": 22.5,
       "shares_filled": 250.0,
       "shares_exited": 250.0,
       "exit_type": "FULL_EXIT",
-      "gross_profit": 3.552713678800501e-15,
+      "gross_profit": 2.5000000000000107,
       "fees": 0.0,
-      "net_profit": 3.552713678800501e-15,
-      "nev_per_share": 1.4210854715202004e-17,
-      "ann_return": 2.256181805588835e-16
-    },
-    {
-      "ticker": "BWR-DEM-WIN-HOUSE_NC03-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:14:05.737116+00:00",
-      "resolution_date": "2026-11-03T15:00:00Z",
-      "days_left": 209,
-      "direction": "BUY on kalshi → SELL on polymarket",
-      "entry_fills": [
-        {
-          "price": 0.10999999999999999,
-          "size": 250.0,
-          "platform": "kalshi"
-        }
-      ],
-      "avg_entry_price": 0.10999999999999999,
-      "total_entry_cost": 27.499999999999996,
-      "exit_fills": [
-        {
-          "price": 0.11,
-          "size": 250.0,
-          "platform": "polymarket"
-        }
-      ],
-      "avg_exit_price": 0.11,
-      "total_exit_proceeds": 27.5,
-      "shares_filled": 250.0,
-      "shares_exited": 250.0,
-      "exit_type": "FULL_EXIT",
-      "gross_profit": 3.552713678800501e-15,
-      "fees": 0.0,
-      "net_profit": 3.552713678800501e-15,
-      "nev_per_share": 1.4210854715202004e-17,
-      "ann_return": 2.256181805588835e-16
-    },
-    {
-      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
-      "logged_at": "2026-04-07T16:16:53.353531+00:00",
-      "resolution_date": "2027-01-01T15:00:00Z",
-      "days_left": 268,
-      "direction": "BUY on polymarket → SELL on kalshi",
-      "entry_fills": [
-        {
-          "price": 0.19,
-          "size": 25.54,
-          "platform": "polymarket"
-        }
-      ],
-      "avg_entry_price": 0.19,
-      "total_entry_cost": 4.8526,
-      "exit_fills": [
-        {
-          "price": 0.2,
-          "size": 25.54,
-          "platform": "kalshi"
-        }
-      ],
-      "avg_exit_price": 0.20000000000000004,
-      "total_exit_proceeds": 5.1080000000000005,
-      "shares_filled": 25.54,
-      "shares_exited": 25.54,
-      "exit_type": "FULL_EXIT",
-      "gross_profit": 0.25540000000000074,
-      "fees": 0.0,
-      "net_profit": 0.25540000000000074,
-      "nev_per_share": 0.01000000000000003,
-      "ann_return": 0.07168106834249825
-    },
-    {
-      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:17:16.044332+00:00",
-      "resolution_date": null,
-      "days_left": null,
-      "direction": "BUY on kalshi → SELL on polymarket",
-      "entry_fills": [
-        {
-          "price": 0.85,
-          "size": 10.0,
-          "platform": "kalshi"
-        }
-      ],
-      "avg_entry_price": 0.85,
-      "total_entry_cost": 8.5,
-      "exit_fills": [
-        {
-          "price": 0.86,
-          "size": 10.0,
-          "platform": "polymarket"
-        }
-      ],
-      "avg_exit_price": 0.86,
-      "total_exit_proceeds": 8.6,
-      "shares_filled": 10.0,
-      "shares_exited": 10.0,
-      "exit_type": "FULL_EXIT",
-      "gross_profit": 0.09999999999999964,
-      "fees": 0.0,
-      "net_profit": 0.09999999999999964,
-      "nev_per_share": 0.009999999999999964,
-      "ann_return": null
+      "net_profit": 2.5000000000000107,
+      "nev_per_share": 0.010000000000000042,
+      "ann_return": 0.2183014354066996
     },
     {
       "ticker": "BWR-GOP-WIN-HOUSE_MA08-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:17:31.603112+00:00",
-      "resolution_date": "2026-11-03T15:00:00Z",
-      "days_left": 209,
-      "direction": "BUY on kalshi → SELL on polymarket",
-      "entry_fills": [
-        {
-          "price": 0.030000000000000027,
-          "size": 10.0,
-          "platform": "kalshi"
-        },
-        {
-          "price": 0.040000000000000036,
-          "size": 250.0,
-          "platform": "kalshi"
-        }
-      ],
-      "avg_entry_price": 0.03961538461538465,
-      "total_entry_cost": 10.30000000000001,
-      "exit_fills": [
-        {
-          "price": 0.05,
-          "size": 10.0,
-          "platform": "polymarket"
-        },
-        {
-          "price": 0.05,
-          "size": 250.0,
-          "platform": "polymarket"
-        }
-      ],
-      "avg_exit_price": 0.05,
-      "total_exit_proceeds": 13.0,
-      "shares_filled": 260.0,
-      "shares_exited": 260.0,
-      "exit_type": "FULL_EXIT",
-      "gross_profit": 2.6999999999999904,
-      "fees": 0.0,
-      "net_profit": 2.6999999999999904,
-      "nev_per_share": 0.010384615384615348,
-      "ann_return": 0.45779718493055027
-    },
-    {
-      "ticker": "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:18:45.065551+00:00",
-      "resolution_date": "2026-11-03T15:00:00Z",
-      "days_left": 209,
-      "direction": "BUY on polymarket → SELL on kalshi",
-      "entry_fills": [
-        {
-          "price": 0.047,
-          "size": 20.0,
-          "platform": "polymarket"
-        }
-      ],
-      "avg_entry_price": 0.047,
-      "total_entry_cost": 0.94,
-      "exit_fills": [
-        {
-          "price": 0.06,
-          "size": 20.0,
-          "platform": "kalshi"
-        }
-      ],
-      "avg_exit_price": 0.06,
-      "total_exit_proceeds": 1.2,
-      "shares_filled": 20.0,
-      "shares_exited": 20.0,
-      "exit_type": "FULL_EXIT",
-      "gross_profit": 0.26,
-      "fees": 0.0,
-      "net_profit": 0.26,
-      "nev_per_share": 0.013000000000000001,
-      "ann_return": 0.48304998472971594
-    },
-    {
-      "ticker": "BWR-GOP-WIN-HOUSE_MA08-CERTIFIED-ANY-2026",
-      "logged_at": "2026-04-07T16:20:42.075368+00:00",
+      "logged_at": "2026-04-07T16:26:42.225481+00:00",
       "resolution_date": "2026-11-03T15:00:00Z",
       "days_left": 209,
       "direction": "BUY on kalshi → SELL on polymarket",
@@ -1019,56 +834,34 @@
   ],
   "executability": [
     {
-      "ticker": "BWR-DEM-WIN-HOUSE_NC03-CERTIFIED-ANY-2026",
-      "window_count": 2,
-      "avg_duration_ms": 4029.5,
-      "p50_duration_ms": 4029.5,
-      "p95_duration_ms": 5433.95,
-      "execution_floor_ms": 2861.0,
+      "ticker": "BWR-GOP-WIN-GOV_AL-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 4719.0,
+      "p50_duration_ms": 4719.0,
+      "p95_duration_ms": 4719.0,
+      "execution_floor_ms": 2974.0,
       "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 27.666666666666668
+    },
+    {
+      "ticker": "BWR-DEM-WIN-HOUSE_NC08-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 2224.0,
+      "p50_duration_ms": 2224.0,
+      "p95_duration_ms": 2224.0,
+      "execution_floor_ms": 2974.0,
+      "executable": false,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 0.0
-    },
-    {
-      "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 18888.0,
-      "p50_duration_ms": 18888.0,
-      "p95_duration_ms": 18888.0,
-      "execution_floor_ms": 2861.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 0.0
-    },
-    {
-      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 108053.0,
-      "p50_duration_ms": 108053.0,
-      "p95_duration_ms": 108053.0,
-      "execution_floor_ms": 2861.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 21.166666666666668
-    },
-    {
-      "ticker": "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 49457.0,
-      "p50_duration_ms": 49457.0,
-      "p95_duration_ms": 49457.0,
-      "execution_floor_ms": 2861.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 20.0
     },
     {
       "ticker": "BWR-GOP-WIN-HOUSE_MA08-CERTIFIED-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 173179.33333333334,
-      "p50_duration_ms": 190465.0,
-      "p95_duration_ms": 257206.30000000002,
-      "execution_floor_ms": 2861.0,
+      "window_count": 1,
+      "avg_duration_ms": 218668.0,
+      "p50_duration_ms": 218668.0,
+      "p95_duration_ms": 218668.0,
+      "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 0.0
@@ -1078,8 +871,50 @@
   "simulator": {
     "positions": [
       {
-        "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
-        "opened_at": "2026-04-07T16:11:52.247071+00:00",
+        "ticker": "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026",
+        "opened_at": "2026-04-07T16:22:42.741922+00:00",
+        "hour_utc": 16,
+        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
+        "entry_platform": "polymarket",
+        "exit_platform": "kalshi",
+        "shares": 750.0,
+        "entry_cost": 667.5,
+        "exit_proceeds": 692.5,
+        "net_profit": 25.0,
+        "nev_per_share": 0.03333333333333333,
+        "gross_spread": 25.0,
+        "kalshi_internal_spread": 0.029999999999999916,
+        "pm_internal_spread": 0.020000000000000018,
+        "kalshi_depth": 692.5,
+        "pm_depth": 667.5,
+        "window_age_ms": 0,
+        "resolution_date": "2026-11-03T15:00:00Z",
+        "days_to_resolution": 209
+      },
+      {
+        "ticker": "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026",
+        "opened_at": "2026-04-07T16:23:10.776266+00:00",
+        "hour_utc": 16,
+        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
+        "entry_platform": "polymarket",
+        "exit_platform": "kalshi",
+        "shares": 750.0,
+        "entry_cost": 645.0,
+        "exit_proceeds": 670.0,
+        "net_profit": 25.0,
+        "nev_per_share": 0.03333333333333333,
+        "gross_spread": 25.0,
+        "kalshi_internal_spread": 0.029999999999999916,
+        "pm_internal_spread": 0.020000000000000018,
+        "kalshi_depth": 670.0,
+        "pm_depth": 645.0,
+        "window_age_ms": 0,
+        "resolution_date": "2026-11-03T15:00:00Z",
+        "days_to_resolution": 209
+      },
+      {
+        "ticker": "BWR-GOP-WIN-HOUSE_IL16-CERTIFIED-ANY-2026",
+        "opened_at": "2026-04-07T16:23:21.495864+00:00",
         "hour_utc": 16,
         "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
         "entry_platform": "polymarket",
@@ -1097,114 +932,42 @@
         "window_age_ms": 0,
         "resolution_date": "2026-11-03T15:00:00Z",
         "days_to_resolution": 209
-      },
-      {
-        "ticker": "BWR-GOP-WIN-HOUSE_GA-08-CERTIFIED-ANY-2026",
-        "opened_at": "2026-04-07T16:13:09.267698+00:00",
-        "hour_utc": 16,
-        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
-        "entry_platform": "polymarket",
-        "exit_platform": "kalshi",
-        "shares": 1678.0,
-        "entry_cost": 1526.98,
-        "exit_proceeds": 1581.6,
-        "net_profit": 54.61999999999989,
-        "nev_per_share": 0.032550655542312214,
-        "gross_spread": 54.61999999999989,
-        "kalshi_internal_spread": 0.020000000000000018,
-        "pm_internal_spread": 0.010000000000000009,
-        "kalshi_depth": 1581.6,
-        "pm_depth": 1526.98,
-        "window_age_ms": 0,
-        "resolution_date": "2026-11-03T15:00:00Z",
-        "days_to_resolution": 209
-      },
-      {
-        "ticker": "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026",
-        "opened_at": "2026-04-07T16:14:41.621266+00:00",
-        "hour_utc": 16,
-        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
-        "entry_platform": "polymarket",
-        "exit_platform": "kalshi",
-        "shares": 750.0,
-        "entry_cost": 690.0,
-        "exit_proceeds": 712.5,
-        "net_profit": 22.5,
-        "nev_per_share": 0.03,
-        "gross_spread": 22.5,
-        "kalshi_internal_spread": 0.010000000000000009,
-        "pm_internal_spread": null,
-        "kalshi_depth": 712.5,
-        "pm_depth": 690.0,
-        "window_age_ms": 0,
-        "resolution_date": "2026-11-03T15:00:00Z",
-        "days_to_resolution": 209
-      },
-      {
-        "ticker": "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026",
-        "opened_at": "2026-04-07T16:14:41.886029+00:00",
-        "hour_utc": 16,
-        "direction": "BUY_YES_POLYMARKET_YES_KALSHI",
-        "entry_platform": "polymarket",
-        "exit_platform": "kalshi",
-        "shares": 750.0,
-        "entry_cost": 690.0,
-        "exit_proceeds": 712.5,
-        "net_profit": 22.5,
-        "nev_per_share": 0.03,
-        "gross_spread": 22.5,
-        "kalshi_internal_spread": 0.010000000000000009,
-        "pm_internal_spread": null,
-        "kalshi_depth": 712.5,
-        "pm_depth": 690.0,
-        "window_age_ms": 0,
-        "resolution_date": "2026-11-03T15:00:00Z",
-        "days_to_resolution": 209
       }
     ],
     "reentry_stats": {
-      "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026": {
-        "ticker": "BWR-DEM-WIN-HOUSE_MA09-CERTIFIED-ANY-2026",
+      "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-GOP-WIN-HOUSE_GA-12-CERTIFIED-ANY-2026",
         "entry_count": 1,
-        "first_entry_at": "2026-04-07T16:14:41.621266+00:00",
-        "last_entry_at": "2026-04-07T16:14:41.621266+00:00",
+        "first_entry_at": "2026-04-07T16:23:10.776266+00:00",
+        "last_entry_at": "2026-04-07T16:23:10.776266+00:00",
         "observation_hours": 0.0,
-        "avg_profit_per_entry": 22.5,
-        "avg_capital_per_entry": 690.0
+        "avg_profit_per_entry": 25.0,
+        "avg_capital_per_entry": 645.0
       },
-      "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026": {
-        "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
+      "BWR-GOP-WIN-HOUSE_IL16-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-GOP-WIN-HOUSE_IL16-CERTIFIED-ANY-2026",
         "entry_count": 1,
-        "first_entry_at": "2026-04-07T16:11:52.247071+00:00",
-        "last_entry_at": "2026-04-07T16:11:52.247071+00:00",
+        "first_entry_at": "2026-04-07T16:23:21.495864+00:00",
+        "last_entry_at": "2026-04-07T16:23:21.495864+00:00",
         "observation_hours": 0.0,
         "avg_profit_per_entry": 25.0,
         "avg_capital_per_entry": 660.0
       },
-      "BWR-GOP-WIN-HOUSE_GA-08-CERTIFIED-ANY-2026": {
-        "ticker": "BWR-GOP-WIN-HOUSE_GA-08-CERTIFIED-ANY-2026",
+      "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026": {
+        "ticker": "BWR-GOP-WIN-HOUSE_TN07-CERTIFIED-ANY-2026",
         "entry_count": 1,
-        "first_entry_at": "2026-04-07T16:13:09.267698+00:00",
-        "last_entry_at": "2026-04-07T16:13:09.267698+00:00",
+        "first_entry_at": "2026-04-07T16:22:42.741922+00:00",
+        "last_entry_at": "2026-04-07T16:22:42.741922+00:00",
         "observation_hours": 0.0,
-        "avg_profit_per_entry": 54.61999999999989,
-        "avg_capital_per_entry": 1526.98
-      },
-      "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026": {
-        "ticker": "BWR-GOP-WIN-HOUSE_GA-09-CERTIFIED-ANY-2026",
-        "entry_count": 1,
-        "first_entry_at": "2026-04-07T16:14:41.886029+00:00",
-        "last_entry_at": "2026-04-07T16:14:41.886029+00:00",
-        "observation_hours": 0.0,
-        "avg_profit_per_entry": 22.5,
-        "avg_capital_per_entry": 690.0
+        "avg_profit_per_entry": 25.0,
+        "avg_capital_per_entry": 667.5
       }
     },
-    "peak_capital": 3566.98,
-    "current_capital": 3566.98,
-    "total_arb_profit": 124.61999999999989,
+    "peak_capital": 1972.5,
+    "current_capital": 1972.5,
+    "total_arb_profit": 75.0,
     "kalshi_apy": 0.035,
     "polymarket_apy": 0.04,
-    "session_started_at": "2026-04-07T16:11:12.950842+00:00"
+    "session_started_at": "2026-04-07T16:22:32.738963+00:00"
   }
 }

@@ -1,27 +1,27 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-04-07 16:23:11 UTC_
+_Last updated: 2026-04-07 16:27:41 UTC_
 
-**Session**: 0m | **Markets with positions**: 2 | **Total paper trades**: 2
+**Session**: 5m | **Markets with positions**: 3 | **Total paper trades**: 3
 
 ## P&L Summary
 
 | Metric | Value |
 |--------|-------|
-| Realized arb profit | **$50.00** |
-| Yield on positions (to resolution) | **$27.31** |
-| **Realized + yield** | **$77.31** |
+| Realized arb profit | **$75.00** |
+| Yield on positions (to resolution) | **$41.03** |
+| **Realized + yield** | **$116.03** |
 | Projected future arb (sqrt-discounted) | $0.00 |
 | Projected future yield | $0.00 |
-| **Projected total return** | **$77.31** |
+| **Projected total return** | **$116.03** |
 
 ## Capital Requirements
 
 | Metric | Value |
 |--------|-------|
-| Current capital deployed | $1312.50 |
-| Peak capital observed | $1312.50 |
-| Projected peak capital (incl. re-entries) | **$1312.50** |
+| Current capital deployed | $1972.50 |
+| Peak capital observed | $1972.50 |
+| Projected peak capital (incl. re-entries) | **$1972.50** |
 | Projected ROI on current capital | 5.9% |
 | Projected ROI on projected peak capital | 5.9% |
 
@@ -39,6 +39,7 @@ _Our individual race arbs earn yield only on the Kalshi leg. Polymarket's 4% yie
 | Market | Entries | Capital | Arb Profit | Yield (est.) | Days Left | Direction |
 |--------|---------|---------|------------|-------------|-----------|----------|
 | HOUSE_GA-12 | 1 | $645.00 | $25.00 | $28.20 | 209 | PM→K |
+| HOUSE_IL16 | 1 | $660.00 | $25.00 | $28.84 | 209 | PM→K |
 | HOUSE_TN07 | 1 | $667.50 | $25.00 | $29.17 | 209 | PM→K |
 
 ## Re-entry Analysis
@@ -48,12 +49,14 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 | Market | Observed | Obs. Hours | Rate/Day | Projected | Avg Profit | Projected Profit |
 |--------|----------|------------|----------|-----------|------------|------------------|
 | HOUSE_GA-12 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
+| HOUSE_IL16 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 | HOUSE_TN07 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 
 ## Recent Paper Trades (last 20)
 
 | Time (UTC) | Market | Shares | Capital | Profit | NEV | Direction |
 |------------|--------|--------|---------|--------|-----|----------|
+| 16:23:21 | HOUSE_IL16 | 750 | $660.00 | $25.00 | 3.3¢ | PM→K |
 | 16:23:10 | HOUSE_GA-12 | 750 | $645.00 | $25.00 | 3.3¢ | PM→K |
 | 16:22:42 | HOUSE_TN07 | 750 | $667.50 | $25.00 | 3.3¢ | PM→K |
 
