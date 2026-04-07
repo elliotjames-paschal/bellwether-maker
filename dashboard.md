@@ -1,29 +1,29 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-04-07 16:13:52 UTC_
+_Last updated: 2026-04-07 16:16:23 UTC_
 
-**Session**: 2m | **Markets with positions**: 2 | **Total paper trades**: 2
+**Session**: 5m | **Markets with positions**: 4 | **Total paper trades**: 4
 
 ## P&L Summary
 
 | Metric | Value |
 |--------|-------|
-| Realized arb profit | **$79.62** |
-| Yield on positions (to resolution) | **$95.52** |
-| **Realized + yield** | **$175.14** |
+| Realized arb profit | **$124.62** |
+| Yield on positions (to resolution) | **$155.68** |
+| **Realized + yield** | **$280.30** |
 | Projected future arb (sqrt-discounted) | $0.00 |
 | Projected future yield | $0.00 |
-| **Projected total return** | **$175.14** |
+| **Projected total return** | **$280.30** |
 
 ## Capital Requirements
 
 | Metric | Value |
 |--------|-------|
-| Current capital deployed | $2186.98 |
-| Peak capital observed | $2186.98 |
-| Projected peak capital (incl. re-entries) | **$2186.98** |
-| Projected ROI on current capital | 8.0% |
-| Projected ROI on projected peak capital | 8.0% |
+| Current capital deployed | $3566.98 |
+| Peak capital observed | $3566.98 |
+| Projected peak capital (incl. re-entries) | **$3566.98** |
+| Projected ROI on current capital | 7.9% |
+| Projected ROI on projected peak capital | 7.9% |
 
 ## Platform Yield Rates
 
@@ -38,7 +38,9 @@ _Both legs of each arb earn yield independently. Entry cost earns yield on the e
 
 | Market | Entries | Capital | Arb Profit | Yield (est.) | Days Left | Direction |
 |--------|---------|---------|------------|-------------|-----------|----------|
+| HOUSE_MA09 | 1 | $690.00 | $22.50 | $30.08 | 209 | PM→K |
 | HOUSE_GA-08 | 1 | $1526.98 | $54.62 | $66.67 | 209 | PM→K |
+| HOUSE_GA-09 | 1 | $690.00 | $22.50 | $30.08 | 209 | PM→K |
 | HOUSE_TX36 | 1 | $660.00 | $25.00 | $28.84 | 209 | PM→K |
 
 ## Re-entry Analysis
@@ -47,13 +49,17 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 
 | Market | Observed | Obs. Hours | Rate/Day | Projected | Avg Profit | Projected Profit |
 |--------|----------|------------|----------|-----------|------------|------------------|
-| HOUSE_GA-08 | 1 | 0.0h | 0.0/d | 0 | $54.62 | $0.00 |
+| HOUSE_MA09 | 1 | 0.0h | 0.0/d | 0 | $22.50 | $0.00 |
 | HOUSE_TX36 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
+| HOUSE_GA-08 | 1 | 0.0h | 0.0/d | 0 | $54.62 | $0.00 |
+| HOUSE_GA-09 | 1 | 0.0h | 0.0/d | 0 | $22.50 | $0.00 |
 
 ## Recent Paper Trades (last 20)
 
 | Time (UTC) | Market | Shares | Capital | Profit | NEV | Direction |
 |------------|--------|--------|---------|--------|-----|----------|
+| 16:14:41 | HOUSE_GA-09 | 750 | $690.00 | $22.50 | 3.0¢ | PM→K |
+| 16:14:41 | HOUSE_MA09 | 750 | $690.00 | $22.50 | 3.0¢ | PM→K |
 | 16:13:09 | HOUSE_GA-08 | 1678 | $1526.98 | $54.62 | 3.3¢ | PM→K |
 | 16:11:52 | HOUSE_TX36 | 750 | $660.00 | $25.00 | 3.3¢ | PM→K |
 
