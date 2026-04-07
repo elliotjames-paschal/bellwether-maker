@@ -7206,6 +7206,135 @@
       "net_profit": 0.09999999999999964,
       "nev_per_share": 0.009999999999999964,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-07T23:15:55.721102+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.32,
+          "size": 40.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.32,
+          "size": 11.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.32,
+          "size": 24.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.32,
+      "total_entry_cost": 24.0,
+      "exit_fills": [
+        {
+          "price": 0.34,
+          "size": 40.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.326,
+          "size": 11.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.325,
+          "size": 24.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.3331466666666667,
+      "total_exit_proceeds": 24.986,
+      "shares_filled": 75.0,
+      "shares_exited": 75.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.9860000000000007,
+      "fees": 0.0,
+      "net_profit": 0.9860000000000007,
+      "nev_per_share": 0.013146666666666675,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_OH-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T23:15:59.050636+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.52,
+          "size": 20.1,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.54,
+          "size": 5.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.5239840637450199,
+      "total_entry_cost": 13.152000000000001,
+      "exit_fills": [
+        {
+          "price": 0.55,
+          "size": 20.1,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.55,
+          "size": 5.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.55,
+      "total_exit_proceeds": 13.805000000000001,
+      "shares_filled": 25.1,
+      "shares_exited": 25.1,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6530000000000005,
+      "fees": 0.0,
+      "net_profit": 0.6530000000000005,
+      "nev_per_share": 0.026015936254980096,
+      "ann_return": 0.08670975506117655
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_TX-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T23:18:54.736947+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.43,
+          "size": 68.9,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.43,
+      "total_entry_cost": 29.627000000000002,
+      "exit_fills": [
+        {
+          "price": 0.44,
+          "size": 68.9,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.44,
+      "total_exit_proceeds": 30.316000000000003,
+      "shares_filled": 68.9,
+      "shares_exited": 68.9,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6890000000000001,
+      "fees": 0.0,
+      "net_profit": 0.6890000000000001,
+      "nev_per_share": 0.01,
+      "ann_return": 0.04061422054078113
     }
   ],
   "executability": [
@@ -7351,17 +7480,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 39.26
-    },
-    {
-      "ticker": "BWR-DEM-WIN-GOV_OH-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 14071633.0,
-      "p50_duration_ms": 14071633.0,
-      "p95_duration_ms": 14071633.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 56.85
     },
     {
       "ticker": "BWR-GOP-WIN-SEN_ID-CERTIFIED-ANY-2026",
@@ -7551,17 +7669,6 @@
       "avg_message_latency_ms": 38.01
     },
     {
-      "ticker": "BWR-DEM-WIN-SENATE_TX-CERTIFIED-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 7559502.0,
-      "p50_duration_ms": 2253136.0,
-      "p95_duration_ms": 17590864.9,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 26.25
-    },
-    {
       "ticker": "BWR-GOP-WIN-GOV_IA-CERTIFIED-ANY-2026",
       "window_count": 3,
       "avg_duration_ms": 4610395.333333333,
@@ -7574,14 +7681,36 @@
     },
     {
       "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
-      "window_count": 2,
-      "avg_duration_ms": 12066619.0,
-      "p50_duration_ms": 12066619.0,
-      "p95_duration_ms": 22917940.599999998,
+      "window_count": 3,
+      "avg_duration_ms": 8049585.333333333,
+      "p50_duration_ms": 15518.0,
+      "p95_duration_ms": 21712830.5,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 42.74
+      "avg_message_latency_ms": 45.77
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_OH-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 9708198.5,
+      "p50_duration_ms": 9708198.5,
+      "p95_duration_ms": 13635289.55,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 20.03
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_TX-CERTIFIED-ANY-2026",
+      "window_count": 4,
+      "avg_duration_ms": 5681840.75,
+      "p50_duration_ms": 1691724.5,
+      "p95_duration_ms": 16738768.849999994,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 36.22
     }
   ],
   "executions": [],
