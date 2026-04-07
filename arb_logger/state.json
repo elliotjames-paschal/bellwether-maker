@@ -4287,6 +4287,39 @@
       "net_profit": 0.36359999999999815,
       "nev_per_share": 0.00999999999999995,
       "ann_return": 0.03880914407230176
+    },
+    {
+      "ticker": "BWR-HEILALA-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-07T19:16:01.890834+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.003,
+          "size": 2.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.003,
+      "total_entry_cost": 0.006,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 2.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.02,
+      "shares_filled": 2.0,
+      "shares_exited": 2.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.014,
+      "fees": 0.0,
+      "net_profit": 0.014,
+      "nev_per_share": 0.007,
+      "ann_return": 4.074960127591707
     }
   ],
   "executability": [
@@ -4498,6 +4531,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 18.58
+    },
+    {
+      "ticker": "BWR-HEILALA-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 10395772.0,
+      "p50_duration_ms": 10395772.0,
+      "p95_duration_ms": 10395772.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 19.27027027027027
     }
   ],
   "executions": [],
