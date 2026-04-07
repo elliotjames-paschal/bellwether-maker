@@ -277,20 +277,58 @@ pub fn write_dashboard(simulator: &SimulatorState) -> Result<(), String> {
     }
 
     // ---------------------------------------------------------------------------
-    // Methodology note
+    // How each metric is calculated
     // ---------------------------------------------------------------------------
     out.push_str("---\n\n");
-    out.push_str("### Methodology\n\n");
-    out.push_str("- **Paper trades** execute when cross-platform spread exceeds 3¢ NEV with $200+ depth\n");
-    out.push_str("- **Positions are held to market resolution** — no early exits\n");
+    out.push_str("## How Each Metric Is Calculated\n\n");
+
+    out.push_str("### P&L Summary\n\n");
+    out.push_str("| Metric | Calculation |\n");
+    out.push_str("|--------|-------------|\n");
+    out.push_str("| **Realized arb profit** | Sum of `net_profit` across all paper trades. Each trade's profit = `exit_proceeds - entry_cost`, computed by walking both order books and matching shares at each price level until the spread is consumed. |\n");
     out.push_str(&format!(
-        "- **Yield**: Kalshi {:.1}% APY on positions + cash; Polymarket {:.1}% APY on eligible markets\n",
+        "| **Yield on positions** | For each position: `(entry_cost × entry_platform_APY + exit_proceeds × exit_platform_APY) × (days_to_resolution / 365)`. Both legs earn yield independently — Kalshi pays {:.1}% APY on all positions, Polymarket pays {:.1}% APY on eligible markets. |\n",
         simulator.kalshi_apy * 100.0,
         simulator.polymarket_apy * 100.0,
     ));
-    out.push_str("- **Re-entry projection**: `observed_count × √(days_remaining / days_observed)` — conservative sqrt discount\n");
-    out.push_str("- **Capital projection**: peak observed + (projected re-entries × avg capital per entry)\n");
-    out.push_str("- **Understated profits**: real execution would close spreads, allowing them to reopen for additional trades\n");
+    out.push_str("| **Projected future arb** | For each market: `projected_reentries × avg_profit_per_entry`. Projected re-entries use the sqrt discount model (see below). |\n");
+    out.push_str("| **Projected future yield** | For each market: `projected_reentries × avg_capital_per_entry × avg_APY × (days_remaining / 2) / 365`. Uses half the remaining days because future positions are opened over time, not all at once. |\n");
+    out.push_str("| **Projected total return** | `realized_arb + yield_on_positions + projected_future_arb + projected_future_yield` |\n\n");
+
+    out.push_str("### Capital Requirements\n\n");
+    out.push_str("| Metric | Calculation |\n");
+    out.push_str("|--------|-------------|\n");
+    out.push_str("| **Current capital deployed** | Sum of `entry_cost` across all open paper positions. This is the total capital locked in arb trades right now. |\n");
+    out.push_str("| **Peak capital observed** | Highest value of current capital deployed seen during this session. Updated every time a new paper trade opens. |\n");
+    out.push_str("| **Projected peak capital** | `peak_capital_observed + sum(projected_reentries × avg_capital_per_entry)` across all markets. Assumes worst case where all projected future positions are open simultaneously. |\n");
+    out.push_str("| **Projected ROI** | `projected_total_return / capital × 100%`. Shown for both current and projected peak capital. |\n\n");
+
+    out.push_str("### Trade Entry Criteria\n\n");
+    out.push_str("A paper trade executes when **all** of the following are true:\n\n");
+    out.push_str("1. A **new** cross-platform arb window opens (spread was previously zero or negative)\n");
+    out.push_str("2. **NEV >= 3.0 cents per share** — Net Expected Value after walking both order books and applying platform fees\n");
+    out.push_str("3. **Executable depth >= $200** — enough liquidity to fill at least $200 of entry cost at profitable prices\n\n");
+    out.push_str("NEV (Net Expected Value) = `(exit_proceeds - entry_cost) / shares_filled`. It represents the per-share profit after fees, computed by matching entry asks against exit bids at each price level.\n\n");
+
+    out.push_str("### Re-entry Projection Model\n\n");
+    out.push_str("We project how many more times each market will produce a tradeable arb before resolution:\n\n");
+    out.push_str("```\n");
+    out.push_str("projected_reentries = observed_entries × sqrt(days_remaining / days_observed)\n");
+    out.push_str("```\n\n");
+    out.push_str("**Why sqrt?** A linear extrapolation (\"5 entries in 2 days = 2.5/day for 200 days = 500 entries\") overstates the opportunity because arb frequency declines as markets approach resolution — prices converge and liquidity drops. The square root function provides diminishing marginal returns: the first 100 days of remaining life contribute more projected entries than the next 100 days.\n\n");
+    out.push_str("**Minimum data requirement:** Projections require at least 2 observed entries and 1 hour of observation. Markets below this threshold show 0 projected entries.\n\n");
+
+    out.push_str("### Positions\n\n");
+    out.push_str("All positions are **held to market resolution** — no early exits. This is because:\n\n");
+    out.push_str("1. Both platforms pay yield on open positions, so holding earns additional return\n");
+    out.push_str("2. The arb is locked in at entry — the profit is guaranteed regardless of price movement\n");
+    out.push_str("3. Early exit would require paying the spread again, eating into profit\n\n");
+
+    out.push_str("### Key Assumptions & Limitations\n\n");
+    out.push_str("- **Understated profits**: In reality, executing a trade closes the spread, which can then reopen for another trade. Paper trading doesn't close spreads, so we see fewer re-entry opportunities than real execution would produce.\n");
+    out.push_str("- **No slippage modeled**: Paper trades fill at current book prices. Real execution may experience slippage, partial fills, or failed legs.\n");
+    out.push_str("- **Yield rates are variable**: Platform APY rates can change. Current rates are snapshotted at session start.\n");
+    out.push_str("- **Capital projection is worst-case**: Projected peak assumes all future positions overlap. In practice, some markets resolve before others, freeing capital.\n");
 
     std::fs::write(DASHBOARD_FILE, &out)
         .map_err(|e| format!("Failed to write {}: {}", DASHBOARD_FILE, e))?;

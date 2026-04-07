@@ -4,6 +4,7 @@
 
 mod api;
 mod audit;
+mod books;
 mod dashboard;
 mod execute;
 mod kalshi_rest;
@@ -310,6 +311,9 @@ async fn run() -> Result<(), String> {
 
             // Check for stale books
             ws::check_stale_books(&report_state).await;
+
+            // Write order book snapshot
+            books::write_book_snapshot(&report_state).await;
 
             // Write report with current opportunity windows and trade history
             let opportunities = report_log.lock().await;
