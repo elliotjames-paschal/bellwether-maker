@@ -718,6 +718,9 @@ async fn on_book_update(
         fees.pm_rate(pm_token),
     );
     let avg_msg_latency = kalshi_book.avg_message_latency_ms.unwrap_or(0.0);
+    // Clone books for simulator (needs them after we release the lock)
+    let k_book_clone = kalshi_book.clone();
+    let p_book_clone = poly_book.clone();
     drop(books); // release read lock before acquiring mutexes
 
     let mut log = opportunity_log.lock().await;
@@ -786,6 +789,31 @@ async fn on_book_update(
                     best_round_trip: Some(rt),
                     round_trip: Some(detail),
                 });
+
+                // Paper trading simulator: try to open a position on new window
+                {
+                    let mut app = app_state.lock().await;
+                    let (res_date, days_left) = match app.markets.get(bwr_ticker) {
+                        Some(ms) => {
+                            let res = ms.resolution_date.as_deref();
+                            let days = res.and_then(|d| compute_days_left(d));
+                            (res.map(|s| s.to_string()), days)
+                        }
+                        None => (None, None),
+                    };
+                    crate::simulator::on_book_update(
+                        bwr_ticker,
+                        pm_token,
+                        &k_book_clone,
+                        &p_book_clone,
+                        fees,
+                        res_date.as_deref(),
+                        days_left,
+                        &mut app.simulator,
+                        false, // new window just opened, not an existing one
+                        0,     // window just opened, age = 0
+                    );
+                }
             }
         }
         None => {

@@ -251,6 +251,8 @@ pub struct AppState {
     pub executability: Vec<MarketExecutability>,
     #[serde(default)]
     pub executions: Vec<ExecutionRecord>,
+    #[serde(default)]
+    pub simulator: SimulatorState,
 }
 
 impl Default for AppState {
@@ -260,6 +262,7 @@ impl Default for AppState {
             trades: Vec::new(),
             executability: Vec::new(),
             executions: Vec::new(),
+            simulator: SimulatorState::default(),
         }
     }
 }
@@ -291,6 +294,87 @@ impl Default for FeeRates {
         Self {
             kalshi_fee: 0.0,
             polymarket_fee_rates: std::collections::HashMap::new(),
+        }
+    }
+}
+
+// ---------------------------------------------------------------------------
+// Paper trading simulator
+// ---------------------------------------------------------------------------
+
+/// A simulated position held to resolution. Never closed early.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct PaperPosition {
+    pub ticker: String,
+    pub opened_at: String,              // RFC 3339
+    pub hour_utc: u32,                  // 0-23, for time-of-day analysis
+    pub direction: String,              // e.g. "BUY_YES_POLYMARKET_YES_KALSHI"
+    pub entry_platform: String,
+    pub exit_platform: String,
+    pub shares: f64,
+    pub entry_cost: f64,                // total capital locked on entry leg
+    pub exit_proceeds: f64,             // expected proceeds when market resolves
+    pub net_profit: f64,                // exit_proceeds - entry_cost (arb spread captured)
+    pub nev_per_share: f64,
+    pub gross_spread: f64,              // cross-platform spread before fees
+    pub kalshi_internal_spread: f64,    // best_ask - best_bid on Kalshi
+    pub pm_internal_spread: f64,        // best_ask - best_bid on Polymarket
+    pub kalshi_depth: f64,              // total $ at profitable prices on Kalshi side
+    pub pm_depth: f64,                  // total $ at profitable prices on Polymarket side
+    pub window_age_ms: u64,             // how long the window had been open when we entered
+    pub resolution_date: Option<String>,
+    pub days_to_resolution: Option<i64>,
+}
+
+/// Per-market re-entry statistics observed during this session.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct MarketReentryStats {
+    pub ticker: String,
+    pub entry_count: u32,               // how many times we've "executed" on this market
+    pub first_entry_at: String,         // RFC 3339
+    pub last_entry_at: String,          // RFC 3339
+    pub observation_hours: f64,         // wall-clock hours since first entry
+    pub avg_profit_per_entry: f64,
+    pub avg_capital_per_entry: f64,
+}
+
+/// Top-level simulator state, persisted in state.json.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct SimulatorState {
+    /// All paper positions (held to resolution).
+    pub positions: Vec<PaperPosition>,
+
+    /// Per-market re-entry tracking.
+    pub reentry_stats: HashMap<String, MarketReentryStats>,
+
+    /// Peak simultaneous capital across all open positions (observed).
+    pub peak_capital: f64,
+
+    /// Current total capital deployed.
+    pub current_capital: f64,
+
+    /// Cumulative arb profit (sum of net_profit across all positions).
+    pub total_arb_profit: f64,
+
+    /// Platform APY rates (fetched/configured at startup).
+    pub kalshi_apy: f64,
+    pub polymarket_apy: f64,
+
+    /// Session start time (RFC 3339) for observation window calculations.
+    pub session_started_at: String,
+}
+
+impl Default for SimulatorState {
+    fn default() -> Self {
+        Self {
+            positions: Vec::new(),
+            reentry_stats: HashMap::new(),
+            peak_capital: 0.0,
+            current_capital: 0.0,
+            total_arb_profit: 0.0,
+            kalshi_apy: 0.035,      // 3.5% — Kalshi current rate
+            polymarket_apy: 0.04,   // 4.0% — Polymarket current rate
+            session_started_at: chrono::Utc::now().to_rfc3339(),
         }
     }
 }

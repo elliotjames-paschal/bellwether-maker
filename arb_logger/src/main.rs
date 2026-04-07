@@ -4,12 +4,14 @@
 
 mod api;
 mod audit;
+mod dashboard;
 mod execute;
 mod kalshi_rest;
 mod orderbook;
 mod polymarket_auth;
 mod report;
 mod scorer;
+pub mod simulator;
 mod state;
 mod types;
 mod ws;
@@ -320,6 +322,15 @@ async fn run() -> Result<(), String> {
             ) {
                 eprintln!(
                     "[{}] WARN  SYSTEM report_write_failed error={}",
+                    Local::now().format("%H:%M:%S"),
+                    e,
+                );
+            }
+
+            // Write paper trading dashboard
+            if let Err(e) = dashboard::write_dashboard(&app.simulator) {
+                eprintln!(
+                    "[{}] WARN  SYSTEM dashboard_write_failed error={}",
                     Local::now().format("%H:%M:%S"),
                     e,
                 );
