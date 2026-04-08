@@ -16346,6 +16346,82 @@
       "net_profit": 0.03200000000000003,
       "nev_per_share": 0.0010000000000000009,
       "ann_return": 0.007626251018574629
+    },
+    {
+      "ticker": "BWR-TAYLOR-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T11:59:01.358135+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.221,
+          "size": 18.89,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.223,
+          "size": 13.11,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.22181937499999999,
+      "total_entry_cost": 7.0982199999999995,
+      "exit_fills": [
+        {
+          "price": 0.23,
+          "size": 18.89,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.23,
+          "size": 13.11,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.23,
+      "total_exit_proceeds": 7.36,
+      "shares_filled": 32.0,
+      "shares_exited": 32.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.2617800000000008,
+      "fees": 0.0,
+      "net_profit": 0.2617800000000008,
+      "nev_per_share": 0.008180625000000025,
+      "ann_return": 0.06440707643410966
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T12:01:43.255349+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 19.19,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 11.8978,
+      "exit_fills": [
+        {
+          "price": 0.64,
+          "size": 19.19,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.64,
+      "total_exit_proceeds": 12.281600000000001,
+      "shares_filled": 19.19,
+      "shares_exited": 19.19,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3838000000000008,
+      "fees": 0.0,
+      "net_profit": 0.3838000000000008,
+      "nev_per_share": 0.020000000000000042,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -16867,17 +16943,6 @@
       "avg_message_latency_ms": 0.5
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 597543.3333333334,
-      "p50_duration_ms": 710462.0,
-      "p95_duration_ms": 711157.7,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 1.635135135135135
-    },
-    {
       "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
       "window_count": 19,
       "avg_duration_ms": 1410708.4210526317,
@@ -16901,14 +16966,25 @@
     },
     {
       "ticker": "BWR-TAYLOR-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "window_count": 21,
-      "avg_duration_ms": 2446522.5714285714,
-      "p50_duration_ms": 60402.0,
-      "p95_duration_ms": 1694538.0,
+      "window_count": 22,
+      "avg_duration_ms": 2343974.5454545454,
+      "p50_duration_ms": 65426.5,
+      "p95_duration_ms": 1681705.7999999998,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": -1.0707070707070707
+      "avg_message_latency_ms": -1.65
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "window_count": 4,
+      "avg_duration_ms": 582934.75,
+      "p50_duration_ms": 624785.5,
+      "p95_duration_ms": 711119.05,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": -2.94
     }
   ],
   "executions": [],
