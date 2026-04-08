@@ -26817,6 +26817,59 @@
       "net_profit": 0.015780000000000016,
       "nev_per_share": 0.001000000000000001,
       "ann_return": 0.09453509453509464
+    },
+    {
+      "ticker": "BWR-DEM-WIN-HOUSE_KY04-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T20:08:06.329822+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.040000000000000036,
+          "size": 99.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.050000000000000044,
+          "size": 250.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.06000000000000005,
+          "size": 500.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.054723203769140215,
+      "total_entry_cost": 46.46000000000004,
+      "exit_fills": [
+        {
+          "price": 0.08,
+          "size": 99.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.08,
+          "size": 250.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.08,
+          "size": 500.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.08,
+      "total_exit_proceeds": 67.92,
+      "shares_filled": 849.0,
+      "shares_exited": 849.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 21.459999999999958,
+      "fees": 0.0,
+      "net_profit": 21.459999999999958,
+      "nev_per_share": 0.025276796230859787,
+      "ann_return": 0.810550432133512
     }
   ],
   "executability": [
@@ -27490,6 +27543,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 45.08
+    },
+    {
+      "ticker": "BWR-DEM-WIN-HOUSE_KY04-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 99902502.0,
+      "p50_duration_ms": 99902502.0,
+      "p95_duration_ms": 99902502.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 174.69444444444446
     }
   ],
   "executions": [],
