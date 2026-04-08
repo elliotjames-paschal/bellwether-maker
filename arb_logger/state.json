@@ -15950,6 +15950,72 @@
       "net_profit": 5.500000000000014,
       "nev_per_share": 0.010000000000000026,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T10:53:00.338853+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 494.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 64.22,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 494.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 69.16000000000001,
+      "shares_filled": 494.0,
+      "shares_exited": 494.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 4.940000000000012,
+      "fees": 0.0,
+      "net_profit": 4.940000000000012,
+      "nev_per_share": 0.010000000000000024,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T10:53:40.755484+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 494.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 64.22,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 494.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 69.16000000000001,
+      "shares_filled": 494.0,
+      "shares_exited": 494.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 4.940000000000012,
+      "fees": 0.0,
+      "net_profit": 4.940000000000012,
+      "nev_per_share": 0.010000000000000024,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -16483,14 +16549,14 @@
     },
     {
       "ticker": "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026",
-      "window_count": 6,
-      "avg_duration_ms": 9115619.0,
-      "p50_duration_ms": 3695910.0,
-      "p95_duration_ms": 28723199.5,
+      "window_count": 8,
+      "avg_duration_ms": 6841781.875,
+      "p50_duration_ms": 21263.5,
+      "p95_duration_ms": 26691869.29999999,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
-      "avg_message_latency_ms": 7.13
+      "avg_message_latency_ms": 23.85
     }
   ],
   "executions": [],
