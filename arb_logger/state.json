@@ -10109,6 +10109,105 @@
       "net_profit": 0.010080000000000006,
       "nev_per_share": 0.0010000000000000005,
       "ann_return": 0.09431524547803623
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T01:11:24.729053+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09431524547803623
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
+      "logged_at": "2026-04-08T01:11:45.425431+00:00",
+      "resolution_date": "2027-01-01T14:59:00Z",
+      "days_left": 268,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 63.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21,
+      "total_entry_cost": 13.229999999999999,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 63.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.22,
+      "total_exit_proceeds": 13.86,
+      "shares_filled": 63.0,
+      "shares_exited": 63.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6300000000000008,
+      "fees": 0.0,
+      "net_profit": 0.6300000000000008,
+      "nev_per_share": 0.010000000000000012,
+      "ann_return": 0.06485429992892688
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA19-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T01:13:22.746823+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.030000000000000027,
+          "size": 250.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.03000000000000003,
+      "total_entry_cost": 7.500000000000007,
+      "exit_fills": [
+        {
+          "price": 0.05,
+          "size": 250.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.05,
+      "total_exit_proceeds": 12.5,
+      "shares_filled": 250.0,
+      "shares_exited": 250.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 4.999999999999993,
+      "fees": 0.0,
+      "net_profit": 4.999999999999993,
+      "nev_per_share": 0.019999999999999973,
+      "ann_return": 1.1642743221690561
     }
   ],
   "executability": [
@@ -10532,14 +10631,36 @@
     },
     {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 48,
-      "avg_duration_ms": 450680.6041666667,
-      "p50_duration_ms": 181096.5,
-      "p95_duration_ms": 700289.5999999999,
+      "window_count": 49,
+      "avg_duration_ms": 445128.7551020408,
+      "p50_duration_ms": 181039.0,
+      "p95_duration_ms": 697429.3999999997,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 38.9
+      "avg_message_latency_ms": 41.79
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 4153.0,
+      "p50_duration_ms": 4153.0,
+      "p95_duration_ms": 4153.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 19.790697674418606
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA19-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 31748846.0,
+      "p50_duration_ms": 31748846.0,
+      "p95_duration_ms": 31748846.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 24.466666666666665
     }
   ],
   "executions": [],
