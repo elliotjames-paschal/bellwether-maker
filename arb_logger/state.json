@@ -23033,6 +23033,72 @@
       "net_profit": 0.02200000000000024,
       "nev_per_share": 0.002000000000000022,
       "ann_return": 0.014623397435897597
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T15:36:05.220459+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 176.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 161.92000000000002,
+      "exit_fills": [
+        {
+          "price": 0.93,
+          "size": 176.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.93,
+      "total_exit_proceeds": 163.68,
+      "shares_filled": 176.0,
+      "shares_exited": 176.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.759999999999991,
+      "fees": 0.0,
+      "net_profit": 1.759999999999991,
+      "nev_per_share": 0.009999999999999948,
+      "ann_return": 0.019073996655518295
+    },
+    {
+      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T15:37:04.251306+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.81,
+          "size": 13.19,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.8099999999999999,
+      "total_entry_cost": 10.6839,
+      "exit_fills": [
+        {
+          "price": 0.84,
+          "size": 13.19,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.84,
+      "total_exit_proceeds": 11.0796,
+      "shares_filled": 13.19,
+      "shares_exited": 13.19,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3956999999999997,
+      "fees": 0.0,
+      "net_profit": 0.3956999999999997,
+      "nev_per_share": 0.029999999999999978,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -23455,17 +23521,6 @@
       "avg_message_latency_ms": -0.52
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
-      "window_count": 11,
-      "avg_duration_ms": 4631259.090909091,
-      "p50_duration_ms": 3629270.0,
-      "p95_duration_ms": 10144439.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 26.26
-    },
-    {
       "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
       "window_count": 6,
       "avg_duration_ms": 2591.0,
@@ -23620,17 +23675,6 @@
       "avg_message_latency_ms": 161.93
     },
     {
-      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 11290429.0,
-      "p50_duration_ms": 110246.0,
-      "p95_duration_ms": 54981631.59999994,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 144.36363636363637
-    },
-    {
       "ticker": "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 345826.0,
@@ -23662,6 +23706,28 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 3.63
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
+      "window_count": 12,
+      "avg_duration_ms": 4834619.75,
+      "p50_duration_ms": 3669633.0,
+      "p95_duration_ms": 9853095.899999995,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 37.56
+    },
+    {
+      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
+      "window_count": 8,
+      "avg_duration_ms": 9966266.875,
+      "p50_duration_ms": 110906.5,
+      "p95_duration_ms": 51265193.04999996,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 110.35616438356165
     }
   ],
   "executions": [],
