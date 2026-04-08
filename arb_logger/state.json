@@ -20330,6 +20330,1491 @@
       "net_profit": 2.125,
       "nev_per_share": 0.03777777777777778,
       "ann_return": 0.4712538923065238
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:03:33.840618+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 27.77,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 3.8878000000000004,
+      "exit_fills": [
+        {
+          "price": 0.18,
+          "size": 27.77,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.18,
+      "total_exit_proceeds": 4.9986,
+      "shares_filled": 27.77,
+      "shares_exited": 27.77,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1107999999999993,
+      "fees": 0.0,
+      "net_profit": 1.1107999999999993,
+      "nev_per_share": 0.03999999999999998,
+      "ann_return": 0.49897470950102496
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:04.078641+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:06.123072+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:07.023699+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:07.774408+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:08.553275+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 29.41,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14000000000000004,
+      "total_entry_cost": 4.117400000000001,
+      "exit_fills": [
+        {
+          "price": 0.17,
+          "size": 29.41,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.17,
+      "total_exit_proceeds": 4.999700000000001,
+      "shares_filled": 29.41,
+      "shares_exited": 29.41,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.8822999999999999,
+      "fees": 0.0,
+      "net_profit": 0.8822999999999999,
+      "nev_per_share": 0.029999999999999995,
+      "ann_return": 0.3742310321257688
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:12.701709+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:13.517172+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:15.003066+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:15.752968+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:17.239375+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:17.966247+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:18.703360+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:19.505034+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:25.008484+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:25.198748+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:26.037399+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:26.857601+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:27.719858+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:28.692932+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:29.764838+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:31.729276+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:34.091505+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:35.213529+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:36.876072+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:37.650933+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:38.416538+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:39.176949+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:39.937642+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:40.696138+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:41.458500+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 29.41,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14000000000000004,
+      "total_entry_cost": 4.117400000000001,
+      "exit_fills": [
+        {
+          "price": 0.17,
+          "size": 29.41,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.17,
+      "total_exit_proceeds": 4.999700000000001,
+      "shares_filled": 29.41,
+      "shares_exited": 29.41,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.8822999999999999,
+      "fees": 0.0,
+      "net_profit": 0.8822999999999999,
+      "nev_per_share": 0.029999999999999995,
+      "ann_return": 0.3742310321257688
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:42.289537+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 27.77,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 3.8878000000000004,
+      "exit_fills": [
+        {
+          "price": 0.18,
+          "size": 27.77,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.18,
+      "total_exit_proceeds": 4.9986,
+      "shares_filled": 27.77,
+      "shares_exited": 27.77,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1107999999999993,
+      "fees": 0.0,
+      "net_profit": 1.1107999999999993,
+      "nev_per_share": 0.03999999999999998,
+      "ann_return": 0.49897470950102496
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:43.012044+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:43.764031+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 29.41,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14000000000000004,
+      "total_entry_cost": 4.117400000000001,
+      "exit_fills": [
+        {
+          "price": 0.17,
+          "size": 29.41,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.17,
+      "total_exit_proceeds": 4.999700000000001,
+      "shares_filled": 29.41,
+      "shares_exited": 29.41,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.8822999999999999,
+      "fees": 0.0,
+      "net_profit": 0.8822999999999999,
+      "nev_per_share": 0.029999999999999995,
+      "ann_return": 0.3742310321257688
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:44.481844+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:45.205191+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:45.963795+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:46.720792+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:47.464474+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 29.41,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14000000000000004,
+      "total_entry_cost": 4.117400000000001,
+      "exit_fills": [
+        {
+          "price": 0.17,
+          "size": 29.41,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.17,
+      "total_exit_proceeds": 4.999700000000001,
+      "shares_filled": 29.41,
+      "shares_exited": 29.41,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.8822999999999999,
+      "fees": 0.0,
+      "net_profit": 0.8822999999999999,
+      "nev_per_share": 0.029999999999999995,
+      "ann_return": 0.3742310321257688
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:48.184838+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:04:55.471726+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:05:03.796050+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:05:05.363897+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 33.33,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.6662,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 33.33,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 4.999499999999999,
+      "shares_filled": 33.33,
+      "shares_exited": 33.33,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3332999999999995,
+      "fees": 0.0,
+      "net_profit": 0.3332999999999995,
+      "nev_per_share": 0.009999999999999985,
+      "ann_return": 0.12474367737525612
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:05:06.228475+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 209,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 31.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 4.375,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 31.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 5.0,
+      "shares_filled": 31.25,
+      "shares_exited": 31.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.625,
+      "fees": 0.0,
+      "net_profit": 0.625,
+      "nev_per_share": 0.02,
+      "ann_return": 0.24948735475051262
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T14:05:12.987453+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 5.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 3.1,
+      "exit_fills": [
+        {
+          "price": 0.65,
+          "size": 5.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.65,
+      "total_exit_proceeds": 3.25,
+      "shares_filled": 5.0,
+      "shares_exited": 5.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1499999999999999,
+      "fees": 0.0,
+      "net_profit": 0.1499999999999999,
+      "nev_per_share": 0.02999999999999998,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -20807,17 +22292,6 @@
       "avg_message_latency_ms": -0.52
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 520077.4285714286,
-      "p50_duration_ms": 539109.0,
-      "p95_duration_ms": 711003.1,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 19.49
-    },
-    {
       "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
       "window_count": 11,
       "avg_duration_ms": 4631259.090909091,
@@ -20885,14 +22359,25 @@
     },
     {
       "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
-      "window_count": 88,
-      "avg_duration_ms": 5900.261363636364,
-      "p50_duration_ms": 108.0,
-      "p95_duration_ms": 1050.3999999999965,
+      "window_count": 132,
+      "avg_duration_ms": 4126.560606060606,
+      "p50_duration_ms": 108.5,
+      "p95_duration_ms": 1716.0499999999918,
       "execution_floor_ms": 2974.0,
       "executable": false,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 37.7
+      "avg_message_latency_ms": 38.77
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "window_count": 8,
+      "avg_duration_ms": 822147.75,
+      "p50_duration_ms": 617993.0,
+      "p95_duration_ms": 2157748.2499999986,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 46.25
     }
   ],
   "executions": [],
