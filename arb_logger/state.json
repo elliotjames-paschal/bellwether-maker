@@ -22670,6 +22670,105 @@
       "net_profit": 0.5199999999999987,
       "nev_per_share": 0.009999999999999974,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-08T14:53:58.106211+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 70,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 4.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 0.36,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 4.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 0.4,
+      "shares_filled": 4.0,
+      "shares_exited": 4.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.040000000000000036,
+      "fees": 0.0,
+      "net_profit": 0.040000000000000036,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.57936507936508
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-08T14:56:49.883803+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 70,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 4.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 0.36,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 4.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 0.4,
+      "shares_filled": 4.0,
+      "shares_exited": 4.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.040000000000000036,
+      "fees": 0.0,
+      "net_profit": 0.040000000000000036,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.57936507936508
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-08T14:57:19.747820+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 70,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 4.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 0.36,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 4.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 0.4,
+      "shares_filled": 4.0,
+      "shares_exited": 4.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.040000000000000036,
+      "fees": 0.0,
+      "net_profit": 0.040000000000000036,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.57936507936508
     }
   ],
   "executability": [
@@ -23246,17 +23345,6 @@
       "avg_message_latency_ms": 23.1875
     },
     {
-      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
-      "window_count": 10,
-      "avg_duration_ms": 845395.7,
-      "p50_duration_ms": 182605.0,
-      "p95_duration_ms": 3121410.8999999994,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 51.55
-    },
-    {
       "ticker": "BWR-DEM-WIN-SEN_NM-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 78503465.0,
@@ -23288,6 +23376,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 343.0
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "window_count": 13,
+      "avg_duration_ms": 671791.3076923077,
+      "p50_duration_ms": 94706.0,
+      "p95_duration_ms": 3038131.1999999993,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 63.68
     }
   ],
   "executions": [],
