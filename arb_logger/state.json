@@ -13874,6 +13874,72 @@
       "net_profit": 0.0699999999999994,
       "nev_per_share": 0.009999999999999913,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T07:23:37.487982+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09431524547803628
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-08T07:26:18.353200+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 267,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.64,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.64,
+      "total_entry_cost": 38.4,
+      "exit_fills": [
+        {
+          "price": 0.65,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.65,
+      "total_exit_proceeds": 39.0,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6000000000000014,
+      "fees": 0.0,
+      "net_profit": 0.6000000000000014,
+      "nev_per_share": 0.010000000000000024,
+      "ann_return": 0.021360018726591812
     }
   ],
   "executability": [
@@ -14208,17 +14274,6 @@
       "avg_message_latency_ms": 70.1
     },
     {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 37697014.0,
-      "p50_duration_ms": 37697014.0,
-      "p95_duration_ms": 37697014.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 35.83
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
       "window_count": 6,
       "avg_duration_ms": 6832279.166666667,
@@ -14384,17 +14439,6 @@
       "avg_message_latency_ms": 17.89
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 92,
-      "avg_duration_ms": 406883.89130434784,
-      "p50_duration_ms": 184672.5,
-      "p95_duration_ms": 657276.45,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 31.13
-    },
-    {
       "ticker": "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026",
       "window_count": 12,
       "avg_duration_ms": 890488.3333333334,
@@ -14404,6 +14448,28 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 6.22
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 93,
+      "avg_duration_ms": 404965.67741935485,
+      "p50_duration_ms": 184730.0,
+      "p95_duration_ms": 656746.3999999999,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 33.76
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 19088359.5,
+      "p50_duration_ms": 19088359.5,
+      "p95_duration_ms": 35836148.55,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 17.73
     }
   ],
   "executions": [],
