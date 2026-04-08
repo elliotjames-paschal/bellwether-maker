@@ -16795,6 +16795,138 @@
       "net_profit": 0.04999999999999982,
       "nev_per_share": 0.009999999999999964,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T13:19:15.342071+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09431524547803623
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
+      "logged_at": "2026-04-08T13:21:36.493239+00:00",
+      "resolution_date": "2027-01-01T14:59:00Z",
+      "days_left": 268,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 89.72,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21000000000000002,
+      "total_entry_cost": 18.8412,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 89.72,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.22,
+      "total_exit_proceeds": 19.7384,
+      "shares_filled": 89.72,
+      "shares_exited": 89.72,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.897199999999998,
+      "fees": 0.0,
+      "net_profit": 0.897199999999998,
+      "nev_per_share": 0.009999999999999978,
+      "ann_return": 0.06485429992892665
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
+      "logged_at": "2026-04-08T13:22:01.301685+00:00",
+      "resolution_date": "2027-01-01T14:59:00Z",
+      "days_left": 268,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 89.72,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21000000000000002,
+      "total_entry_cost": 18.8412,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 89.72,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.22,
+      "total_exit_proceeds": 19.7384,
+      "shares_filled": 89.72,
+      "shares_exited": 89.72,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.897199999999998,
+      "fees": 0.0,
+      "net_profit": 0.897199999999998,
+      "nev_per_share": 0.009999999999999978,
+      "ann_return": 0.06485429992892665
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
+      "logged_at": "2026-04-08T13:22:28.969321+00:00",
+      "resolution_date": "2027-01-01T14:59:00Z",
+      "days_left": 268,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 89.72,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21000000000000002,
+      "total_entry_cost": 18.8412,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 89.72,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.22,
+      "total_exit_proceeds": 19.7384,
+      "shares_filled": 89.72,
+      "shares_exited": 89.72,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.897199999999998,
+      "fees": 0.0,
+      "net_profit": 0.897199999999998,
+      "nev_per_share": 0.009999999999999978,
+      "ann_return": 0.06485429992892665
     }
   ],
   "executability": [
@@ -17063,17 +17195,6 @@
       "avg_message_latency_ms": 29.74074074074074
     },
     {
-      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 4153.0,
-      "p50_duration_ms": 4153.0,
-      "p95_duration_ms": 4153.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 19.790697674418606
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_CA19-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 31748846.0,
@@ -17338,17 +17459,6 @@
       "avg_message_latency_ms": 18.32
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 118,
-      "avg_duration_ms": 463157.4406779661,
-      "p50_duration_ms": 184073.5,
-      "p95_duration_ms": 671687.5999999995,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 20.98
-    },
-    {
       "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
       "window_count": 7,
       "avg_duration_ms": 520077.4285714286,
@@ -17358,6 +17468,28 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 19.49
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 119,
+      "avg_duration_ms": 460772.8907563025,
+      "p50_duration_ms": 183532.0,
+      "p95_duration_ms": 668827.3999999997,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 21.13
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
+      "window_count": 4,
+      "avg_duration_ms": 2515.5,
+      "p50_duration_ms": 2292.5,
+      "p95_duration_ms": 3917.0499999999993,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 8.5
     }
   ],
   "executions": [],
