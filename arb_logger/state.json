@@ -25754,6 +25754,92 @@
       "net_profit": 0.010080000000000006,
       "nev_per_share": 0.0010000000000000005,
       "ann_return": 0.09453509453509458
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-08T18:50:36.424703+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 267,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.63,
+          "size": 17.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.63,
+          "size": 71.69,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.64,
+          "size": 40.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.6331082446188515,
+      "total_entry_cost": 81.4747,
+      "exit_fills": [
+        {
+          "price": 0.66,
+          "size": 17.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.65,
+          "size": 71.69,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.65,
+          "size": 40.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.651321003963012,
+      "total_exit_proceeds": 83.8185,
+      "shares_filled": 128.69,
+      "shares_exited": 128.69,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 2.3438000000000017,
+      "fees": 0.0,
+      "net_profit": 2.3438000000000017,
+      "nev_per_share": 0.0182127593441604,
+      "ann_return": 0.03932596451473515
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T18:52:40.634067+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09453509453509464
     }
   ],
   "executability": [
@@ -26053,17 +26139,6 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": -7.18
-    },
-    {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 2,
-      "avg_duration_ms": 19088359.5,
-      "p50_duration_ms": 19088359.5,
-      "p95_duration_ms": 35836148.55,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 17.73
     },
     {
       "ticker": "BWR-DEM-WIN-SEN_KY-CERTIFIED-ANY-2026",
@@ -26418,15 +26493,26 @@
       "avg_message_latency_ms": 36.0
     },
     {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 3,
+      "avg_duration_ms": 13653258.333333334,
+      "p50_duration_ms": 2783056.0,
+      "p95_duration_ms": 34205618.199999996,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 17.87
+    },
+    {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 137,
-      "avg_duration_ms": 520913.36496350367,
-      "p50_duration_ms": 184730.0,
-      "p95_duration_ms": 951561.5999999868,
+      "window_count": 138,
+      "avg_duration_ms": 518885.52173913043,
+      "p50_duration_ms": 184863.5,
+      "p95_duration_ms": 893748.9500000066,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 39.72
+      "avg_message_latency_ms": 37.56
     }
   ],
   "executions": [],
