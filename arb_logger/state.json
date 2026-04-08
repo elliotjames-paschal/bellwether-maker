@@ -11357,6 +11357,242 @@
       "net_profit": 3.0999999999999943,
       "nev_per_share": 0.012399999999999977,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-RUBIO-WIN-PRES-CERTIFIED-ANY-2028",
+      "logged_at": "2026-04-08T03:52:46.906279+00:00",
+      "resolution_date": "2029-11-07T15:00:00Z",
+      "days_left": 1309,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.103,
+          "size": 1000.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.103,
+          "size": 20291.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.103,
+          "size": 14149.519999999997,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.104,
+          "size": 5580.73,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.105,
+          "size": 1068.5,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.106,
+          "size": 514.4,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.107,
+          "size": 1868.97,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.108,
+          "size": 7279.95,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.109,
+          "size": 314.4,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.11,
+          "size": 2703.01,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.111,
+          "size": 134.39,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.112,
+          "size": 1034.38,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.113,
+          "size": 5761.81,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.114,
+          "size": 164.4,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.115,
+          "size": 672.68,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.116,
+          "size": 89.27,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.117,
+          "size": 1114.4,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.118,
+          "size": 2840.19,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.10617191117719502,
+      "total_entry_cost": 7069.138189999999,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 1000.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.13,
+          "size": 20291.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 14149.519999999997,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 5580.73,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 1068.5,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 514.4,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 1868.97,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 7279.95,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 314.4,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 2703.01,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 134.39,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 1034.38,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 5761.81,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 164.4,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 672.68,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 89.27,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 1114.4,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.12,
+          "size": 2840.19,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1233479018353309,
+      "total_exit_proceeds": 8212.750000000002,
+      "shares_filled": 66582.0,
+      "shares_exited": 66582.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1143.611810000003,
+      "fees": 0.0,
+      "net_profit": 1143.611810000003,
+      "nev_per_share": 0.017175990658135878,
+      "ann_return": 0.04510922627779067
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T03:53:26.487781+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 430,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09431524547803623
     }
   ],
   "executability": [
@@ -11425,17 +11661,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 18.714285714285715
-    },
-    {
-      "ticker": "BWR-RUBIO-WIN-PRES-CERTIFIED-ANY-2028",
-      "window_count": 4,
-      "avg_duration_ms": 1773885.0,
-      "p50_duration_ms": 17668.0,
-      "p95_duration_ms": 6005714.149999998,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 51.05
     },
     {
       "ticker": "BWR-GOP-CONTROL-SENATE-CERTIFIED-ANY-2026",
@@ -11812,17 +12037,6 @@
       "avg_message_latency_ms": 31.72
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 65,
-      "avg_duration_ms": 439846.53846153844,
-      "p50_duration_ms": 181039.0,
-      "p95_duration_ms": 708870.1999999998,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 28.46
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
       "window_count": 6,
       "avg_duration_ms": 6832279.166666667,
@@ -11832,6 +12046,28 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 21.940298507462686
+    },
+    {
+      "ticker": "BWR-RUBIO-WIN-PRES-CERTIFIED-ANY-2028",
+      "window_count": 5,
+      "avg_duration_ms": 8247876.0,
+      "p50_duration_ms": 30487.0,
+      "p95_duration_ms": 28727105.199999996,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 17.53
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 66,
+      "avg_duration_ms": 435906.5606060606,
+      "p50_duration_ms": 180953.5,
+      "p95_duration_ms": 706010.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 29.61
     }
   ],
   "executions": [],
