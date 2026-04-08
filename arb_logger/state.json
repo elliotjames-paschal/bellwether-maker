@@ -28801,6 +28801,72 @@
       "net_profit": 0.3393999999999995,
       "nev_per_share": 0.026147919876733396,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T21:29:25.411820+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 15.87,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 9.8394,
+      "exit_fills": [
+        {
+          "price": 0.64,
+          "size": 15.87,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.64,
+      "total_exit_proceeds": 10.1568,
+      "shares_filled": 15.87,
+      "shares_exited": 15.87,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.317400000000001,
+      "fees": 0.0,
+      "net_profit": 0.317400000000001,
+      "nev_per_share": 0.020000000000000066,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T21:30:32.767145+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 15.74,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 9.7588,
+      "exit_fills": [
+        {
+          "price": 0.65,
+          "size": 15.74,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.65,
+      "total_exit_proceeds": 10.231,
+      "shares_filled": 15.74,
+      "shares_exited": 15.74,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.47219999999999906,
+      "fees": 0.0,
+      "net_profit": 0.47219999999999906,
+      "nev_per_share": 0.02999999999999994,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -29477,14 +29543,14 @@
     },
     {
       "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
-      "window_count": 30,
-      "avg_duration_ms": 818244.0666666667,
+      "window_count": 32,
+      "avg_duration_ms": 786204.09375,
       "p50_duration_ms": 206772.0,
-      "p95_duration_ms": 2862160.05,
+      "p95_duration_ms": 2845608.95,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 36.44
+      "avg_message_latency_ms": 40.54
     }
   ],
   "executions": [],
