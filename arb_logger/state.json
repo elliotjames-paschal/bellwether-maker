@@ -11999,6 +11999,72 @@
       "net_profit": 0.015780000000000016,
       "nev_per_share": 0.001000000000000001,
       "ann_return": 0.09431524547803628
+    },
+    {
+      "ticker": "BWR-CIVIL_CONTRACT-WIN-PARLIAMENT_AM-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T04:32:44.963988+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.87,
+          "size": 32.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.87,
+      "total_entry_cost": 27.84,
+      "exit_fills": [
+        {
+          "price": 0.88,
+          "size": 32.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.88,
+      "total_exit_proceeds": 28.16,
+      "shares_filled": 32.0,
+      "shares_exited": 32.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3200000000000003,
+      "fees": 0.0,
+      "net_profit": 0.3200000000000003,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_OH-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T04:33:52.629886+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.58,
+          "size": 3.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.58,
+      "total_entry_cost": 1.7399999999999998,
+      "exit_fills": [
+        {
+          "price": 0.59,
+          "size": 3.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.59,
+      "total_exit_proceeds": 1.77,
+      "shares_filled": 3.0,
+      "shares_exited": 3.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.03000000000000025,
+      "fees": 0.0,
+      "net_profit": 0.03000000000000025,
+      "nev_per_share": 0.010000000000000083,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -12177,17 +12243,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 25.71
-    },
-    {
-      "ticker": "BWR-DEM-WIN-SEN_OH-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 3592372.0,
-      "p50_duration_ms": 3592372.0,
-      "p95_duration_ms": 3592372.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 38.01
     },
     {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
@@ -12399,17 +12454,6 @@
       "avg_message_latency_ms": 17.71
     },
     {
-      "ticker": "BWR-CIVIL_CONTRACT-WIN-PARLIAMENT_AM-CERTIFIED-ANY-2026",
-      "window_count": 2,
-      "avg_duration_ms": 1801216.0,
-      "p50_duration_ms": 1801216.0,
-      "p95_duration_ms": 3421448.1999999997,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 31.72
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
       "window_count": 6,
       "avg_duration_ms": 6832279.166666667,
@@ -12496,6 +12540,28 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 34.55
+    },
+    {
+      "ticker": "BWR-CIVIL_CONTRACT-WIN-PARLIAMENT_AM-CERTIFIED-ANY-2026",
+      "window_count": 3,
+      "avg_duration_ms": 2408229.6666666665,
+      "p50_duration_ms": 3601474.0,
+      "p95_duration_ms": 3620178.7,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 28.97
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_OH-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 11763228.5,
+      "p50_duration_ms": 11763228.5,
+      "p95_duration_ms": 19116999.35,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 31.51
     }
   ],
   "executions": [],
