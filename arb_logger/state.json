@@ -24199,6 +24199,49 @@
       "net_profit": 0.09000000000000075,
       "nev_per_share": 0.010000000000000083,
       "ann_return": 0.02064479638009067
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-08T16:55:36.465812+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 15.87,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.62,
+          "size": 12.6,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 17.6514,
+      "exit_fills": [
+        {
+          "price": 0.64,
+          "size": 15.87,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.63,
+          "size": 12.6,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.6355742887249737,
+      "total_exit_proceeds": 18.0948,
+      "shares_filled": 28.47,
+      "shares_exited": 28.47,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.44340000000000046,
+      "fees": 0.0,
+      "net_profit": 0.44340000000000046,
+      "nev_per_share": 0.015574288724973673,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -24775,17 +24818,6 @@
       "avg_message_latency_ms": 79.86
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
-      "window_count": 15,
-      "avg_duration_ms": 526284.6666666666,
-      "p50_duration_ms": 370933.0,
-      "p95_duration_ms": 1378856.4999999977,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 42.24
-    },
-    {
       "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
       "window_count": 10,
       "avg_duration_ms": 8035366.5,
@@ -24839,6 +24871,17 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 255.54347826086956
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "window_count": 16,
+      "avg_duration_ms": 666587.4375,
+      "p50_duration_ms": 436577.5,
+      "p95_duration_ms": 2812506.75,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 23.02
     }
   ],
   "executions": [],
