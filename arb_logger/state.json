@@ -22868,6 +22868,39 @@
       "net_profit": 0.14000000000000057,
       "nev_per_share": 0.02000000000000008,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-08T15:12:42.927539+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.4,
+          "size": 119.11,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.4,
+      "total_entry_cost": 47.644000000000005,
+      "exit_fills": [
+        {
+          "price": 0.57,
+          "size": 119.11,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.57,
+      "total_exit_proceeds": 67.89269999999999,
+      "shares_filled": 119.11,
+      "shares_exited": 119.11,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 20.248699999999985,
+      "fees": 0.0,
+      "net_profit": 20.248699999999985,
+      "nev_per_share": 0.16999999999999987,
+      "ann_return": 0.7457932692307686
     }
   ],
   "executability": [
@@ -23486,6 +23519,17 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 144.36363636363637
+    },
+    {
+      "ticker": "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 345826.0,
+      "p50_duration_ms": 345826.0,
+      "p95_duration_ms": 345826.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 94.81
     }
   ],
   "executions": [],
