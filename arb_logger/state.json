@@ -39757,6 +39757,171 @@
       "net_profit": 3.496600000000008,
       "nev_per_share": 0.010000000000000023,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T11:45:12.446090+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 297.66,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 38.695800000000006,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 297.66,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 41.67240000000001,
+      "shares_filled": 297.66,
+      "shares_exited": 297.66,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 2.976600000000005,
+      "fees": 0.0,
+      "net_profit": 2.976600000000005,
+      "nev_per_share": 0.010000000000000016,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T11:46:51.584268+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.020000000000000018,
+          "size": 36.3,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.020000000000000018,
+      "total_entry_cost": 0.7260000000000005,
+      "exit_fills": [
+        {
+          "price": 0.021,
+          "size": 36.3,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.021,
+      "total_exit_proceeds": 0.7623,
+      "shares_filled": 36.3,
+      "shares_exited": 36.3,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.036299999999999444,
+      "fees": 0.0,
+      "net_profit": 0.036299999999999444,
+      "nev_per_share": 0.0009999999999999848,
+      "ann_return": 0.04254079254079186
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:48:11.350088+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 100.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 9.0,
+      "exit_fills": [
+        {
+          "price": 0.11,
+          "size": 100.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.11,
+      "total_exit_proceeds": 11.0,
+      "shares_filled": 100.0,
+      "shares_exited": 100.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 2.0,
+      "fees": 0.0,
+      "net_profit": 2.0,
+      "nev_per_share": 0.02,
+      "ann_return": 1.175523349436393
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T11:48:46.669570+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09453509453509458
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:49:41.088619+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 75.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 6.75,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 75.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 7.5,
+      "shares_filled": 75.0,
+      "shares_exited": 75.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.75,
+      "fees": 0.0,
+      "net_profit": 0.75,
+      "nev_per_share": 0.01,
+      "ann_return": 0.5877616747181965
     }
   ],
   "executability": [
@@ -40135,17 +40300,6 @@
       "avg_message_latency_ms": 29.15
     },
     {
-      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
-      "window_count": 23,
-      "avg_duration_ms": 1012239.2608695652,
-      "p50_duration_ms": 154650.0,
-      "p95_duration_ms": 3315730.1999999993,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 40.54
-    },
-    {
       "ticker": "BWR-TRUMP-MEET-KIM-IN_PERSON-ANY-2026",
       "window_count": 11,
       "avg_duration_ms": 27868.909090909092,
@@ -40487,17 +40641,6 @@
       "avg_message_latency_ms": 25.3125
     },
     {
-      "ticker": "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 1331439.0,
-      "p50_duration_ms": 1331439.0,
-      "p95_duration_ms": 1331439.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 7.0
-    },
-    {
       "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
       "window_count": 30,
       "avg_duration_ms": 1158856.4,
@@ -40531,26 +40674,48 @@
       "avg_message_latency_ms": 26.77
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 260,
-      "avg_duration_ms": 434903.1192307692,
-      "p50_duration_ms": 182247.0,
-      "p95_duration_ms": 919780.0999999996,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 48.42696629213483
-    },
-    {
       "ticker": "BWR-GOP-CONTROL-HOUSE-CERTIFIED-ANY-2026",
-      "window_count": 16,
-      "avg_duration_ms": 4678023.6875,
-      "p50_duration_ms": 161642.5,
-      "p95_duration_ms": 20074157.25,
+      "window_count": 17,
+      "avg_duration_ms": 4404047.0,
+      "p50_duration_ms": 22151.0,
+      "p95_duration_ms": 19158999.399999987,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 31.821052631578947
+    },
+    {
+      "ticker": "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 762971.5,
+      "p50_duration_ms": 762971.5,
+      "p95_duration_ms": 1274592.25,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 32.35
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 261,
+      "avg_duration_ms": 433927.4252873563,
+      "p50_duration_ms": 182172.0,
+      "p95_duration_ms": 918824.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 41.05
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "window_count": 25,
+      "avg_duration_ms": 931263.16,
+      "p50_duration_ms": 94706.0,
+      "p95_duration_ms": 3260210.3999999985,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 4.63
     }
   ],
   "executions": [],
