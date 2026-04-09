@@ -37822,6 +37822,105 @@
       "net_profit": 0.050000000000000266,
       "nev_per_share": 0.010000000000000054,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-MARKERT-WIN-GOP_NOM_SEN_CO-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-09T09:20:01.446440+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.10999999999999999,
+          "size": 3.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.10999999999999999,
+      "total_entry_cost": 0.32999999999999996,
+      "exit_fills": [
+        {
+          "price": 0.11,
+          "size": 3.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.11,
+      "total_exit_proceeds": 0.33,
+      "shares_filled": 3.0,
+      "shares_exited": 3.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 5.551115123125783e-17,
+      "fees": 0.0,
+      "net_profit": 5.551115123125783e-17,
+      "nev_per_share": 1.850371707708594e-17,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-CHONG-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T09:22:33.692235+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.81,
+          "size": 22.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.81,
+      "total_entry_cost": 17.82,
+      "exit_fills": [
+        {
+          "price": 0.86,
+          "size": 22.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.8599999999999999,
+      "total_exit_proceeds": 18.919999999999998,
+      "shares_filled": 22.0,
+      "shares_exited": 22.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.0999999999999979,
+      "fees": 0.0,
+      "net_profit": 1.0999999999999979,
+      "nev_per_share": 0.049999999999999906,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-CHONG-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T09:23:12.962168+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.83,
+          "size": 166.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.83,
+      "total_entry_cost": 137.78,
+      "exit_fills": [
+        {
+          "price": 0.86,
+          "size": 166.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.86,
+      "total_exit_proceeds": 142.76,
+      "shares_filled": 166.0,
+      "shares_exited": 166.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 4.97999999999999,
+      "fees": 0.0,
+      "net_profit": 4.97999999999999,
+      "nev_per_share": 0.02999999999999994,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -38519,17 +38618,6 @@
       "avg_message_latency_ms": 50.333333333333336
     },
     {
-      "ticker": "BWR-MARKERT-WIN-GOP_NOM_SEN_CO-PRIMARY-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 3792619.0,
-      "p50_duration_ms": 3792619.0,
-      "p95_duration_ms": 3792619.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 33.2
-    },
-    {
       "ticker": "BWR-TAYLOR-WIN-GOV_AK-CERTIFIED-ANY-2026",
       "window_count": 66,
       "avg_duration_ms": 1290179.7727272727,
@@ -38585,15 +38673,26 @@
       "avg_message_latency_ms": 49.23076923076923
     },
     {
+      "ticker": "BWR-MARKERT-WIN-GOP_NOM_SEN_CO-PRIMARY-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 2038308.0,
+      "p50_duration_ms": 2038308.0,
+      "p95_duration_ms": 3617187.9,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 56.95402298850575
+    },
+    {
       "ticker": "BWR-CHONG-WIN-MAYOR_SEOUL-CERTIFIED-ANY-2026",
-      "window_count": 16,
-      "avg_duration_ms": 1622708.5,
-      "p50_duration_ms": 661326.0,
-      "p95_duration_ms": 6124343.75,
+      "window_count": 18,
+      "avg_duration_ms": 1442414.1666666667,
+      "p50_duration_ms": 485077.5,
+      "p95_duration_ms": 5481379.0499999905,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
-      "avg_message_latency_ms": 60.5
+      "avg_message_latency_ms": 57.57575757575758
     }
   ],
   "executions": [],
