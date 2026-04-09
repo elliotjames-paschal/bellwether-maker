@@ -37023,6 +37023,49 @@
       "net_profit": 0.7999999999999989,
       "nev_per_share": 0.07999999999999989,
       "ann_return": 0.2462887989203775
+    },
+    {
+      "ticker": "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-09T07:58:48.542917+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.5700000000000001,
+          "size": 10.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.5700000000000001,
+          "size": 10.15,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.5700000000000002,
+      "total_entry_cost": 11.485500000000002,
+      "exit_fills": [
+        {
+          "price": 0.68,
+          "size": 10.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.64,
+          "size": 10.15,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.6598511166253103,
+      "total_exit_proceeds": 13.296000000000001,
+      "shares_filled": 20.15,
+      "shares_exited": 20.15,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.8104999999999993,
+      "fees": 0.0,
+      "net_profit": 1.8104999999999993,
+      "nev_per_share": 0.08985111662531015,
+      "ann_return": 0.2766165449412803
     }
   ],
   "executability": [
@@ -37765,14 +37808,14 @@
     },
     {
       "ticker": "BWR-WAHLS-WIN-DEM_NOM_SEN_IA-PRIMARY-ANY-2026",
-      "window_count": 5,
-      "avg_duration_ms": 143887.4,
-      "p50_duration_ms": 19574.0,
-      "p95_duration_ms": 340086.2,
+      "window_count": 6,
+      "avg_duration_ms": 137934.33333333334,
+      "p50_duration_ms": 63871.5,
+      "p95_duration_ms": 338651.25,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
-      "avg_message_latency_ms": 46.0
+      "avg_message_latency_ms": 50.333333333333336
     }
   ],
   "executions": [],
