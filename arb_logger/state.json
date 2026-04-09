@@ -34461,6 +34461,39 @@
       "net_profit": 3.6000000000000227,
       "nev_per_share": 0.014400000000000092,
       "ann_return": 0.029883196273924943
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_NC06-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T04:16:50.621317+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.84,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.84,
+      "total_entry_cost": 50.4,
+      "exit_fills": [
+        {
+          "price": 0.86,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.86,
+      "total_exit_proceeds": 51.6,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.2000000000000028,
+      "fees": 0.0,
+      "net_profit": 1.2000000000000028,
+      "nev_per_share": 0.02000000000000005,
+      "ann_return": 0.04178113553113563
     }
   ],
   "executability": [
@@ -35192,10 +35225,10 @@
     },
     {
       "ticker": "BWR-GOP-WIN-HOUSE_NC06-CERTIFIED-ANY-2026",
-      "window_count": 39,
-      "avg_duration_ms": 3220073.564102564,
-      "p50_duration_ms": 452936.0,
-      "p95_duration_ms": 14723799.600000009,
+      "window_count": 40,
+      "avg_duration_ms": 3148489.3,
+      "p50_duration_ms": 452351.5,
+      "p95_duration_ms": 14402935.799999982,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
