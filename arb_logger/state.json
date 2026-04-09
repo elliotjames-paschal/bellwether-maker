@@ -54529,6 +54529,49 @@
       "net_profit": 0.010080000000000006,
       "nev_per_share": 0.0010000000000000005,
       "ann_return": 0.09475597092419528
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T23:50:56.986109+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 31.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 46.0,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 31.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.92338,
+      "total_exit_proceeds": 46.169,
+      "shares_filled": 50.0,
+      "shares_exited": 50.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.16899999999999693,
+      "fees": 0.0,
+      "net_profit": 0.16899999999999693,
+      "nev_per_share": 0.0033799999999999386,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -55369,17 +55412,6 @@
       "avg_message_latency_ms": 147.90666666666667
     },
     {
-      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 54,
-      "avg_duration_ms": 380712.27777777775,
-      "p50_duration_ms": 125280.5,
-      "p95_duration_ms": 1778809.6999999997,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 49.86
-    },
-    {
       "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
       "window_count": 25,
       "avg_duration_ms": 6237766.04,
@@ -55400,6 +55432,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 55.15
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 55,
+      "avg_duration_ms": 374061.12727272726,
+      "p50_duration_ms": 120015.0,
+      "p95_duration_ms": 1777552.6,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 56.37
     }
   ],
   "executions": [],
