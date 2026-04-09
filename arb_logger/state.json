@@ -34002,6 +34002,49 @@
       "net_profit": 0.010080000000000006,
       "nev_per_share": 0.0010000000000000005,
       "ann_return": 0.09453509453509458
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_WYAL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T03:40:23.386355+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.93,
+          "size": 473.07,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.94,
+          "size": 21.930000000000007,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.9304430303030303,
+      "total_entry_cost": 460.5693,
+      "exit_fills": [
+        {
+          "price": 0.96,
+          "size": 473.07,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.96,
+          "size": 21.930000000000007,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.96,
+      "total_exit_proceeds": 475.2,
+      "shares_filled": 495.0,
+      "shares_exited": 495.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 14.63069999999999,
+      "fees": 0.0,
+      "net_profit": 14.63069999999999,
+      "nev_per_share": 0.02955696969696968,
+      "ann_return": 0.055744195073024055
     }
   ],
   "executability": [
@@ -34730,6 +34773,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 58.39
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_WYAL-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 126593492.0,
+      "p50_duration_ms": 126593492.0,
+      "p95_duration_ms": 126593492.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 67.46
     }
   ],
   "executions": [],
