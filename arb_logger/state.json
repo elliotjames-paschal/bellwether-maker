@@ -35389,6 +35389,82 @@
       "net_profit": 0.4000000000000066,
       "nev_per_share": 0.004000000000000066,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T05:28:26.054783+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09453509453509464
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-09T05:31:35.073642+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.27,
+          "size": 4.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.27,
+          "size": 93.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.2700000000000001,
+      "total_entry_cost": 26.190000000000005,
+      "exit_fills": [
+        {
+          "price": 0.273,
+          "size": 4.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.272,
+          "size": 93.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.27204123711340206,
+      "total_exit_proceeds": 26.388,
+      "shares_filled": 97.0,
+      "shares_exited": 97.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.19799999999999685,
+      "fees": 0.0,
+      "net_profit": 0.19799999999999685,
+      "nev_per_share": 0.0020412371134020295,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -36086,17 +36162,6 @@
       "avg_message_latency_ms": -9.88
     },
     {
-      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
-      "window_count": 23,
-      "avg_duration_ms": 1468100.1304347827,
-      "p50_duration_ms": 61843.0,
-      "p95_duration_ms": 3130641.9999999995,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 15.16
-    },
-    {
       "ticker": "BWR-GOP-WIN-GOV_MI-CERTIFIED-ANY-2026",
       "window_count": 9,
       "avg_duration_ms": 14264618.111111112,
@@ -36119,17 +36184,6 @@
       "avg_message_latency_ms": -9.23
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 215,
-      "avg_duration_ms": 451965.1395348837,
-      "p50_duration_ms": 183729.0,
-      "p95_duration_ms": 779864.8999999966,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 11.05
-    },
-    {
       "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 4,
       "avg_duration_ms": 2746006.75,
@@ -36139,6 +36193,28 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 11.9
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 216,
+      "avg_duration_ms": 450943.9166666667,
+      "p50_duration_ms": 184172.0,
+      "p95_duration_ms": 769939.25,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 10.95
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "window_count": 24,
+      "avg_duration_ms": 1426990.75,
+      "p50_duration_ms": 67586.5,
+      "p95_duration_ms": 3114891.999999999,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 6.29
     }
   ],
   "executions": [],
