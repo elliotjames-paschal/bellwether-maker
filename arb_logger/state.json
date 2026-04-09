@@ -34494,6 +34494,49 @@
       "net_profit": 1.2000000000000028,
       "nev_per_share": 0.02000000000000005,
       "ann_return": 0.04178113553113563
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T04:18:02.698045+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.78,
+          "size": 160.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.79,
+          "size": 75.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.7831914893617021,
+      "total_entry_cost": 184.05,
+      "exit_fills": [
+        {
+          "price": 0.8,
+          "size": 160.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.8,
+          "size": 75.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.8,
+      "total_exit_proceeds": 188.0,
+      "shares_filled": 235.0,
+      "shares_exited": 235.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 3.9499999999999886,
+      "fees": 0.0,
+      "net_profit": 3.9499999999999886,
+      "nev_per_share": 0.016808510638297823,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -34993,17 +35036,6 @@
       "avg_message_latency_ms": 197.32911392405063
     },
     {
-      "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
-      "window_count": 14,
-      "avg_duration_ms": 7790778.142857143,
-      "p50_duration_ms": 1718814.5,
-      "p95_duration_ms": 32522735.849999994,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 197.13793103448276
-    },
-    {
       "ticker": "BWR-TRUMP-MEET-LEO_XIV-IN_PERSON-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 1824659.0,
@@ -35233,6 +35265,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 128.32
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
+      "window_count": 15,
+      "avg_duration_ms": 8614640.2,
+      "p50_duration_ms": 2415042.0,
+      "p95_duration_ms": 31635081.299999982,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 138.74444444444444
     }
   ],
   "executions": [],
