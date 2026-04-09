@@ -50382,6 +50382,89 @@
       "net_profit": 0.020000000000000018,
       "nev_per_share": 0.010000000000000009,
       "ann_return": 0.018726591760299643
+    },
+    {
+      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T19:53:25.075491+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.003,
+          "size": 180.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.004,
+          "size": 665.73,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.009,
+          "size": 100.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.011,
+          "size": 54.26999999999998,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.011,
+          "size": 89.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.011,
+          "size": 71.14000000000001,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.00556952609167859,
+      "total_entry_cost": 6.46143,
+      "exit_fills": [
+        {
+          "price": 0.027,
+          "size": 180.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.027,
+          "size": 665.73,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.027,
+          "size": 100.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.027,
+          "size": 54.26999999999998,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.026,
+          "size": 89.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.02,
+          "size": 71.14000000000001,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.026494043822297305,
+      "total_exit_proceeds": 30.7368,
+      "shares_filled": 1160.14,
+      "shares_exited": 1160.14,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 24.27537,
+      "fees": 0.0,
+      "net_profit": 24.27537,
+      "nev_per_share": 0.020924517730618715,
+      "ann_return": 6.6246011141204955
     }
   ],
   "executability": [
@@ -51220,6 +51303,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 44.81
+    },
+    {
+      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 185395037.0,
+      "p50_duration_ms": 185395037.0,
+      "p95_duration_ms": 185395037.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 29.58974358974359
     }
   ],
   "executions": [],
