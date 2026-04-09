@@ -35465,6 +35465,72 @@
       "net_profit": 0.19799999999999685,
       "nev_per_share": 0.0020412371134020295,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_VT-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T05:33:34.686910+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 208,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.19,
+          "size": 11.52,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.19,
+      "total_entry_cost": 2.1888,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 11.52,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.19999999999999998,
+      "total_exit_proceeds": 2.304,
+      "shares_filled": 11.52,
+      "shares_exited": 11.52,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.11519999999999975,
+      "fees": 0.0,
+      "net_profit": 0.11519999999999975,
+      "nev_per_share": 0.009999999999999978,
+      "ann_return": 0.09235829959514148
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T05:34:26.784090+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09453509453509458
     }
   ],
   "executability": [
@@ -36173,17 +36239,6 @@
       "avg_message_latency_ms": -12.07
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_VT-CERTIFIED-ANY-2026",
-      "window_count": 2,
-      "avg_duration_ms": 66151.5,
-      "p50_duration_ms": 66151.5,
-      "p95_duration_ms": 66244.65000000001,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": -9.23
-    },
-    {
       "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 4,
       "avg_duration_ms": 2746006.75,
@@ -36195,17 +36250,6 @@
       "avg_message_latency_ms": 11.9
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 216,
-      "avg_duration_ms": 450943.9166666667,
-      "p50_duration_ms": 184172.0,
-      "p95_duration_ms": 769939.25,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 10.95
-    },
-    {
       "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
       "window_count": 24,
       "avg_duration_ms": 1426990.75,
@@ -36215,6 +36259,28 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 6.29
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_VT-CERTIFIED-ANY-2026",
+      "window_count": 3,
+      "avg_duration_ms": 63937.333333333336,
+      "p50_duration_ms": 66048.0,
+      "p95_duration_ms": 66234.3,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 9.75
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 217,
+      "avg_duration_ms": 449698.85253456223,
+      "p50_duration_ms": 183729.0,
+      "p95_duration_ms": 760013.5999999978,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 9.59
     }
   ],
   "executions": [],
