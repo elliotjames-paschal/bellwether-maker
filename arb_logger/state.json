@@ -39922,6 +39922,468 @@
       "net_profit": 0.75,
       "nev_per_share": 0.01,
       "ann_return": 0.5877616747181965
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:49:59.579314+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 66.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 5.9399999999999995,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 66.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 6.6000000000000005,
+      "shares_filled": 66.0,
+      "shares_exited": 66.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.660000000000001,
+      "fees": 0.0,
+      "net_profit": 0.660000000000001,
+      "nev_per_share": 0.010000000000000016,
+      "ann_return": 0.5877616747181975
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:50:19.243654+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 58.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 5.22,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 58.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 5.800000000000001,
+      "shares_filled": 58.0,
+      "shares_exited": 58.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.580000000000001,
+      "fees": 0.0,
+      "net_profit": 0.580000000000001,
+      "nev_per_share": 0.010000000000000016,
+      "ann_return": 0.5877616747181975
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:51:34.779585+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 32.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 2.88,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 32.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 3.2,
+      "shares_filled": 32.0,
+      "shares_exited": 32.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3200000000000003,
+      "fees": 0.0,
+      "net_profit": 0.3200000000000003,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.5877616747181971
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:51:38.403299+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 59.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 5.31,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 59.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 5.9,
+      "shares_filled": 59.0,
+      "shares_exited": 59.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5900000000000007,
+      "fees": 0.0,
+      "net_profit": 0.5900000000000007,
+      "nev_per_share": 0.010000000000000012,
+      "ann_return": 0.5877616747181973
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:51:40.911934+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 61.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 5.49,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 61.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 6.1000000000000005,
+      "shares_filled": 61.0,
+      "shares_exited": 61.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6100000000000003,
+      "fees": 0.0,
+      "net_profit": 0.6100000000000003,
+      "nev_per_share": 0.010000000000000005,
+      "ann_return": 0.5877616747181967
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:51:42.648815+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 61.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 5.49,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 61.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 6.1000000000000005,
+      "shares_filled": 61.0,
+      "shares_exited": 61.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6100000000000003,
+      "fees": 0.0,
+      "net_profit": 0.6100000000000003,
+      "nev_per_share": 0.010000000000000005,
+      "ann_return": 0.5877616747181967
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:51:47.679560+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 28.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 2.52,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 28.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 2.8000000000000003,
+      "shares_filled": 28.0,
+      "shares_exited": 28.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.28000000000000025,
+      "fees": 0.0,
+      "net_profit": 0.28000000000000025,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.587761674718197
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:51:58.911366+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 25.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 2.25,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 25.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 2.5,
+      "shares_filled": 25.0,
+      "shares_exited": 25.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.25,
+      "fees": 0.0,
+      "net_profit": 0.25,
+      "nev_per_share": 0.01,
+      "ann_return": 0.5877616747181965
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:52:09.474527+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 22.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 1.98,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 22.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 2.2,
+      "shares_filled": 22.0,
+      "shares_exited": 22.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.2200000000000002,
+      "fees": 0.0,
+      "net_profit": 0.2200000000000002,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.5877616747181971
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:52:21.258655+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 19.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 1.71,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 19.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 1.9000000000000001,
+      "shares_filled": 19.0,
+      "shares_exited": 19.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.19000000000000017,
+      "fees": 0.0,
+      "net_profit": 0.19000000000000017,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.5877616747181971
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:52:31.885085+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 17.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 1.53,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 17.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 1.7000000000000002,
+      "shares_filled": 17.0,
+      "shares_exited": 17.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.17000000000000015,
+      "fees": 0.0,
+      "net_profit": 0.17000000000000015,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.587761674718197
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:52:41.281758+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 15.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 1.3499999999999999,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 15.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 1.5,
+      "shares_filled": 15.0,
+      "shares_exited": 15.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.15000000000000013,
+      "fees": 0.0,
+      "net_profit": 0.15000000000000013,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.5877616747181971
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-09T11:52:50.863255+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 69,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.09,
+          "size": 13.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.09,
+      "total_entry_cost": 1.17,
+      "exit_fills": [
+        {
+          "price": 0.1,
+          "size": 13.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.1,
+      "total_exit_proceeds": 1.3,
+      "shares_filled": 13.0,
+      "shares_exited": 13.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.13000000000000012,
+      "fees": 0.0,
+      "net_profit": 0.13000000000000012,
+      "nev_per_share": 0.010000000000000009,
+      "ann_return": 0.5877616747181971
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T11:54:42.894492+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09453509453509458
     }
   ],
   "executability": [
@@ -40696,26 +41158,26 @@
       "avg_message_latency_ms": 32.35
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 261,
-      "avg_duration_ms": 433927.4252873563,
-      "p50_duration_ms": 182172.0,
-      "p95_duration_ms": 918824.0,
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "window_count": 38,
+      "avg_duration_ms": 612719.1842105263,
+      "p50_duration_ms": 1610.5,
+      "p95_duration_ms": 2899331.6999999993,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 41.05
+      "avg_message_latency_ms": -4.62
     },
     {
-      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
-      "window_count": 25,
-      "avg_duration_ms": 931263.16,
-      "p50_duration_ms": 94706.0,
-      "p95_duration_ms": 3260210.3999999985,
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 262,
+      "avg_duration_ms": 432950.85877862596,
+      "p50_duration_ms": 182171.5,
+      "p95_duration_ms": 912254.4499999986,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 4.63
+      "avg_message_latency_ms": 27.88
     }
   ],
   "executions": [],
