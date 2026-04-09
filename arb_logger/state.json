@@ -38994,6 +38994,72 @@
       "net_profit": 0.020159999999999997,
       "nev_per_share": 0.0019999999999999996,
       "ann_return": 0.21270396270396263
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T11:16:27.539400+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.008,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.008,
+      "total_entry_cost": 0.08064,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.020159999999999997,
+      "fees": 0.0,
+      "net_profit": 0.020159999999999997,
+      "nev_per_share": 0.0019999999999999996,
+      "ann_return": 0.21270396270396263
+    },
+    {
+      "ticker": "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T11:16:28.861696+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.020000000000000018,
+          "size": 34.7,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.020000000000000018,
+      "total_entry_cost": 0.6940000000000007,
+      "exit_fills": [
+        {
+          "price": 0.023,
+          "size": 34.7,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.023,
+      "total_exit_proceeds": 0.7981,
+      "shares_filled": 34.7,
+      "shares_exited": 34.7,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1040999999999993,
+      "fees": 0.0,
+      "net_profit": 0.1040999999999993,
+      "nev_per_share": 0.0029999999999999797,
+      "ann_return": 0.1276223776223766
     }
   ],
   "executability": [
@@ -39758,14 +39824,25 @@
     },
     {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 256,
-      "avg_duration_ms": 436510.75,
-      "p50_duration_ms": 182348.5,
-      "p95_duration_ms": 923604.5,
+      "window_count": 257,
+      "avg_duration_ms": 435505.50972762646,
+      "p50_duration_ms": 182322.0,
+      "p95_duration_ms": 922648.3999999998,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 16.7
+      "avg_message_latency_ms": 4.89
+    },
+    {
+      "ticker": "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 1,
+      "avg_duration_ms": 1331439.0,
+      "p50_duration_ms": 1331439.0,
+      "p95_duration_ms": 1331439.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 7.0
     }
   ],
   "executions": [],
