@@ -1,27 +1,27 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-04-09 12:14:59 UTC_
+_Last updated: 2026-04-09 12:20:01 UTC_
 
-**Session**: 1d 19h | **Markets with positions**: 5 | **Total paper trades**: 5
+**Session**: 1d 19h | **Markets with positions**: 6 | **Total paper trades**: 6
 
 ## P&L Summary
 
 | Metric | Value |
 |--------|-------|
-| Realized arb profit | **$116.92** |
-| Yield on positions (to resolution) | **$66.39** |
-| **Realized + yield** | **$183.31** |
+| Realized arb profit | **$131.92** |
+| Yield on positions (to resolution) | **$75.77** |
+| **Realized + yield** | **$207.69** |
 | Projected future arb (sqrt-discounted) | $0.00 |
 | Projected future yield | $0.00 |
-| **Projected total return** | **$183.31** |
+| **Projected total return** | **$207.69** |
 
 ## Capital Requirements
 
 | Metric | Value |
 |--------|-------|
-| Current capital deployed | $3093.58 |
-| Peak capital observed | $3093.58 |
-| Projected peak capital (incl. re-entries) | **$3093.58** |
+| Current capital deployed | $3548.58 |
+| Peak capital observed | $3548.58 |
+| Projected peak capital (incl. re-entries) | **$3548.58** |
 | Projected ROI on current capital | 5.9% |
 | Projected ROI on projected peak capital | 5.9% |
 
@@ -38,6 +38,7 @@ _Our individual race arbs earn yield only on the Kalshi leg. Polymarket's 4% yie
 
 | Market | Entries | Capital | Arb Profit | Yield (est.) | Days Left | Direction |
 |--------|---------|---------|------------|-------------|-----------|----------|
+| HOUSE_CA07 | 1 | $455.00 | $15.00 | $19.75 | 208 | PM→K |
 | HOUSE_GA-09 | 1 | $690.00 | $22.50 | $30.08 | 209 | PM→K |
 | HOUSE_GA-12 | 1 | $645.00 | $25.00 | $28.20 | 209 | PM→K |
 | HOUSE_IL16 | 1 | $660.00 | $25.00 | $28.84 | 209 | PM→K |
@@ -52,6 +53,7 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 |--------|----------|------------|----------|-----------|------------|------------------|
 | CN-PHYSICAL_PRESENCE | 1 | 0.0h | 0.0/d | 0 | $19.42 | $0.00 |
 | HOUSE_GA-12 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
+| HOUSE_CA07 | 1 | 0.0h | 0.0/d | 0 | $15.00 | $0.00 |
 | HOUSE_TN07 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 | HOUSE_IL16 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 | HOUSE_GA-09 | 1 | 0.0h | 0.0/d | 0 | $22.50 | $0.00 |
@@ -60,6 +62,7 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 
 | Time (UTC) | Market | Shares | Capital | Profit | NEV | Direction |
 |------------|--------|--------|---------|--------|-----|----------|
+| 12:18:00 | HOUSE_CA07 | 500 | $455.00 | $15.00 | 3.0¢ | PM→K |
 | 16:38:35 | CN-PHYSICAL_PRESENCE | 500 | $431.08 | $19.42 | 3.9¢ | K→PM |
 | 16:30:29 | HOUSE_GA-09 | 750 | $690.00 | $22.50 | 3.0¢ | PM→K |
 | 16:23:21 | HOUSE_IL16 | 750 | $660.00 | $25.00 | 3.3¢ | PM→K |
