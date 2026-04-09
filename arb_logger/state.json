@@ -32533,6 +32533,115 @@
       "net_profit": 2.0,
       "nev_per_share": 0.01,
       "ann_return": 0.020644796380090497
+    },
+    {
+      "ticker": "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-09T01:22:10.589144+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.85,
+          "size": 7.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.85,
+      "total_entry_cost": 5.95,
+      "exit_fills": [
+        {
+          "price": 0.86,
+          "size": 7.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.86,
+      "total_exit_proceeds": 6.02,
+      "shares_filled": 7.0,
+      "shares_exited": 7.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.0699999999999994,
+      "fees": 0.0,
+      "net_profit": 0.0699999999999994,
+      "nev_per_share": 0.009999999999999913,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T01:22:28.554379+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 429,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 15.78,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.14201999999999998,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 15.78,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1578,
+      "shares_filled": 15.78,
+      "shares_exited": 15.78,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015780000000000016,
+      "fees": 0.0,
+      "net_profit": 0.015780000000000016,
+      "nev_per_share": 0.001000000000000001,
+      "ann_return": 0.09453509453509464
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-09T01:25:09.911276+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 267,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.63,
+          "size": 60.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.64,
+          "size": 20.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.6325,
+      "total_entry_cost": 50.599999999999994,
+      "exit_fills": [
+        {
+          "price": 0.65,
+          "size": 60.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.65,
+          "size": 20.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.65,
+      "total_exit_proceeds": 52.0,
+      "shares_filled": 80.0,
+      "shares_exited": 80.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.4000000000000057,
+      "fees": 0.0,
+      "net_profit": 1.4000000000000057,
+      "nev_per_share": 0.01750000000000007,
+      "ann_return": 0.037823274266850386
     }
   ],
   "executability": [
@@ -33131,17 +33240,6 @@
       "avg_message_latency_ms": 33.1
     },
     {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 6,
-      "avg_duration_ms": 8708143.666666666,
-      "p50_duration_ms": 3194371.0,
-      "p95_duration_ms": 30192996.5,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 20.63
-    },
-    {
       "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
       "window_count": 37,
       "avg_duration_ms": 945276.6486486486,
@@ -33197,17 +33295,6 @@
       "avg_message_latency_ms": 217.4795918367347
     },
     {
-      "ticker": "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026",
-      "window_count": 21,
-      "avg_duration_ms": 982120.2380952381,
-      "p50_duration_ms": 1094174.0,
-      "p95_duration_ms": 1526516.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 35.76
-    },
-    {
       "ticker": "BWR-DEM-WIN-HOUSE_CA_22-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 464616.0,
@@ -33230,17 +33317,6 @@
       "avg_message_latency_ms": 40.54
     },
     {
-      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 189,
-      "avg_duration_ms": 458538.8888888889,
-      "p50_duration_ms": 183334.0,
-      "p95_duration_ms": 839418.7999999989,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 38.14
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_NC06-CERTIFIED-ANY-2026",
       "window_count": 32,
       "avg_duration_ms": 3606509.59375,
@@ -33250,6 +33326,39 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 143.34782608695653
+    },
+    {
+      "ticker": "BWR-TORRES-WIN-DEM_NOM_NY_15-PRIMARY-ANY-2026",
+      "window_count": 22,
+      "avg_duration_ms": 1001660.4545454546,
+      "p50_duration_ms": 1096018.5,
+      "p95_duration_ms": 1520790.45,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 36.06
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 190,
+      "avg_duration_ms": 457799.6789473684,
+      "p50_duration_ms": 183433.0,
+      "p95_duration_ms": 829493.1499999966,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 41.17
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 7,
+      "avg_duration_ms": 7972344.714285715,
+      "p50_duration_ms": 3557551.0,
+      "p95_duration_ms": 28692192.99999998,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 48.71
     }
   ],
   "executions": [],
