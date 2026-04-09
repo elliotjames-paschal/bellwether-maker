@@ -52710,6 +52710,39 @@
       "net_profit": 0.010080000000000006,
       "nev_per_share": 0.0010000000000000005,
       "ann_return": 0.09475597092419528
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T21:34:33.193594+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 15.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 13.8,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 15.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.924,
+      "total_exit_proceeds": 13.860000000000001,
+      "shares_filled": 15.0,
+      "shares_exited": 15.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.0600000000000005,
+      "fees": 0.0,
+      "net_profit": 0.0600000000000005,
+      "nev_per_share": 0.004000000000000033,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -53517,17 +53550,6 @@
       "avg_message_latency_ms": 31.442307692307693
     },
     {
-      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 37,
-      "avg_duration_ms": 490015.6756756757,
-      "p50_duration_ms": 142291.0,
-      "p95_duration_ms": 1859882.1999999986,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 57.09
-    },
-    {
       "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
       "window_count": 24,
       "avg_duration_ms": 7766302.875,
@@ -53581,6 +53603,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 46.16
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 38,
+      "avg_duration_ms": 479476.05263157893,
+      "p50_duration_ms": 139364.5,
+      "p95_duration_ms": 1843699.6499999994,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 53.64
     }
   ],
   "executions": [],
