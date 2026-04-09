@@ -48767,6 +48767,191 @@
       "net_profit": 0.17239999999999966,
       "nev_per_share": 0.009999999999999981,
       "ann_return": 0.029886186850077733
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T18:21:56.510959+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.5900000000000001,
+          "size": 17.24,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.5900000000000001,
+      "total_entry_cost": 10.1716,
+      "exit_fills": [
+        {
+          "price": 0.6,
+          "size": 17.24,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.6,
+      "total_exit_proceeds": 10.344,
+      "shares_filled": 17.24,
+      "shares_exited": 17.24,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.17239999999999966,
+      "fees": 0.0,
+      "net_profit": 0.17239999999999966,
+      "nev_per_share": 0.009999999999999981,
+      "ann_return": 0.029886186850077733
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T18:21:58.633369+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.5900000000000001,
+          "size": 17.09,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.5900000000000001,
+      "total_entry_cost": 10.083100000000002,
+      "exit_fills": [
+        {
+          "price": 0.61,
+          "size": 17.09,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.61,
+      "total_exit_proceeds": 10.4249,
+      "shares_filled": 17.09,
+      "shares_exited": 17.09,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.34179999999999744,
+      "fees": 0.0,
+      "net_profit": 0.34179999999999744,
+      "nev_per_share": 0.01999999999999985,
+      "ann_return": 0.05977237370015512
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T18:23:05.202641+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.5900000000000001,
+          "size": 11.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.5900000000000001,
+          "size": 17.09,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.5900000000000001,
+      "total_entry_cost": 16.573100000000004,
+      "exit_fills": [
+        {
+          "price": 0.62,
+          "size": 11.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.61,
+          "size": 17.09,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.6139159843360626,
+      "total_exit_proceeds": 17.2449,
+      "shares_filled": 28.09,
+      "shares_exited": 28.09,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6717999999999975,
+      "fees": 0.0,
+      "net_profit": 0.6717999999999975,
+      "nev_per_share": 0.023915984336062568,
+      "ann_return": 0.07147575765710992
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T18:24:12.411824+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.5900000000000001,
+          "size": 17.09,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.5900000000000001,
+      "total_entry_cost": 10.083100000000002,
+      "exit_fills": [
+        {
+          "price": 0.62,
+          "size": 17.09,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.62,
+      "total_exit_proceeds": 10.5958,
+      "shares_filled": 17.09,
+      "shares_exited": 17.09,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5126999999999988,
+      "fees": 0.0,
+      "net_profit": 0.5126999999999988,
+      "nev_per_share": 0.029999999999999933,
+      "ann_return": 0.08965856055023314
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-09T18:26:27.531278+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.5900000000000001,
+          "size": 11.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.5900000000000001,
+          "size": 17.24,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.5900000000000001,
+      "total_entry_cost": 16.6616,
+      "exit_fills": [
+        {
+          "price": 0.61,
+          "size": 11.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.6,
+          "size": 17.24,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.6038951841359773,
+      "total_exit_proceeds": 17.054,
+      "shares_filled": 28.24,
+      "shares_exited": 28.24,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3923999999999985,
+      "fees": 0.0,
+      "net_profit": 0.3923999999999985,
+      "nev_per_share": 0.013895184135977286,
+      "ann_return": 0.04152740694040538
     }
   ],
   "executability": [
@@ -49597,14 +49782,14 @@
     },
     {
       "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
-      "window_count": 12,
-      "avg_duration_ms": 14540607.166666666,
-      "p50_duration_ms": 17847.0,
-      "p95_duration_ms": 78363893.59999987,
+      "window_count": 17,
+      "avg_duration_ms": 10278258.411764706,
+      "p50_duration_ms": 26428.0,
+      "p95_duration_ms": 34974641.599999875,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
-      "avg_message_latency_ms": 20.31
+      "avg_message_latency_ms": 28.47
     }
   ],
   "executions": [],
