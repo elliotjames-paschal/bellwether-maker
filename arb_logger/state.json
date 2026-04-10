@@ -76268,6 +76268,49 @@
       "net_profit": 0.16999999999999993,
       "nev_per_share": 0.009999999999999995,
       "ann_return": 0.07382686084142392
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T21:21:40.231813+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.18,
+          "size": 111.76,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.19,
+          "size": 100.6,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.18473723865134678,
+      "total_entry_cost": 39.2308,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 111.76,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.2,
+          "size": 100.6,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.20000000000000004,
+      "total_exit_proceeds": 42.47200000000001,
+      "shares_filled": 212.36,
+      "shares_exited": 212.36,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 3.2412000000000063,
+      "fees": 0.0,
+      "net_profit": 3.2412000000000063,
+      "nev_per_share": 0.015262761348653259,
+      "ann_return": 0.14638760648830434
     }
   ],
   "executability": [
@@ -77625,17 +77668,6 @@
       "avg_message_latency_ms": 37.2
     },
     {
-      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 321527.6666666667,
-      "p50_duration_ms": 59272.0,
-      "p95_duration_ms": 820347.9999999999,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 30.96
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_OH_07-CERTIFIED-ANY-2026",
       "window_count": 19,
       "avg_duration_ms": 13883571.52631579,
@@ -77733,6 +77765,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 27.6
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "window_count": 4,
+      "avg_duration_ms": 507291.25,
+      "p50_duration_ms": 482092.0,
+      "p95_duration_ms": 1040631.4999999999,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 42.83
     }
   ],
   "executions": [],
