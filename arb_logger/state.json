@@ -59962,6 +59962,221 @@
       "net_profit": 0.10000000000000142,
       "nev_per_share": 0.010000000000000142,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T02:55:55.472864+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 44.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.9200000000000002,
+      "total_entry_cost": 57.96000000000001,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 44.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9233015873015874,
+      "total_exit_proceeds": 58.168000000000006,
+      "shares_filled": 63.0,
+      "shares_exited": 63.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.2079999999999984,
+      "fees": 0.0,
+      "net_profit": 0.2079999999999984,
+      "nev_per_share": 0.0033015873015872763,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T02:56:47.715601+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 9.3,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 26.036,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 9.3,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9236713780918729,
+      "total_exit_proceeds": 26.139900000000004,
+      "shares_filled": 28.3,
+      "shares_exited": 28.3,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10390000000000299,
+      "fees": 0.0,
+      "net_profit": 0.10390000000000299,
+      "nev_per_share": 0.003671378091872897,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T02:56:58.097455+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 9.3,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 26.036,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 9.3,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9236713780918729,
+      "total_exit_proceeds": 26.139900000000004,
+      "shares_filled": 28.3,
+      "shares_exited": 28.3,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10390000000000299,
+      "fees": 0.0,
+      "net_profit": 0.10390000000000299,
+      "nev_per_share": 0.003671378091872897,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T02:57:26.844516+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 32.7,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 47.56400000000001,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 32.7,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9233675048355899,
+      "total_exit_proceeds": 47.7381,
+      "shares_filled": 51.7,
+      "shares_exited": 51.7,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1740999999999957,
+      "fees": 0.0,
+      "net_profit": 0.1740999999999957,
+      "nev_per_share": 0.0033675048355898585,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T02:58:23.993444+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 10.21,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.9200000000000002,
+      "total_entry_cost": 26.873200000000004,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 10.21,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9236504621704895,
+      "total_exit_proceeds": 26.97983,
+      "shares_filled": 29.21,
+      "shares_exited": 29.21,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10662999999999556,
+      "fees": 0.0,
+      "net_profit": 0.10662999999999556,
+      "nev_per_share": 0.003650462170489406,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -61308,17 +61523,6 @@
       "avg_message_latency_ms": 67.13
     },
     {
-      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 83,
-      "avg_duration_ms": 317631.6024096386,
-      "p50_duration_ms": 90071.0,
-      "p95_duration_ms": 1675815.6999999972,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 62.81
-    },
-    {
       "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
       "window_count": 24,
       "avg_duration_ms": 7211712.458333333,
@@ -61328,6 +61532,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 90.36
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 88,
+      "avg_duration_ms": 306022.38636363635,
+      "p50_duration_ms": 88747.5,
+      "p95_duration_ms": 1593569.9499999972,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 62.64
     }
   ],
   "executions": [],
