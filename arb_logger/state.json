@@ -73097,6 +73097,69 @@
       "net_profit": 0.04499999999999993,
       "nev_per_share": 0.008999999999999985,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-10T13:59:25.942419+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 265,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.64,
+          "size": 148.69,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.65,
+          "size": 80.4,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.66,
+          "size": 20.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.67,
+          "size": 0.9099999999999966,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.6449252,
+      "total_entry_cost": 161.2313,
+      "exit_fills": [
+        {
+          "price": 0.68,
+          "size": 148.69,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.68,
+          "size": 80.4,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.68,
+          "size": 20.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.68,
+          "size": 0.9099999999999966,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.68,
+      "total_exit_proceeds": 170.0,
+      "shares_filled": 250.0,
+      "shares_exited": 250.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 8.768699999999995,
+      "fees": 0.0,
+      "net_profit": 8.768699999999995,
+      "nev_per_share": 0.03507479999999998,
+      "ann_return": 0.07490880118330874
     }
   ],
   "executability": [
@@ -73539,17 +73602,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 3.2222222222222223
-    },
-    {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 12,
-      "avg_duration_ms": 8269354.5,
-      "p50_duration_ms": 4244396.5,
-      "p95_duration_ms": 30789440.249999993,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 22.35
     },
     {
       "ticker": "BWR-SINGLETON-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
@@ -74485,6 +74537,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 34.23
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 13,
+      "avg_duration_ms": 13863715.923076924,
+      "p50_duration_ms": 4883107.0,
+      "p95_duration_ms": 55016629.599999934,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 38.96
     }
   ],
   "executions": [],
