@@ -73807,6 +73807,49 @@
       "net_profit": 0.007799999999999974,
       "nev_per_share": 0.0009999999999999966,
       "ann_return": 0.049217907227615806
+    },
+    {
+      "ticker": "BWR-GOP-WIN-SEN_ID-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T15:54:36.418240+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 1.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 5.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 5.5200000000000005,
+      "exit_fills": [
+        {
+          "price": 0.93,
+          "size": 1.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.921,
+          "size": 5.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9225,
+      "total_exit_proceeds": 5.535,
+      "shares_filled": 6.0,
+      "shares_exited": 6.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.01499999999999968,
+      "fees": 0.0,
+      "net_profit": 0.01499999999999968,
+      "nev_per_share": 0.0024999999999999467,
+      "ann_return": 0.004814795272266676
     }
   ],
   "executability": [
@@ -74205,17 +74248,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 36.0
-    },
-    {
-      "ticker": "BWR-GOP-WIN-SEN_ID-CERTIFIED-ANY-2026",
-      "window_count": 2,
-      "avg_duration_ms": 73805451.5,
-      "p50_duration_ms": 73805451.5,
-      "p95_duration_ms": 126084732.04999998,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 30.0
     },
     {
       "ticker": "BWR-GOP-WIN-GOV_MI-CERTIFIED-ANY-2026",
@@ -75217,6 +75249,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 39.23
+    },
+    {
+      "ticker": "BWR-GOP-WIN-SEN_ID-CERTIFIED-ANY-2026",
+      "window_count": 3,
+      "avg_duration_ms": 60349882.0,
+      "p50_duration_ms": 33438743.0,
+      "p95_duration_ms": 122048061.19999999,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 59.391304347826086
     }
   ],
   "executions": [],
