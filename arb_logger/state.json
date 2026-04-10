@@ -76975,6 +76975,105 @@
       "net_profit": 0.0860000000000003,
       "nev_per_share": 0.010000000000000035,
       "ann_return": 0.018796992481203072
+    },
+    {
+      "ticker": "BWR-ORBAN-LEAVE-PM_HU-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-10T22:12:47.704583+00:00",
+      "resolution_date": "2027-01-02T03:17:48Z",
+      "days_left": 266,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.73,
+          "size": 8.6,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.73,
+      "total_entry_cost": 6.278,
+      "exit_fills": [
+        {
+          "price": 0.74,
+          "size": 8.6,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.74,
+      "total_exit_proceeds": 6.364,
+      "shares_filled": 8.6,
+      "shares_exited": 8.6,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.0860000000000003,
+      "fees": 0.0,
+      "net_profit": 0.0860000000000003,
+      "nev_per_share": 0.010000000000000035,
+      "ann_return": 0.018796992481203072
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T22:14:25.790552+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 265,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 15.2,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 2.5840000000000005,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 15.2,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.2,
+      "total_exit_proceeds": 3.04,
+      "shares_filled": 15.2,
+      "shares_exited": 15.2,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.4559999999999995,
+      "fees": 0.0,
+      "net_profit": 0.4559999999999995,
+      "nev_per_share": 0.02999999999999997,
+      "ann_return": 0.24306326304106518
+    },
+    {
+      "ticker": "BWR-ORBAN-LEAVE-PM_HU-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-10T22:15:07.594687+00:00",
+      "resolution_date": "2027-01-02T03:17:48Z",
+      "days_left": 266,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.73,
+          "size": 8.6,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.73,
+      "total_entry_cost": 6.278,
+      "exit_fills": [
+        {
+          "price": 0.74,
+          "size": 8.6,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.74,
+      "total_exit_proceeds": 6.364,
+      "shares_filled": 8.6,
+      "shares_exited": 8.6,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.0860000000000003,
+      "fees": 0.0,
+      "net_profit": 0.0860000000000003,
+      "nev_per_share": 0.010000000000000035,
+      "ann_return": 0.018796992481203072
     }
   ],
   "executability": [
@@ -78365,17 +78464,6 @@
       "avg_message_latency_ms": 35.74
     },
     {
-      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
-      "window_count": 76,
-      "avg_duration_ms": 328586.11842105264,
-      "p50_duration_ms": 66826.0,
-      "p95_duration_ms": 1005369.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 31.61
-    },
-    {
       "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 11,
       "avg_duration_ms": 3499032.272727273,
@@ -78431,15 +78519,26 @@
       "avg_message_latency_ms": 28.51
     },
     {
-      "ticker": "BWR-ORBAN-LEAVE-PM_HU-ANY_MEANS-ANY-2026",
-      "window_count": 55,
-      "avg_duration_ms": 3058406.8545454545,
-      "p50_duration_ms": 88680.0,
-      "p95_duration_ms": 9978267.899999995,
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "window_count": 77,
+      "avg_duration_ms": 332456.25974025973,
+      "p50_duration_ms": 66905.0,
+      "p95_duration_ms": 998462.0000000005,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 37.76
+      "avg_message_latency_ms": 31.61
+    },
+    {
+      "ticker": "BWR-ORBAN-LEAVE-PM_HU-ANY_MEANS-ANY-2026",
+      "window_count": 57,
+      "avg_duration_ms": 2951767.9122807016,
+      "p50_duration_ms": 67314.0,
+      "p95_duration_ms": 9748151.59999999,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 37.77
     }
   ],
   "executions": [],
