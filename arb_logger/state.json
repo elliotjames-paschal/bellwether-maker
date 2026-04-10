@@ -70971,6 +70971,49 @@
       "net_profit": 0.04800000000000004,
       "nev_per_share": 0.0040000000000000036,
       "ann_return": 0.16793190706234198
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T11:29:59.420916+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.32999999999999996,
+          "size": 10.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 9.731699999999998,
+      "exit_fills": [
+        {
+          "price": 0.46,
+          "size": 19.49,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.41,
+          "size": 10.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.4430451000339098,
+      "total_exit_proceeds": 13.065399999999999,
+      "shares_filled": 29.49,
+      "shares_exited": 29.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 3.3337000000000003,
+      "fees": 0.0,
+      "net_profit": 3.3337000000000003,
+      "nev_per_share": 0.11304510003390981,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -72163,17 +72206,6 @@
       "avg_message_latency_ms": 50.61
     },
     {
-      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
-      "window_count": 110,
-      "avg_duration_ms": 918847.2,
-      "p50_duration_ms": 6504.0,
-      "p95_duration_ms": 1650743.1999999997,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 11.97
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026",
       "window_count": 2,
       "avg_duration_ms": 116597833.5,
@@ -72348,6 +72380,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 27.28
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "window_count": 111,
+      "avg_duration_ms": 1002455.3693693693,
+      "p50_duration_ms": 6575.0,
+      "p95_duration_ms": 2262457.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 33.2
     }
   ],
   "executions": [],
