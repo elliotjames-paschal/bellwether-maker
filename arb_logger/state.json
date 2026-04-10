@@ -59423,6 +59423,59 @@
       "net_profit": 0.10662999999999556,
       "nev_per_share": 0.003650462170489406,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-LEO_XIV-IN_PERSON-ANY-2026",
+      "logged_at": "2026-04-10T02:23:35.287954+00:00",
+      "resolution_date": "2027-01-01T14:59:00Z",
+      "days_left": 266,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.19,
+          "size": 5.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.19,
+          "size": 8.68,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.2,
+          "size": 10.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.19422297297297297,
+      "total_entry_cost": 4.5992,
+      "exit_fills": [
+        {
+          "price": 0.3,
+          "size": 5.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.29,
+          "size": 8.68,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.29,
+          "size": 10.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.29211148648648644,
+      "total_exit_proceeds": 6.917199999999999,
+      "shares_filled": 23.68,
+      "shares_exited": 23.68,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 2.3179999999999996,
+      "fees": 0.0,
+      "net_profit": 2.3179999999999996,
+      "nev_per_share": 0.09788851351351349,
+      "ann_return": 0.691579902094774
     }
   ],
   "executability": [
@@ -59711,17 +59764,6 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 197.32911392405063
-    },
-    {
-      "ticker": "BWR-TRUMP-MEET-LEO_XIV-IN_PERSON-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 1824659.0,
-      "p50_duration_ms": 1824659.0,
-      "p95_duration_ms": 1824659.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 145.3827160493827
     },
     {
       "ticker": "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026",
@@ -60789,6 +60831,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 47.61
+    },
+    {
+      "ticker": "BWR-TRUMP-MEET-LEO_XIV-IN_PERSON-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 49919470.5,
+      "p50_duration_ms": 49919470.5,
+      "p95_duration_ms": 93204800.85,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 63.44
     }
   ],
   "executions": [],
