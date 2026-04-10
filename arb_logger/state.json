@@ -58739,6 +58739,82 @@
       "net_profit": 0.8999999999999995,
       "nev_per_share": 0.09999999999999994,
       "ann_return": 0.28440081034751424
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T01:47:59.269257+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 23.159999999999997,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 38.7872,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 23.159999999999997,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9234506641366224,
+      "total_exit_proceeds": 38.93268,
+      "shares_filled": 42.16,
+      "shares_exited": 42.16,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.14547999999999917,
+      "fees": 0.0,
+      "net_profit": 0.14547999999999917,
+      "nev_per_share": 0.0034506641366223714,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T01:48:50.453392+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 11.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 6.82,
+      "exit_fills": [
+        {
+          "price": 0.63,
+          "size": 11.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.63,
+      "total_exit_proceeds": 6.93,
+      "shares_filled": 11.0,
+      "shares_exited": 11.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10999999999999943,
+      "fees": 0.0,
+      "net_profit": 0.10999999999999943,
+      "nev_per_share": 0.009999999999999948,
+      "ann_return": 0.028440081034751295
     }
   ],
   "executability": [
@@ -60030,17 +60106,6 @@
       "avg_message_latency_ms": 91.42307692307692
     },
     {
-      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 70,
-      "avg_duration_ms": 329868.3,
-      "p50_duration_ms": 95068.5,
-      "p95_duration_ms": 1742426.7999999998,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 49.14
-    },
-    {
       "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
       "window_count": 27,
       "avg_duration_ms": 6914627.888888889,
@@ -60085,15 +60150,26 @@
       "avg_message_latency_ms": 126.15
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
-      "window_count": 41,
-      "avg_duration_ms": 4769933.1707317075,
-      "p50_duration_ms": 34277.0,
-      "p95_duration_ms": 263240.0,
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 71,
+      "avg_duration_ms": 341291.45070422534,
+      "p50_duration_ms": 99101.0,
+      "p95_duration_ms": 1739362.0,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 51.02
+      "avg_message_latency_ms": 47.2
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
+      "window_count": 42,
+      "avg_duration_ms": 4656716.0,
+      "p50_duration_ms": 30933.0,
+      "p95_duration_ms": 263150.35,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 53.81
     }
   ],
   "executions": [],
