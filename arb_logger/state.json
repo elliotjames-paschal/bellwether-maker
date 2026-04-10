@@ -73698,6 +73698,49 @@
       "net_profit": 0.05399999999999938,
       "nev_per_share": 0.008999999999999897,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T15:23:10.323108+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.042,
+          "size": 168.9,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.043,
+          "size": 32.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.042159283225485324,
+      "total_entry_cost": 8.469800000000001,
+      "exit_fills": [
+        {
+          "price": 0.046,
+          "size": 168.9,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.046,
+          "size": 32.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.046,
+      "total_exit_proceeds": 9.2414,
+      "shares_filled": 200.9,
+      "shares_exited": 200.9,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.7715999999999994,
+      "fees": 0.0,
+      "net_profit": 0.7715999999999994,
+      "nev_per_share": 0.003840716774514681,
+      "ann_return": 0.16141530376228766
     }
   ],
   "executability": [
@@ -75044,17 +75087,6 @@
       "avg_message_latency_ms": 34.56
     },
     {
-      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "window_count": 37,
-      "avg_duration_ms": 5386764.081081081,
-      "p50_duration_ms": 4377.0,
-      "p95_duration_ms": 2836431.7999999654,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 28.21
-    },
-    {
       "ticker": "BWR-GOP-WIN-GOV_OH-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 10017.0,
@@ -75108,6 +75140,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 51.26
+    },
+    {
+      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 38,
+      "avg_duration_ms": 5273093.236842105,
+      "p50_duration_ms": 6357.0,
+      "p95_duration_ms": 2429259.0999999885,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 32.93
     }
   ],
   "executions": [],
