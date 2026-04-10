@@ -71080,6 +71080,72 @@
       "net_profit": 0.05999999999999961,
       "nev_per_share": 0.009999999999999934,
       "ann_return": 0.019166141566897586
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T12:10:44.912418+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 5.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 3.1,
+      "exit_fills": [
+        {
+          "price": 0.64,
+          "size": 5.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.64,
+      "total_exit_proceeds": 3.2,
+      "shares_filled": 5.0,
+      "shares_exited": 5.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10000000000000009,
+      "fees": 0.0,
+      "net_profit": 0.10000000000000009,
+      "nev_per_share": 0.020000000000000018,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T12:11:37.317768+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.62,
+          "size": 5.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.62,
+      "total_entry_cost": 3.1,
+      "exit_fills": [
+        {
+          "price": 0.64,
+          "size": 5.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.64,
+      "total_exit_proceeds": 3.2,
+      "shares_filled": 5.0,
+      "shares_exited": 5.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10000000000000009,
+      "fees": 0.0,
+      "net_profit": 0.10000000000000009,
+      "nev_per_share": 0.020000000000000018,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -71467,17 +71533,6 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 46.44318181818182
-    },
-    {
-      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
-      "window_count": 44,
-      "avg_duration_ms": 1135053.9318181819,
-      "p50_duration_ms": 210990.5,
-      "p95_duration_ms": 6821470.950000003,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 18.54
     },
     {
       "ticker": "BWR-DEM-WIN-HOUSE_WI07-CERTIFIED-ANY-2026",
@@ -72457,6 +72512,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 36.09
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
+      "window_count": 46,
+      "avg_duration_ms": 1086829.2826086956,
+      "p50_duration_ms": 204928.5,
+      "p95_duration_ms": 6636548.25,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 53.7
     }
   ],
   "executions": [],
