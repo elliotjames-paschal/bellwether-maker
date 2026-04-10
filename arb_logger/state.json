@@ -55513,6 +55513,82 @@
       "net_profit": 0.46080000000000076,
       "nev_per_share": 0.03000000000000005,
       "ann_return": 0.14694041867954938
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T00:38:50.052324+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 176.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 161.92000000000002,
+      "exit_fills": [
+        {
+          "price": 0.93,
+          "size": 176.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.93,
+      "total_exit_proceeds": 163.68,
+      "shares_filled": 176.0,
+      "shares_exited": 176.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.759999999999991,
+      "fees": 0.0,
+      "net_profit": 1.759999999999991,
+      "nev_per_share": 0.009999999999999948,
+      "ann_return": 0.01916614156689761
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T00:42:52.162860+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 19.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.92,
+          "size": 8.57,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 25.3644,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 19.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.923,
+          "size": 8.57,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.9236891548784911,
+      "total_exit_proceeds": 25.46611,
+      "shares_filled": 27.57,
+      "shares_exited": 27.57,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10171000000000063,
+      "fees": 0.0,
+      "net_profit": 0.10171000000000063,
+      "nev_per_share": 0.0036891548784911367,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -56331,17 +56407,6 @@
       "avg_message_latency_ms": 147.90666666666667
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
-      "window_count": 25,
-      "avg_duration_ms": 6237766.04,
-      "p50_duration_ms": 3629270.0,
-      "p95_duration_ms": 22584997.999999978,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 53.72
-    },
-    {
       "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 47261.0,
@@ -56364,17 +56429,6 @@
       "avg_message_latency_ms": 40.61
     },
     {
-      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 57,
-      "avg_duration_ms": 387873.5964912281,
-      "p50_duration_ms": 130546.0,
-      "p95_duration_ms": 1775038.4,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 46.88
-    },
-    {
       "ticker": "BWR-DEM-WIN-GOV_IA-CERTIFIED-ANY-2026",
       "window_count": 28,
       "avg_duration_ms": 6958416.642857143,
@@ -56395,6 +56449,28 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 119.72
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
+      "window_count": 26,
+      "avg_duration_ms": 6152865.076923077,
+      "p50_duration_ms": 3667990.5,
+      "p95_duration_ms": 22194546.5,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 36.91
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "window_count": 58,
+      "avg_duration_ms": 381187.1551724138,
+      "p50_duration_ms": 125280.5,
+      "p95_duration_ms": 1773781.3,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 46.85
     }
   ],
   "executions": [],
