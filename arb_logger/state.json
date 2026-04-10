@@ -74164,6 +74164,231 @@
       "net_profit": 0.15199999999999925,
       "nev_per_share": 0.009999999999999952,
       "ann_return": 0.08102108768035474
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T16:18:48.878180+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 265,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 15.2,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 2.5840000000000005,
+      "exit_fills": [
+        {
+          "price": 0.19,
+          "size": 15.2,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.19,
+      "total_exit_proceeds": 2.888,
+      "shares_filled": 15.2,
+      "shares_exited": 15.2,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.3039999999999994,
+      "fees": 0.0,
+      "net_profit": 0.3039999999999994,
+      "nev_per_share": 0.01999999999999996,
+      "ann_return": 0.16204217536070994
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T16:19:56.055802+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 265,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 15.2,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 2.5840000000000005,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 15.2,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.2,
+      "total_exit_proceeds": 3.04,
+      "shares_filled": 15.2,
+      "shares_exited": 15.2,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.4559999999999995,
+      "fees": 0.0,
+      "net_profit": 0.4559999999999995,
+      "nev_per_share": 0.02999999999999997,
+      "ann_return": 0.24306326304106518
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T16:21:04.563463+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 265,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 15.2,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 2.5840000000000005,
+      "exit_fills": [
+        {
+          "price": 0.21,
+          "size": 15.2,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.21,
+      "total_exit_proceeds": 3.1919999999999997,
+      "shares_filled": 15.2,
+      "shares_exited": 15.2,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6079999999999992,
+      "fees": 0.0,
+      "net_profit": 0.6079999999999992,
+      "nev_per_share": 0.03999999999999995,
+      "ann_return": 0.3240843507214201
+    },
+    {
+      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
+      "logged_at": "2026-04-10T16:21:46.750463+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.020000000000000018,
+          "size": 1044.65,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.020000000000000018,
+          "size": 429.3499999999999,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.020000000000000018,
+      "total_entry_cost": 29.480000000000025,
+      "exit_fills": [
+        {
+          "price": 0.034,
+          "size": 1044.65,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.033,
+          "size": 429.3499999999999,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.03370871777476255,
+      "total_exit_proceeds": 49.68665,
+      "shares_filled": 1474.0,
+      "shares_exited": 1474.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 20.206649999999975,
+      "fees": 0.0,
+      "net_profit": 20.206649999999975,
+      "nev_per_share": 0.013708717774762534,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
+      "logged_at": "2026-04-10T16:22:46.260179+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.020000000000000018,
+          "size": 30.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.020000000000000018,
+          "size": 60.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.020000000000000018,
+          "size": 65.35,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.020000000000000018,
+          "size": 139.05,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.020000000000000018,
+          "size": 130.94,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.020000000000000018,
+          "size": 107.27,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.020000000000000018,
+      "total_entry_cost": 10.65220000000001,
+      "exit_fills": [
+        {
+          "price": 0.027,
+          "size": 30.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.026,
+          "size": 60.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.025,
+          "size": 65.35,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.024,
+          "size": 139.05,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.022,
+          "size": 130.94,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.021,
+          "size": 107.27,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.023421077336137137,
+      "total_exit_proceeds": 12.474300000000001,
+      "shares_filled": 532.61,
+      "shares_exited": 532.61,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.8220999999999918,
+      "fees": 0.0,
+      "net_profit": 1.8220999999999918,
+      "nev_per_share": 0.0034210773361371205,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -74243,17 +74468,6 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 24.483870967741936
-    },
-    {
-      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
-      "window_count": 1,
-      "avg_duration_ms": 28438789.0,
-      "p50_duration_ms": 28438789.0,
-      "p95_duration_ms": 28438789.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 26.677419354838708
     },
     {
       "ticker": "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026",
@@ -75588,14 +75802,25 @@
     },
     {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
-      "window_count": 56,
-      "avg_duration_ms": 407904.4285714286,
-      "p50_duration_ms": 199823.5,
-      "p95_duration_ms": 1508887.0,
+      "window_count": 59,
+      "avg_duration_ms": 390525.76271186443,
+      "p50_duration_ms": 77082.0,
+      "p95_duration_ms": 1268939.1999999909,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 36.01
+    },
+    {
+      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
+      "window_count": 3,
+      "avg_duration_ms": 86168292.0,
+      "p50_duration_ms": 28438789.0,
+      "p95_duration_ms": 209849906.2,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 59.80263157894737
     }
   ],
   "executions": [],
