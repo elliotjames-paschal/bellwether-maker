@@ -74630,6 +74630,39 @@
       "net_profit": 0.4559999999999995,
       "nev_per_share": 0.02999999999999997,
       "ann_return": 0.24306326304106518
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T16:39:16.575900+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 265,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 15.2,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 2.5840000000000005,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 15.2,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.2,
+      "total_exit_proceeds": 3.04,
+      "shares_filled": 15.2,
+      "shares_exited": 15.2,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.4559999999999995,
+      "fees": 0.0,
+      "net_profit": 0.4559999999999995,
+      "nev_per_share": 0.02999999999999997,
+      "ann_return": 0.24306326304106518
     }
   ],
   "executability": [
@@ -76054,10 +76087,10 @@
     },
     {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
-      "window_count": 66,
-      "avg_duration_ms": 355220.8939393939,
-      "p50_duration_ms": 67124.5,
-      "p95_duration_ms": 1074439.0,
+      "window_count": 67,
+      "avg_duration_ms": 350753.58208955225,
+      "p50_duration_ms": 67020.0,
+      "p95_duration_ms": 1067531.9999999995,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
