@@ -66429,6 +66429,402 @@
       "net_profit": 0.5847000000000007,
       "nev_per_share": 0.030000000000000037,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:51:07.756499+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.37,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.37,
+      "total_exit_proceeds": 7.2113,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.7796000000000012,
+      "fees": 0.0,
+      "net_profit": 0.7796000000000012,
+      "nev_per_share": 0.04000000000000006,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:52:14.600346+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.38,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.38,
+      "total_exit_proceeds": 7.406199999999999,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.9745000000000008,
+      "fees": 0.0,
+      "net_profit": 0.9745000000000008,
+      "nev_per_share": 0.050000000000000044,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T07:52:27.778742+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 36.5,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.9199999999999999,
+      "total_entry_cost": 33.58,
+      "exit_fills": [
+        {
+          "price": 0.929,
+          "size": 36.5,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.929,
+      "total_exit_proceeds": 33.908500000000004,
+      "shares_filled": 36.5,
+      "shares_exited": 36.5,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.32850000000000534,
+      "fees": 0.0,
+      "net_profit": 0.32850000000000534,
+      "nev_per_share": 0.009000000000000147,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T07:53:36.863472+00:00",
+      "resolution_date": "2027-06-12T14:00:00Z",
+      "days_left": 428,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.009,
+          "size": 10.08,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.009,
+      "total_entry_cost": 0.09072,
+      "exit_fills": [
+        {
+          "price": 0.01,
+          "size": 10.08,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.01,
+      "total_exit_proceeds": 0.1008,
+      "shares_filled": 10.08,
+      "shares_exited": 10.08,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.010080000000000006,
+      "fees": 0.0,
+      "net_profit": 0.010080000000000006,
+      "nev_per_share": 0.0010000000000000005,
+      "ann_return": 0.09475597092419528
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:16.982135+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:19.767633+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:20.482679+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:27.102355+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:28.355630+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:45.598138+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:48.197583+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
+      "logged_at": "2026-04-10T07:55:50.627578+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.32999999999999996,
+          "size": 19.49,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.32999999999999996,
+      "total_entry_cost": 6.431699999999998,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 19.49,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 7.6011,
+      "shares_filled": 19.49,
+      "shares_exited": 19.49,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.1694000000000013,
+      "fees": 0.0,
+      "net_profit": 1.1694000000000013,
+      "nev_per_share": 0.060000000000000074,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -67765,36 +68161,36 @@
     },
     {
       "ticker": "BWR-BARAKA-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 149,
-      "avg_duration_ms": 262332.42281879194,
-      "p50_duration_ms": 64502.0,
-      "p95_duration_ms": 1139216.0,
+      "window_count": 150,
+      "avg_duration_ms": 262034.14666666667,
+      "p50_duration_ms": 65451.0,
+      "p95_duration_ms": 1139004.0,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 26.1
+      "avg_message_latency_ms": 18.65
     },
     {
       "ticker": "BWR-GARNER-WIN-MAYOR_NEWARK_R2-CERTIFIED-ANY-2026",
-      "window_count": 380,
-      "avg_duration_ms": 393535.50789473683,
-      "p50_duration_ms": 182441.5,
-      "p95_duration_ms": 723667.1000000008,
+      "window_count": 381,
+      "avg_duration_ms": 392969.48556430446,
+      "p50_duration_ms": 182375.0,
+      "p95_duration_ms": 720311.0,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 6.44
+      "avg_message_latency_ms": 2.14
     },
     {
       "ticker": "BWR-BLS-REPORT-CPI-MONTHLY_REPORT-GT_5PCT-2026",
-      "window_count": 49,
-      "avg_duration_ms": 2023574.6734693877,
-      "p50_duration_ms": 61843.0,
-      "p95_duration_ms": 11432775.39999992,
+      "window_count": 59,
+      "avg_duration_ms": 1683140.9830508474,
+      "p50_duration_ms": 58246.0,
+      "p95_duration_ms": 4540580.899999922,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
-      "avg_message_latency_ms": 32.09
+      "avg_message_latency_ms": 26.57
     }
   ],
   "executions": [],
