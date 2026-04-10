@@ -69010,6 +69010,59 @@
       "net_profit": 0.16999999999999993,
       "nev_per_share": 0.009999999999999995,
       "ann_return": 0.0766645662675908
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T09:12:46.240190+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.86,
+          "size": 250.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.86,
+          "size": 467.4,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.87,
+          "size": 32.60000000000002,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.8604346666666666,
+      "total_entry_cost": 645.3259999999999,
+      "exit_fills": [
+        {
+          "price": 0.91,
+          "size": 250.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.89,
+          "size": 467.4,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.89,
+          "size": 32.60000000000002,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.8966666666666666,
+      "total_exit_proceeds": 672.5,
+      "shares_filled": 750.0,
+      "shares_exited": 750.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 27.174000000000092,
+      "fees": 0.0,
+      "net_profit": 27.174000000000092,
+      "nev_per_share": 0.036232000000000125,
+      "ann_return": 0.07425008018641274
     }
   ],
   "executability": [
@@ -70125,17 +70178,6 @@
       "avg_message_latency_ms": 85.99
     },
     {
-      "ticker": "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 203953200.0,
-      "p50_duration_ms": 203953200.0,
-      "p95_duration_ms": 203953200.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 127.28
-    },
-    {
       "ticker": "BWR-DEM-WIN-HOUSE_TN07-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 203960553.0,
@@ -70376,6 +70418,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 37.06
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_GA07-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 116597833.5,
+      "p50_duration_ms": 116597833.5,
+      "p95_duration_ms": 195217663.35,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 23.64
     }
   ],
   "executions": [],
