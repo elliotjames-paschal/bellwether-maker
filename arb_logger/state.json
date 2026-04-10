@@ -72473,6 +72473,49 @@
       "net_profit": 0.1599999999999997,
       "nev_per_share": 0.009999999999999981,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T13:37:16.710064+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 266,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 15.2,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.17000000000000004,
+          "size": 13.8,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 4.9300000000000015,
+      "exit_fills": [
+        {
+          "price": 0.2,
+          "size": 15.2,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.18,
+          "size": 13.8,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.19048275862068967,
+      "total_exit_proceeds": 5.524,
+      "shares_filled": 29.0,
+      "shares_exited": 29.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5939999999999985,
+      "fees": 0.0,
+      "net_profit": 0.5939999999999985,
+      "nev_per_share": 0.020482758620689604,
+      "ann_return": 0.1653296527322358
     }
   ],
   "executability": [
@@ -73841,17 +73884,6 @@
       "avg_message_latency_ms": 33.37
     },
     {
-      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
-      "window_count": 40,
-      "avg_duration_ms": 532526.975,
-      "p50_duration_ms": 251769.0,
-      "p95_duration_ms": 2781771.8999999957,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 25.82
-    },
-    {
       "ticker": "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026",
       "window_count": 6,
       "avg_duration_ms": 324366.8333333333,
@@ -73861,6 +73893,17 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 37.19
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "window_count": 41,
+      "avg_duration_ms": 529042.9756097561,
+      "p50_duration_ms": 255123.0,
+      "p95_duration_ms": 2708626.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 25.82
     }
   ],
   "executions": [],
