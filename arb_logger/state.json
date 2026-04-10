@@ -72516,6 +72516,82 @@
       "net_profit": 0.5939999999999985,
       "nev_per_share": 0.020482758620689604,
       "ann_return": 0.1653296527322358
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-10T13:38:26.082533+00:00",
+      "resolution_date": "2027-01-01T15:00:00Z",
+      "days_left": 266,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.17000000000000004,
+          "size": 9.8,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.17000000000000004,
+      "total_entry_cost": 1.6660000000000006,
+      "exit_fills": [
+        {
+          "price": 0.19,
+          "size": 9.8,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.19,
+      "total_exit_proceeds": 1.862,
+      "shares_filled": 9.8,
+      "shares_exited": 9.8,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1959999999999995,
+      "fees": 0.0,
+      "net_profit": 0.1959999999999995,
+      "nev_per_share": 0.01999999999999995,
+      "ann_return": 0.16143299425033125
+    },
+    {
+      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-10T13:42:12.699368+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.54,
+          "size": 60.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.55,
+          "size": 50.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.5445454545454546,
+      "total_entry_cost": 59.900000000000006,
+      "exit_fills": [
+        {
+          "price": 0.56,
+          "size": 60.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.56,
+          "size": 50.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.56,
+      "total_exit_proceeds": 61.60000000000001,
+      "shares_filled": 110.0,
+      "shares_exited": 110.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.7000000000000028,
+      "fees": 0.0,
+      "net_profit": 1.7000000000000028,
+      "nev_per_share": 0.015454545454545481,
+      "ann_return": 0.05004314759704185
     }
   ],
   "executability": [
@@ -72606,17 +72682,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 26.677419354838708
-    },
-    {
-      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
-      "window_count": 6,
-      "avg_duration_ms": 26342.666666666668,
-      "p50_duration_ms": 31352.0,
-      "p95_duration_ms": 32117.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 14.77
     },
     {
       "ticker": "BWR-BISHOP-WIN-GOV_AK-CERTIFIED-ANY-2026",
@@ -73896,14 +73961,25 @@
     },
     {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
-      "window_count": 41,
-      "avg_duration_ms": 529042.9756097561,
-      "p50_duration_ms": 255123.0,
-      "p95_duration_ms": 2708626.0,
+      "window_count": 42,
+      "avg_duration_ms": 518047.40476190473,
+      "p50_duration_ms": 251769.0,
+      "p95_duration_ms": 2628643.3999999934,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 25.82
+    },
+    {
+      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
+      "window_count": 7,
+      "avg_duration_ms": 7875267.714285715,
+      "p50_duration_ms": 31684.0,
+      "p95_duration_ms": 38487819.39999996,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 45.45
     }
   ],
   "executions": [],
