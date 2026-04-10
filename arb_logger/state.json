@@ -73160,6 +73160,105 @@
       "net_profit": 8.768699999999995,
       "nev_per_share": 0.03507479999999998,
       "ann_return": 0.07490880118330874
+    },
+    {
+      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T14:07:04.843309+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.044,
+          "size": 7.8,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.044,
+      "total_entry_cost": 0.34319999999999995,
+      "exit_fills": [
+        {
+          "price": 0.046,
+          "size": 7.8,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.046,
+      "total_exit_proceeds": 0.3588,
+      "shares_filled": 7.8,
+      "shares_exited": 7.8,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.015600000000000058,
+      "fees": 0.0,
+      "net_profit": 0.015600000000000058,
+      "nev_per_share": 0.0020000000000000074,
+      "ann_return": 0.08014931927975437
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T14:07:36.103235+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.38,
+          "size": 37.38,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.38,
+      "total_entry_cost": 14.204400000000001,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 37.38,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 14.5782,
+      "shares_filled": 37.38,
+      "shares_exited": 37.38,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.37379999999999924,
+      "fees": 0.0,
+      "net_profit": 0.37379999999999924,
+      "nev_per_share": 0.00999999999999998,
+      "ann_return": 0.04640223747775225
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_IA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T14:07:37.966120+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 207,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.38,
+          "size": 37.38,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.38,
+      "total_entry_cost": 14.204400000000001,
+      "exit_fills": [
+        {
+          "price": 0.39,
+          "size": 37.38,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.39,
+      "total_exit_proceeds": 14.5782,
+      "shares_filled": 37.38,
+      "shares_exited": 37.38,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.37379999999999924,
+      "fees": 0.0,
+      "net_profit": 0.37379999999999924,
+      "nev_per_share": 0.00999999999999998,
+      "ann_return": 0.04640223747775225
     }
   ],
   "executability": [
@@ -74495,17 +74594,6 @@
       "avg_message_latency_ms": 29.35
     },
     {
-      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "window_count": 33,
-      "avg_duration_ms": 6021541.484848484,
-      "p50_duration_ms": 907.0,
-      "p95_duration_ms": 4465122.599999988,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 38.08
-    },
-    {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
       "window_count": 47,
       "avg_duration_ms": 469582.6170212766,
@@ -74548,6 +74636,28 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 38.96
+    },
+    {
+      "ticker": "BWR-BRONSON-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 34,
+      "avg_duration_ms": 5852036.852941177,
+      "p50_duration_ms": 1389.0,
+      "p95_duration_ms": 4057949.8999999827,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 30.04
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_IA-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 2177235.5,
+      "p50_duration_ms": 2177235.5,
+      "p95_duration_ms": 4136013.9499999997,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 40.97
     }
   ],
   "executions": [],
