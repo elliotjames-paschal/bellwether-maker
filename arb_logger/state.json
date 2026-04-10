@@ -78731,6 +78731,72 @@
       "net_profit": 0.5010000000000003,
       "nev_per_share": 0.010000000000000007,
       "ann_return": 0.13629574309185968
+    },
+    {
+      "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-10T23:52:17.715662+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.18999999999999995,
+          "size": 8.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.18999999999999995,
+      "total_entry_cost": 1.5199999999999996,
+      "exit_fills": [
+        {
+          "price": 0.207,
+          "size": 8.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.207,
+      "total_exit_proceeds": 1.656,
+      "shares_filled": 8.0,
+      "shares_exited": 8.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.13600000000000034,
+      "fees": 0.0,
+      "net_profit": 0.13600000000000034,
+      "nev_per_share": 0.017000000000000043,
+      "ann_return": 0.15853346959632136
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_FL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T23:54:17.830055+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.24,
+          "size": 17.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.24,
+      "total_entry_cost": 4.08,
+      "exit_fills": [
+        {
+          "price": 0.25,
+          "size": 17.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.25,
+      "total_exit_proceeds": 4.25,
+      "shares_filled": 17.0,
+      "shares_exited": 17.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.16999999999999993,
+      "fees": 0.0,
+      "net_profit": 0.16999999999999993,
+      "nev_per_share": 0.009999999999999995,
+      "ann_return": 0.07382686084142392
     }
   ],
   "executability": [
@@ -79173,17 +79239,6 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 164.6153846153846
-    },
-    {
-      "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 47261.0,
-      "p50_duration_ms": 47261.0,
-      "p95_duration_ms": 47261.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 87.7
     },
     {
       "ticker": "BWR-GOP-WIN-GOV_IA-CERTIFIED-ANY-2026",
@@ -80044,17 +80099,6 @@
       "avg_message_latency_ms": 42.83
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_FL-CERTIFIED-ANY-2026",
-      "window_count": 94,
-      "avg_duration_ms": 312124.47872340423,
-      "p50_duration_ms": 5146.0,
-      "p95_duration_ms": 1662680.75,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 26.34
-    },
-    {
       "ticker": "BWR-PORTER-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 2,
       "avg_duration_ms": 135959502.0,
@@ -80196,6 +80240,28 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 24.0
+    },
+    {
+      "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 53172.0,
+      "p50_duration_ms": 53172.0,
+      "p95_duration_ms": 58491.9,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 35.37
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_FL-CERTIFIED-ANY-2026",
+      "window_count": 95,
+      "avg_duration_ms": 308849.8,
+      "p50_duration_ms": 5137.0,
+      "p95_duration_ms": 1661262.5,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 23.99
     }
   ],
   "executions": [],
