@@ -76648,6 +76648,72 @@
       "net_profit": 0.11016000000000159,
       "nev_per_share": 0.004000000000000058,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T21:57:46.490692+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.07,
+          "size": 35.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.07,
+      "total_entry_cost": 2.45,
+      "exit_fills": [
+        {
+          "price": 0.071,
+          "size": 35.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.071,
+      "total_exit_proceeds": 2.485,
+      "shares_filled": 35.0,
+      "shares_exited": 35.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.0349999999999997,
+      "fees": 0.0,
+      "net_profit": 0.0349999999999997,
+      "nev_per_share": 0.0009999999999999913,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-10T21:58:02.487002+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.07,
+          "size": 35.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.07,
+      "total_entry_cost": 2.45,
+      "exit_fills": [
+        {
+          "price": 0.072,
+          "size": 35.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.072,
+      "total_exit_proceeds": 2.52,
+      "shares_filled": 35.0,
+      "shares_exited": 35.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.06999999999999984,
+      "fees": 0.0,
+      "net_profit": 0.06999999999999984,
+      "nev_per_share": 0.0019999999999999953,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -78105,14 +78171,14 @@
     },
     {
       "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
-      "window_count": 9,
-      "avg_duration_ms": 4273152.555555556,
-      "p50_duration_ms": 1074039.0,
-      "p95_duration_ms": 13211580.8,
+      "window_count": 11,
+      "avg_duration_ms": 3499032.272727273,
+      "p50_duration_ms": 385989.0,
+      "p95_duration_ms": 13115909.0,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
-      "avg_message_latency_ms": 60.74
+      "avg_message_latency_ms": 53.11
     }
   ],
   "executions": [],
