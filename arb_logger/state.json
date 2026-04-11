@@ -92517,6 +92517,72 @@
       "net_profit": 1.2700000000000102,
       "nev_per_share": 0.01000000000000008,
       "ann_return": 0.024390243902439223
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T19:23:54.067739+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 205,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 50.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 6.5,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 50.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 7.000000000000001,
+      "shares_filled": 50.0,
+      "shares_exited": 50.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5000000000000009,
+      "fees": 0.0,
+      "net_profit": 0.5000000000000009,
+      "nev_per_share": 0.010000000000000018,
+      "ann_return": 0.13696060037523478
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T19:26:50.640310+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 205,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.92,
+          "size": 6.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.92,
+      "total_entry_cost": 5.5200000000000005,
+      "exit_fills": [
+        {
+          "price": 0.93,
+          "size": 6.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.93,
+      "total_exit_proceeds": 5.58,
+      "shares_filled": 6.0,
+      "shares_exited": 6.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.05999999999999961,
+      "fees": 0.0,
+      "net_profit": 0.05999999999999961,
+      "nev_per_share": 0.009999999999999934,
+      "ann_return": 0.01935312831389171
     }
   ],
   "executability": [
@@ -93951,17 +94017,6 @@
       "avg_message_latency_ms": 42.88
     },
     {
-      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
-      "window_count": 57,
-      "avg_duration_ms": 4833879.298245614,
-      "p50_duration_ms": 3525633.0,
-      "p95_duration_ms": 13713850.799999986,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 47.28
-    },
-    {
       "ticker": "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026",
       "window_count": 15,
       "avg_duration_ms": 10424511.266666668,
@@ -93984,17 +94039,6 @@
       "avg_message_latency_ms": 52.81
     },
     {
-      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
-      "window_count": 259,
-      "avg_duration_ms": 223372.10424710426,
-      "p50_duration_ms": 3020.0,
-      "p95_duration_ms": 1128203.8,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 26.37
-    },
-    {
       "ticker": "BWR-GOP-WIN-GOV_MI-CERTIFIED-ANY-2026",
       "window_count": 23,
       "avg_duration_ms": 11420255.913043479,
@@ -94015,6 +94059,28 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 40.48
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "window_count": 260,
+      "avg_duration_ms": 226689.13846153847,
+      "p50_duration_ms": 3024.0,
+      "p95_duration_ms": 1127926.9,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 27.55
+    },
+    {
+      "ticker": "BWR-DEM-WIN-GOV_PA-CERTIFIED-ANY-2026",
+      "window_count": 58,
+      "avg_duration_ms": 4801134.4655172415,
+      "p50_duration_ms": 3521833.5,
+      "p95_duration_ms": 13549855.599999996,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 36.99
     }
   ],
   "executions": [],
