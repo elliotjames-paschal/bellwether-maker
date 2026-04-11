@@ -91255,6 +91255,115 @@
       "net_profit": 3.552713678800501e-15,
       "nev_per_share": 4.3084085360180707e-17,
       "ann_return": 7.671068856812665e-16
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-11T17:12:48.057687+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 6.67,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 0.9338000000000001,
+      "exit_fills": [
+        {
+          "price": 0.15,
+          "size": 6.67,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.15,
+      "total_exit_proceeds": 1.0005,
+      "shares_filled": 6.67,
+      "shares_exited": 6.67,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.06669999999999987,
+      "fees": 0.0,
+      "net_profit": 0.06669999999999987,
+      "nev_per_share": 0.009999999999999981,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-11T17:13:17.684791+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 17.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.15000000000000002,
+          "size": 8.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14320000000000002,
+      "total_entry_cost": 3.5800000000000005,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 17.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.16,
+          "size": 8.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 4.0,
+      "shares_filled": 25.0,
+      "shares_exited": 25.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.4199999999999995,
+      "fees": 0.0,
+      "net_profit": 0.4199999999999995,
+      "nev_per_share": 0.016799999999999978,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026",
+      "logged_at": "2026-04-11T17:15:54.946166+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.14,
+          "size": 6.25,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.14,
+      "total_entry_cost": 0.8750000000000001,
+      "exit_fills": [
+        {
+          "price": 0.16,
+          "size": 6.25,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.16,
+      "total_exit_proceeds": 1.0,
+      "shares_filled": 6.25,
+      "shares_exited": 6.25,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.12499999999999989,
+      "fees": 0.0,
+      "net_profit": 0.12499999999999989,
+      "nev_per_share": 0.019999999999999983,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -92667,17 +92776,6 @@
       "avg_message_latency_ms": 39.2
     },
     {
-      "ticker": "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 798572.7142857143,
-      "p50_duration_ms": 30143.0,
-      "p95_duration_ms": 3102180.4999999986,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 31.52
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
       "window_count": 257,
       "avg_duration_ms": 186626.51750972762,
@@ -92742,6 +92840,17 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 27.52
+    },
+    {
+      "ticker": "BWR-TRUMP-VISIT-KP-PHYSICAL_PRESENCE-ANY-2026",
+      "window_count": 10,
+      "avg_duration_ms": 562998.4,
+      "p50_duration_ms": 23743.0,
+      "p95_duration_ms": 2831366.749999998,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 30.09
     }
   ],
   "executions": [],
