@@ -79629,6 +79629,105 @@
       "net_profit": 0.15199999999999925,
       "nev_per_share": 0.009999999999999952,
       "ann_return": 0.08102108768035474
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T01:12:02.365781+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 11.65,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21,
+      "total_entry_cost": 2.4465,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 11.65,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.22,
+      "total_exit_proceeds": 2.563,
+      "shares_filled": 11.65,
+      "shares_exited": 11.65,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.11650000000000027,
+      "fees": 0.0,
+      "net_profit": 0.11650000000000027,
+      "nev_per_share": 0.010000000000000023,
+      "ann_return": 0.08437355524734186
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T01:12:03.904560+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 11.65,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21,
+      "total_entry_cost": 2.4465,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 11.65,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.22,
+      "total_exit_proceeds": 2.563,
+      "shares_filled": 11.65,
+      "shares_exited": 11.65,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.11650000000000027,
+      "fees": 0.0,
+      "net_profit": 0.11650000000000027,
+      "nev_per_share": 0.010000000000000023,
+      "ann_return": 0.08437355524734186
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T01:12:06.064486+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.21,
+          "size": 6.15,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.21,
+      "total_entry_cost": 1.2915,
+      "exit_fills": [
+        {
+          "price": 0.22,
+          "size": 6.15,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.21999999999999997,
+      "total_exit_proceeds": 1.353,
+      "shares_filled": 6.15,
+      "shares_exited": 6.15,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.06149999999999989,
+      "fees": 0.0,
+      "net_profit": 0.06149999999999989,
+      "nev_per_share": 0.009999999999999981,
+      "ann_return": 0.0843735552473415
     }
   ],
   "executability": [
@@ -80909,17 +81008,6 @@
       "avg_message_latency_ms": 28.17
     },
     {
-      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
-      "window_count": 4,
-      "avg_duration_ms": 507291.25,
-      "p50_duration_ms": 482092.0,
-      "p95_duration_ms": 1040631.4999999999,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 42.83
-    },
-    {
       "ticker": "BWR-PORTER-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 2,
       "avg_duration_ms": 135959502.0,
@@ -81094,6 +81182,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 35.44
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SENATE_SC-CERTIFIED-ANY-2026",
+      "window_count": 7,
+      "avg_duration_ms": 290778.0,
+      "p50_duration_ms": 3912.0,
+      "p95_duration_ms": 1016680.9999999998,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 44.8
     }
   ],
   "executions": [],
