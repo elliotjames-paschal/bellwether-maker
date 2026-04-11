@@ -89528,6 +89528,72 @@
       "net_profit": 0.08000000000000007,
       "nev_per_share": 0.010000000000000009,
       "ann_return": 0.022715957181976623
+    },
+    {
+      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-11T11:06:41.049529+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.55,
+          "size": 70.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.55,
+      "total_entry_cost": 38.5,
+      "exit_fills": [
+        {
+          "price": 0.56,
+          "size": 70.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.56,
+      "total_exit_proceeds": 39.2,
+      "shares_filled": 70.0,
+      "shares_exited": 70.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.7000000000000028,
+      "fees": 0.0,
+      "net_profit": 0.7000000000000028,
+      "nev_per_share": 0.01000000000000004,
+      "ann_return": 0.03221535745807604
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-11T11:07:59.670810+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 264,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.61,
+          "size": 45.44,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.61,
+      "total_entry_cost": 27.7184,
+      "exit_fills": [
+        {
+          "price": 0.7,
+          "size": 45.44,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.7,
+      "total_exit_proceeds": 31.807999999999996,
+      "shares_filled": 45.44,
+      "shares_exited": 45.44,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 4.089599999999997,
+      "fees": 0.0,
+      "net_profit": 4.089599999999997,
+      "nev_per_share": 0.08999999999999994,
+      "ann_return": 0.20398658718330837
     }
   ],
   "executability": [
@@ -90841,17 +90907,6 @@
       "avg_message_latency_ms": 21.36
     },
     {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 19,
-      "avg_duration_ms": 9630006.684210526,
-      "p50_duration_ms": 2783056.0,
-      "p95_duration_ms": 42026917.89999991,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 31.43
-    },
-    {
       "ticker": "BWR-GOP-WIN-HOUSE_MD01-CERTIFIED-ANY-2026",
       "window_count": 17,
       "avg_duration_ms": 2474083.0,
@@ -90962,17 +91017,6 @@
       "avg_message_latency_ms": 11.05
     },
     {
-      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
-      "window_count": 9,
-      "avg_duration_ms": 6231998.222222222,
-      "p50_duration_ms": 32000.0,
-      "p95_duration_ms": 33173534.799999982,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 5.49
-    },
-    {
       "ticker": "BWR-MURKOWSKI-LEAVE-GOP-ANY_MEANS-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 5363.0,
@@ -91015,6 +91059,28 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 15.95
+    },
+    {
+      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
+      "window_count": 10,
+      "avg_duration_ms": 5656841.3,
+      "p50_duration_ms": 32078.0,
+      "p95_duration_ms": 30449124.399999943,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 23.3
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 20,
+      "avg_duration_ms": 10281978.75,
+      "p50_duration_ms": 3170303.5,
+      "p95_duration_ms": 39861965.95000003,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 13.64
     }
   ],
   "executions": [],
