@@ -88089,6 +88089,72 @@
       "net_profit": 0.01499999999999968,
       "nev_per_share": 0.0024999999999999467,
       "ann_return": 0.004814795272266676
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T05:45:10.966598+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 126.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 16.38,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 126.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 17.64,
+      "shares_filled": 126.0,
+      "shares_exited": 126.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 1.2600000000000016,
+      "fees": 0.0,
+      "net_profit": 1.2600000000000016,
+      "nev_per_share": 0.010000000000000012,
+      "ann_return": 0.1362957430918598
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T05:47:22.629869+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 50.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 6.5,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 50.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 7.000000000000001,
+      "shares_filled": 50.0,
+      "shares_exited": 50.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5000000000000009,
+      "fees": 0.0,
+      "net_profit": 0.5000000000000009,
+      "nev_per_share": 0.010000000000000018,
+      "ann_return": 0.13629574309185985
     }
   ],
   "executability": [
@@ -89534,17 +89600,6 @@
       "avg_message_latency_ms": 29.7
     },
     {
-      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
-      "window_count": 226,
-      "avg_duration_ms": 121525.70796460177,
-      "p50_duration_ms": 2911.5,
-      "p95_duration_ms": 824785.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 27.82
-    },
-    {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
       "window_count": 95,
       "avg_duration_ms": 508357.43157894735,
@@ -89565,6 +89620,17 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 40.666666666666664
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "window_count": 228,
+      "avg_duration_ms": 125241.6798245614,
+      "p50_duration_ms": 2919.5,
+      "p95_duration_ms": 853561.1999999995,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 25.0
     }
   ],
   "executions": [],
