@@ -90109,6 +90109,49 @@
       "net_profit": 0.13000000000000078,
       "nev_per_share": 0.010000000000000061,
       "ann_return": 0.020037329819938637
+    },
+    {
+      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
+      "logged_at": "2026-04-11T13:37:58.738738+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.010000000000000009,
+          "size": 282.53,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.010000000000000009,
+          "size": 430.47,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.010000000000000009,
+      "total_entry_cost": 7.130000000000006,
+      "exit_fills": [
+        {
+          "price": 0.02,
+          "size": 282.53,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.019,
+          "size": 430.47,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.019396255259467043,
+      "total_exit_proceeds": 13.829530000000002,
+      "shares_filled": 713.0,
+      "shares_exited": 713.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 6.699529999999996,
+      "fees": 0.0,
+      "net_profit": 6.699529999999996,
+      "nev_per_share": 0.009396255259467036,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -91169,17 +91212,6 @@
       "avg_message_latency_ms": 18.47
     },
     {
-      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
-      "window_count": 7,
-      "avg_duration_ms": 39814134.14285714,
-      "p50_duration_ms": 3492727.0,
-      "p95_duration_ms": 169536324.59999985,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 46.7
-    },
-    {
       "ticker": "BWR-MAHAN-WIN-GOV_CA-CERTIFIED-ANY-2026",
       "window_count": 15,
       "avg_duration_ms": 2578168.533333333,
@@ -91596,6 +91628,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 28.06
+    },
+    {
+      "ticker": "BWR-FED-HIKE-FFR-SPECIFIC_MEETING-25BPS-JUL2026",
+      "window_count": 8,
+      "avg_duration_ms": 41862901.625,
+      "p50_duration_ms": 9852620.0,
+      "p95_duration_ms": 169175848.9499999,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 34.85
     }
   ],
   "executions": [],
