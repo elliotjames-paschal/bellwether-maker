@@ -81062,6 +81062,49 @@
       "net_profit": 7.967999999999991,
       "nev_per_share": 0.031999999999999966,
       "ann_return": 1.1812297734627808
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T02:49:37.848604+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.88,
+          "size": 250.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.88,
+          "size": 500.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.88,
+      "total_entry_cost": 660.0,
+      "exit_fills": [
+        {
+          "price": 0.924,
+          "size": 250.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.909,
+          "size": 500.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.914,
+      "total_exit_proceeds": 685.5,
+      "shares_filled": 750.0,
+      "shares_exited": 750.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 25.5,
+      "fees": 0.0,
+      "net_profit": 25.5,
+      "nev_per_share": 0.034,
+      "ann_return": 0.0684576345984113
     }
   ],
   "executability": [
@@ -81847,17 +81890,6 @@
       "avg_message_latency_ms": 133.46
     },
     {
-      "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
-      "window_count": 1,
-      "avg_duration_ms": 204124188.0,
-      "p50_duration_ms": 204124188.0,
-      "p95_duration_ms": 204124188.0,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 80.76
-    },
-    {
       "ticker": "BWR-DEM-WIN-HOUSE_SC04-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 204044586.0,
@@ -82538,6 +82570,17 @@
       "executable": true,
       "confidence": "INSUFFICIENT",
       "avg_message_latency_ms": 28.32
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_TX36-CERTIFIED-ANY-2026",
+      "window_count": 2,
+      "avg_duration_ms": 148396268.0,
+      "p50_duration_ms": 148396268.0,
+      "p95_duration_ms": 198551396.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 32.64
     }
   ],
   "executions": [],
