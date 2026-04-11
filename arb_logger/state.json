@@ -84881,6 +84881,369 @@
       "net_profit": 0.5926000000000009,
       "nev_per_share": 0.010648697214734966,
       "ann_return": 0.1209476749868765
+    },
+    {
+      "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-11T04:29:36.383701+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.133,
+          "size": 18.65,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.133,
+      "total_entry_cost": 2.48045,
+      "exit_fills": [
+        {
+          "price": 0.17,
+          "size": 18.65,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.17,
+      "total_exit_proceeds": 3.1705,
+      "shares_filled": 18.65,
+      "shares_exited": 18.65,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6900500000000003,
+      "fees": 0.0,
+      "net_profit": 0.6900500000000003,
+      "nev_per_share": 0.03700000000000002,
+      "ann_return": 0.4929191911818384
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:12.227954+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:26.658511+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:34.190857+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:39.231135+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:48.535935+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:54.414080+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:31:59.525598+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:32:08.414187+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T04:32:16.364903+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 60.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 7.800000000000001,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 60.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 60.0,
+      "shares_exited": 60.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.5999999999999996,
+      "fees": 0.0,
+      "net_profit": 0.5999999999999996,
+      "nev_per_share": 0.009999999999999993,
+      "ann_return": 0.13629574309185952
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-11T04:32:16.819376+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 265,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.69,
+          "size": 5.52,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.69,
+      "total_entry_cost": 3.8087999999999993,
+      "exit_fills": [
+        {
+          "price": 0.7,
+          "size": 5.52,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.7,
+      "total_exit_proceeds": 3.8639999999999994,
+      "shares_filled": 5.52,
+      "shares_exited": 5.52,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.05520000000000014,
+      "fees": 0.0,
+      "net_profit": 0.05520000000000014,
+      "nev_per_share": 0.010000000000000026,
+      "ann_return": 0.01996171725458031
     }
   ],
   "executability": [
@@ -86095,17 +86458,6 @@
       "avg_message_latency_ms": 39.54
     },
     {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 15,
-      "avg_duration_ms": 12144043.933333334,
-      "p50_duration_ms": 3605686.0,
-      "p95_duration_ms": 50686725.69999996,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 29.14
-    },
-    {
       "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
       "window_count": 140,
       "avg_duration_ms": 160531.32857142857,
@@ -86337,26 +86689,37 @@
       "avg_message_latency_ms": 20.3
     },
     {
+      "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
+      "window_count": 4,
+      "avg_duration_ms": 102021.0,
+      "p50_duration_ms": 103647.5,
+      "p95_duration_ms": 152730.6,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "INSUFFICIENT",
+      "avg_message_latency_ms": 21.36
+    },
+    {
       "ticker": "BWR-GOP-WIN-HOUSE_CA_45-CERTIFIED-ANY-2026",
-      "window_count": 147,
-      "avg_duration_ms": 169786.2993197279,
-      "p50_duration_ms": 3015.0,
-      "p95_duration_ms": 1126851.7,
+      "window_count": 156,
+      "avg_duration_ms": 160145.58333333334,
+      "p50_duration_ms": 2990.0,
+      "p95_duration_ms": 1125654.25,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 28.92
     },
     {
-      "ticker": "BWR-CAMERON-WIN-GOP_NOM_SEN_KY-PRIMARY-ANY-2026",
-      "window_count": 3,
-      "avg_duration_ms": 84852.0,
-      "p50_duration_ms": 59083.0,
-      "p95_duration_ms": 139299.1,
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 16,
+      "avg_duration_ms": 11435382.5,
+      "p50_duration_ms": 3581618.5,
+      "p95_duration_ms": 48521773.75,
       "execution_floor_ms": 2974.0,
       "executable": true,
-      "confidence": "INSUFFICIENT",
-      "avg_message_latency_ms": 20.99
+      "confidence": "LOW",
+      "avg_message_latency_ms": 31.96
     }
   ],
   "executions": [],
