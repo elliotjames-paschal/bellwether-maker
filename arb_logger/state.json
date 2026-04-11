@@ -89726,6 +89726,49 @@
       "net_profit": 0.20000000000000107,
       "nev_per_share": 0.010000000000000054,
       "ann_return": 0.03407393577296508
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "logged_at": "2026-04-11T12:03:54.294630+00:00",
+      "resolution_date": "2027-01-01T04:59:00Z",
+      "days_left": 264,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.68,
+          "size": 13.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.68,
+          "size": 6.34,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.6799999999999999,
+      "total_entry_cost": 13.1512,
+      "exit_fills": [
+        {
+          "price": 0.7,
+          "size": 13.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.69,
+          "size": 6.34,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.6967218200620475,
+      "total_exit_proceeds": 13.474599999999999,
+      "shares_filled": 19.34,
+      "shares_exited": 19.34,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.32339999999999947,
+      "fees": 0.0,
+      "net_profit": 0.32339999999999947,
+      "nev_per_share": 0.016721820062047543,
+      "ann_return": 0.03399879858872189
     }
   ],
   "executability": [
@@ -91160,17 +91203,6 @@
       "avg_message_latency_ms": 15.95
     },
     {
-      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
-      "window_count": 20,
-      "avg_duration_ms": 10281978.75,
-      "p50_duration_ms": 3170303.5,
-      "p95_duration_ms": 39861965.95000003,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 13.64
-    },
-    {
       "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
       "window_count": 11,
       "avg_duration_ms": 5186201.818181818,
@@ -91213,6 +91245,17 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 7.67
+    },
+    {
+      "ticker": "BWR-J_POWELL-LEAVE-FED_BOARD-ANY_MEANS-ANY-2026",
+      "window_count": 21,
+      "avg_duration_ms": 9951071.142857144,
+      "p50_duration_ms": 3332919.0,
+      "p95_duration_ms": 37697014.0,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 18.77
     }
   ],
   "executions": [],
