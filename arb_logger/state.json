@@ -79147,6 +79147,72 @@
       "net_profit": 0.5010000000000003,
       "nev_per_share": 0.010000000000000007,
       "ann_return": 0.13629574309185968
+    },
+    {
+      "ticker": "BWR-BEGICH-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T00:27:28.388258+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.25,
+          "size": 78.43,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.25,
+      "total_entry_cost": 19.6075,
+      "exit_fills": [
+        {
+          "price": 0.26,
+          "size": 78.43,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.26,
+      "total_exit_proceeds": 20.391800000000003,
+      "shares_filled": 78.43,
+      "shares_exited": 78.43,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.7843000000000018,
+      "fees": 0.0,
+      "net_profit": 0.7843000000000018,
+      "nev_per_share": 0.010000000000000021,
+      "ann_return": 0.07087378640776715
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T00:28:52.921953+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on kalshi → SELL on polymarket",
+      "entry_fills": [
+        {
+          "price": 0.13,
+          "size": 18.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_entry_price": 0.13,
+      "total_entry_cost": 2.34,
+      "exit_fills": [
+        {
+          "price": 0.14,
+          "size": 18.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_exit_price": 0.14,
+      "total_exit_proceeds": 2.5200000000000005,
+      "shares_filled": 18.0,
+      "shares_exited": 18.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.1800000000000006,
+      "fees": 0.0,
+      "net_profit": 0.1800000000000006,
+      "nev_per_share": 0.010000000000000033,
+      "ann_return": 0.13629574309186007
     }
   ],
   "executability": [
@@ -80394,17 +80460,6 @@
       "avg_message_latency_ms": 30.75
     },
     {
-      "ticker": "BWR-BEGICH-WIN-GOV_AK-CERTIFIED-ANY-2026",
-      "window_count": 6,
-      "avg_duration_ms": 12231088.0,
-      "p50_duration_ms": 448147.5,
-      "p95_duration_ms": 43588384.25,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 30.95
-    },
-    {
       "ticker": "BWR-GOP-WIN-GOV_CO-CERTIFIED-ANY-2026",
       "window_count": 1,
       "avg_duration_ms": 29313574.0,
@@ -80570,17 +80625,6 @@
       "avg_message_latency_ms": 23.99
     },
     {
-      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
-      "window_count": 137,
-      "avg_duration_ms": 134865.68613138687,
-      "p50_duration_ms": 110.0,
-      "p95_duration_ms": 6893.7999999999865,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 42.01
-    },
-    {
       "ticker": "BWR-TRUMP-VISIT-RU-PHYSICAL_PRESENCE-ANY-2026",
       "window_count": 87,
       "avg_duration_ms": 360046.2183908046,
@@ -80612,6 +80656,28 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 24.46
+    },
+    {
+      "ticker": "BWR-BEGICH-WIN-GOV_AK-CERTIFIED-ANY-2026",
+      "window_count": 7,
+      "avg_duration_ms": 12619296.857142856,
+      "p50_duration_ms": 656425.0,
+      "p95_duration_ms": 42118691.89999998,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 39.54
+    },
+    {
+      "ticker": "BWR-GOP-WIN-GOV_WI-CERTIFIED-ANY-2026",
+      "window_count": 138,
+      "avg_duration_ms": 146391.60144927536,
+      "p50_duration_ms": 110.5,
+      "p95_duration_ms": 11604.500000000142,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 60.55
     }
   ],
   "executions": [],
