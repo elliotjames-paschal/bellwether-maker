@@ -88528,6 +88528,72 @@
       "net_profit": 0.6500000000000057,
       "nev_per_share": 0.010833333333333427,
       "ann_return": 0.02086411284648956
+    },
+    {
+      "ticker": "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T06:58:16.741839+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.93,
+          "size": 7.56,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.93,
+      "total_entry_cost": 7.0308,
+      "exit_fills": [
+        {
+          "price": 0.931,
+          "size": 7.56,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.931,
+      "total_exit_proceeds": 7.03836,
+      "shares_filled": 7.56,
+      "shares_exited": 7.56,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.007559999999999789,
+      "fees": 0.0,
+      "net_profit": 0.007559999999999789,
+      "nev_per_share": 0.000999999999999972,
+      "ann_return": 0.0019052093120366942
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "logged_at": "2026-04-11T07:00:00.122836+00:00",
+      "resolution_date": "2026-06-17T17:59:00Z",
+      "days_left": 67,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.08,
+          "size": 327.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.08,
+      "total_entry_cost": 26.16,
+      "exit_fills": [
+        {
+          "price": 0.09,
+          "size": 327.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.09,
+      "total_exit_proceeds": 29.43,
+      "shares_filled": 327.0,
+      "shares_exited": 327.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 3.2699999999999996,
+      "fees": 0.0,
+      "net_profit": 3.2699999999999996,
+      "nev_per_share": 0.009999999999999998,
+      "ann_return": 0.6809701492537312
     }
   ],
   "executability": [
@@ -88915,17 +88981,6 @@
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 32.37
-    },
-    {
-      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
-      "window_count": 44,
-      "avg_duration_ms": 607854.2272727273,
-      "p50_duration_ms": 6012.0,
-      "p95_duration_ms": 2672114.550000001,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "HIGH",
-      "avg_message_latency_ms": 15.62
     },
     {
       "ticker": "BWR-PELTOLA-WIN-SENATE_AK-CERTIFIED-ANY-2026",
@@ -89996,14 +90051,25 @@
     },
     {
       "ticker": "BWR-DEM-WIN-SEN_RI-CERTIFIED-ANY-2026",
-      "window_count": 9,
-      "avg_duration_ms": 12861837.444444444,
-      "p50_duration_ms": 1472572.0,
-      "p95_duration_ms": 41533177.4,
+      "window_count": 10,
+      "avg_duration_ms": 11592197.7,
+      "p50_duration_ms": 1231457.0,
+      "p95_duration_ms": 40943057.69999999,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "LOW",
       "avg_message_latency_ms": 68.61
+    },
+    {
+      "ticker": "BWR-FED-CUT-FFR-SPECIFIC_MEETING-25BPS-JUN2026",
+      "window_count": 45,
+      "avg_duration_ms": 1018980.9777777778,
+      "p50_duration_ms": 8664.0,
+      "p95_duration_ms": 3260210.3999999985,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "HIGH",
+      "avg_message_latency_ms": 28.56
     }
   ],
   "executions": [],
