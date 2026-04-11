@@ -89198,6 +89198,39 @@
       "net_profit": 0.5999999999999996,
       "nev_per_share": 0.009999999999999993,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
+      "logged_at": "2026-04-11T09:43:57.029061+00:00",
+      "resolution_date": "2026-11-03T15:00:00Z",
+      "days_left": 206,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.55,
+          "size": 80.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.55,
+      "total_entry_cost": 44.0,
+      "exit_fills": [
+        {
+          "price": 0.56,
+          "size": 80.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.56,
+      "total_exit_proceeds": 44.800000000000004,
+      "shares_filled": 80.0,
+      "shares_exited": 80.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.8000000000000043,
+      "fees": 0.0,
+      "net_profit": 0.8000000000000043,
+      "nev_per_share": 0.010000000000000054,
+      "ann_return": 0.03221535745807608
     }
   ],
   "executability": [
@@ -90170,17 +90203,6 @@
       "avg_message_latency_ms": 37.19
     },
     {
-      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
-      "window_count": 7,
-      "avg_duration_ms": 7875267.714285715,
-      "p50_duration_ms": 31684.0,
-      "p95_duration_ms": 38487819.39999996,
-      "execution_floor_ms": 2974.0,
-      "executable": true,
-      "confidence": "LOW",
-      "avg_message_latency_ms": 45.45
-    },
-    {
       "ticker": "BWR-DEM-WIN-GOV_MI-CERTIFIED-ANY-2026",
       "window_count": 60,
       "avg_duration_ms": 839366.3166666667,
@@ -90674,6 +90696,17 @@
       "executable": true,
       "confidence": "HIGH",
       "avg_message_latency_ms": 24.04
+    },
+    {
+      "ticker": "BWR-CONLEY-WIN-DEM_NOM_NY17-PRIMARY-ANY-2026",
+      "window_count": 8,
+      "avg_duration_ms": 6950921.75,
+      "p50_duration_ms": 31842.0,
+      "p95_duration_ms": 35897906.69999997,
+      "execution_floor_ms": 2974.0,
+      "executable": true,
+      "confidence": "LOW",
+      "avg_message_latency_ms": 12.95
     }
   ],
   "executions": [],
