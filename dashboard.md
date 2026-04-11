@@ -1,28 +1,28 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-04-11 02:51:46 UTC_
+_Last updated: 2026-04-11 02:56:47 UTC_
 
-**Session**: 3d 10h | **Markets with positions**: 14 | **Total paper trades**: 17
+**Session**: 3d 10h | **Markets with positions**: 14 | **Total paper trades**: 18
 
 ## P&L Summary
 
 | Metric | Value |
 |--------|-------|
-| Realized arb profit | **$229.42** |
-| Yield on positions (to resolution) | **$127.28** |
-| **Realized + yield** | **$356.70** |
-| Projected future arb (sqrt-discounted) | $999.92 |
-| Projected future yield | $134.27 |
-| **Projected total return** | **$1490.89** |
+| Realized arb profit | **$237.67** |
+| Yield on positions (to resolution) | **$132.04** |
+| **Realized + yield** | **$369.71** |
+| Projected future arb (sqrt-discounted) | $1256.23 |
+| Projected future yield | $166.24 |
+| **Projected total return** | **$1792.17** |
 
 ## Capital Requirements
 
 | Metric | Value |
 |--------|-------|
-| Current capital deployed | $6048.58 |
-| Peak capital observed | $6048.58 |
-| Projected peak capital (incl. re-entries) | **$32950.91** |
-| Projected ROI on current capital | 24.6% |
+| Current capital deployed | $6281.08 |
+| Peak capital observed | $6281.08 |
+| Projected peak capital (incl. re-entries) | **$39625.60** |
+| Projected ROI on current capital | 28.5% |
 | Projected ROI on projected peak capital | 4.5% |
 
 ## Platform Yield Rates
@@ -42,7 +42,7 @@ _Our individual race arbs earn yield only on the Kalshi leg. Polymarket's 4% yie
 | HOUSE_CA07 | 1 | $455.00 | $15.00 | $19.75 | 208 | PM→K |
 | HOUSE_IL-02 | 1 | $235.00 | $8.00 | $10.15 | 207 | PM→K |
 | HOUSE_MA08 | 1 | $232.50 | $8.25 | $10.05 | 207 | PM→K |
-| HOUSE_MD04 | 1 | $232.50 | $10.25 | $10.09 | 207 | PM→K |
+| HOUSE_MD04 | 2 | $465.00 | $18.50 | $20.10 | 207 | PM→K |
 | HOUSE_NJ10 | 1 | $232.50 | $8.00 | $10.05 | 207 | PM→K |
 | HOUSE_GA-09 | 2 | $920.00 | $32.00 | $40.01 | 209 | PM→K |
 | HOUSE_GA-12 | 1 | $645.00 | $25.00 | $28.20 | 209 | PM→K |
@@ -61,6 +61,7 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 |--------|----------|------------|----------|-----------|------------|------------------|
 | HOUSE_GA07 | 2 | 8.1h | 5.9/d | 49 | $8.38 | $414.40 |
 | HOUSE_TN07 | 2 | 56.7h | 0.8/d | 19 | $16.88 | $317.44 |
+| HOUSE_MD04 | 2 | 25.9h | 1.9/d | 28 | $9.25 | $256.30 |
 | HOUSE_GA-09 | 2 | 71.5h | 0.7/d | 17 | $16.00 | $268.09 |
 | HOUSE_NJ10 | 1 | 0.0h | 0.0/d | 0 | $8.00 | $0.00 |
 | HOUSE_CA07 | 1 | 0.0h | 0.0/d | 0 | $15.00 | $0.00 |
@@ -70,7 +71,6 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 | CN-PHYSICAL_PRESENCE | 1 | 0.0h | 0.0/d | 0 | $19.42 | $0.00 |
 | HOUSE_GA-12 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 | HOUSE_MA08 | 1 | 0.0h | 0.0/d | 0 | $8.25 | $0.00 |
-| HOUSE_MD04 | 1 | 0.0h | 0.0/d | 0 | $10.25 | $0.00 |
 | HOUSE_IL-02 | 1 | 0.0h | 0.0/d | 0 | $8.00 | $0.00 |
 | HOUSE_IL16 | 1 | 0.0h | 0.0/d | 0 | $25.00 | $0.00 |
 
@@ -78,6 +78,7 @@ _Re-entry projections use sqrt discount: `projected = observed × √(days_remai
 
 | Time (UTC) | Market | Shares | Capital | Profit | NEV | Direction |
 |------------|--------|--------|---------|--------|-----|----------|
+| 02:56:08 | HOUSE_MD04 | 250 | $232.50 | $8.25 | 3.3¢ | PM→K |
 | 02:49:37 | HOUSE_TX36 | 250 | $220.00 | $8.50 | 3.4¢ | PM→K |
 | 15:58:36 | HOUSE_GA-09 | 250 | $230.00 | $9.50 | 3.8¢ | PM→K |
 | 09:56:15 | HOUSE_PA09 | 250 | $230.00 | $11.00 | 4.4¢ | PM→K |
