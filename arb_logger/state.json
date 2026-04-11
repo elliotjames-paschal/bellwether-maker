@@ -91952,6 +91952,82 @@
       "net_profit": 0.10000000000000142,
       "nev_per_share": 0.010000000000000142,
       "ann_return": null
+    },
+    {
+      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T18:04:52.658768+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.8,
+          "size": 10.0,
+          "platform": "polymarket"
+        },
+        {
+          "price": 0.8,
+          "size": 10.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.8,
+      "total_entry_cost": 16.0,
+      "exit_fills": [
+        {
+          "price": 0.84,
+          "size": 10.0,
+          "platform": "kalshi"
+        },
+        {
+          "price": 0.83,
+          "size": 10.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.835,
+      "total_exit_proceeds": 16.7,
+      "shares_filled": 20.0,
+      "shares_exited": 20.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.6999999999999993,
+      "fees": 0.0,
+      "net_profit": 0.6999999999999993,
+      "nev_per_share": 0.03499999999999996,
+      "ann_return": null
+    },
+    {
+      "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
+      "logged_at": "2026-04-11T18:05:18.485151+00:00",
+      "resolution_date": null,
+      "days_left": null,
+      "direction": "BUY on polymarket → SELL on kalshi",
+      "entry_fills": [
+        {
+          "price": 0.83,
+          "size": 10.0,
+          "platform": "polymarket"
+        }
+      ],
+      "avg_entry_price": 0.8299999999999998,
+      "total_entry_cost": 8.299999999999999,
+      "exit_fills": [
+        {
+          "price": 0.84,
+          "size": 10.0,
+          "platform": "kalshi"
+        }
+      ],
+      "avg_exit_price": 0.8400000000000001,
+      "total_exit_proceeds": 8.4,
+      "shares_filled": 10.0,
+      "shares_exited": 10.0,
+      "exit_type": "FULL_EXIT",
+      "gross_profit": 0.10000000000000142,
+      "fees": 0.0,
+      "net_profit": 0.10000000000000142,
+      "nev_per_share": 0.010000000000000142,
+      "ann_return": null
     }
   ],
   "executability": [
@@ -93431,10 +93507,10 @@
     },
     {
       "ticker": "BWR-GOP-WIN-SEN_FL-CERTIFIED-ANY-2026",
-      "window_count": 35,
-      "avg_duration_ms": 8207208.171428571,
+      "window_count": 37,
+      "avg_duration_ms": 7769316.0,
       "p50_duration_ms": 119091.0,
-      "p95_duration_ms": 44964634.09999986,
+      "p95_duration_ms": 40174703.3999998,
       "execution_floor_ms": 2974.0,
       "executable": true,
       "confidence": "HIGH",
