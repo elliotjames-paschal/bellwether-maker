@@ -1,8 +1,8 @@
 # Bellwether Maker — Paper Trading Dashboard
 
-_Last updated: 2026-05-10 08:36:27 UTC_
+_Last updated: 2026-05-14 22:24:06 UTC_
 
-**Session**: 32d 16h | **Markets with positions**: 14 | **Total paper trades**: 18
+**Session**: 37d 6h | **Markets with positions**: 14 | **Total paper trades**: 18
 
 ## P&L Summary
 
